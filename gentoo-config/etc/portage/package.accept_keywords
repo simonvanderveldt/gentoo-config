@@ -1,0 +1,64 @@
+app-emulation/docker ~amd64
+app-emulation/virt-manager ~amd64
+net-wireless/broadcom-sta ~amd64
+www-client/google-chrome ~amd64
+app-admin/stow ~amd64
+net-misc/dropbox ~amd64
+app-admin/keepassx ~amd64
+app-emulation/playonlinux ~amd64
+app-emulation/wine ~amd64
+app-emulation/docker-machine ~amd64
+www-client/firefox-bin ~amd64
+media-sound/bitwig-studio ~amd64
+net-im/slack ~amd64
+sys-apps/hprofile ~amd64
+media-sound/jack-audio-connection-kit::proaudio ~amd64
+dev-util/idea-community ~amd64
+app-editors/atom-bin ~amd64
+dev-util/shellcheck ~amd64
+
+# ZFS
+sys-fs/zfs ~amd64
+sys-fs/zfs-kmod ~amd64
+sys-kernel/spl ~amd64
+
+# GNOME 3.18
+#dev-libs/appstream-glib ~amd64
+#net-libs/libsoup ~amd64
+#dev-libs/glib ~amd64
+
+# Moka
+=x11-themes/moka-9999 **
+=x11-themes/faba-9999 **
+
+# Docker
+dev-go/go-md2man ~amd64
+=dev-go/blackfriday-1.2_p20150720 ~amd64
+=dev-go/sanitized-anchor-name-0_pre20150822 ~amd64
+=sys-libs/libseccomp-2.2.3 ~amd64
+
+# OpenRA
+=dev-lang/mono-4.2.1.124 ~amd64
+
+# Docker Machine
+app-emulation/docker-machine ~amd64
+dev-lang/go ~amd64
+=dev-lang/go-bootstrap-1.4.2 ~amd64
+
+# tlp
+app-laptop/tlp ~amd64
+sys-power/linux-x86-power-tools ~amd64
+
+# Mixxx 2.0
+media-sound/mixxx ~amd64
+=media-libs/taglib-1.10 ~amd64
+=media-libs/fidlib-0.9.10-r1 ~amd64
+
+# FreeCAD
+media-gfx/freecad **
+sci-libs/opencascade ~amd64
+app-eselect/eselect-opencascade ~amd64
+=dev-cpp/eigen-3.2.8-r1 ~amd64
+=media-libs/SoQt-1.5.0-r1 ~amd64
+=sci-libs/opencascade-6.9.0 ~amd64
+=dev-python/pivy-0.5_alpha20110303-r1 ~amd64

@@ -1,0 +1,6 @@
+PATH="/usr/x86_64-pc-linux-gnu/gcc-bin/4.9.3"
+ROOTPATH="/usr/x86_64-pc-linux-gnu/gcc-bin/4.9.3"
+GCC_SPECS=""
+MANPATH="/usr/share/gcc-data/x86_64-pc-linux-gnu/4.9.3/man"
+INFOPATH="/usr/share/gcc-data/x86_64-pc-linux-gnu/4.9.3/info"
+MULTIOSDIRS="../lib64:../lib32"

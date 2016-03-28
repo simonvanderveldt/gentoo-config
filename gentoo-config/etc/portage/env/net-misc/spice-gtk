@@ -1,0 +1,1 @@
+INSTALL_MASK="/usr/share/applications/spicy-spice-gtk.desktop $INSTALL_MASK"

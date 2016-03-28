@@ -1,0 +1,25 @@
+media-sound/noise::elementary
+x11-libs/granite::elementary
+dev-libs/libdbusmenu::elementary
+#dev-db/sqlheavy::elementary
+=x11-themes/moka-9999::jorgicio
+=x11-themes/faba-9999::jorgicio
+x11-themes/numix-icon-theme::sabayon
+dev-util/idea-community::sabayon
+games-strategy/openra::dr
+net-im/slack::goltia
+media-sound/bitwig-studio::funtoo-bitwig-studio
+media-sound/mixxx::proaudio
+sys-apps/hprofile::bar
+media-sound/jack-audio-connection-kit::proaudio
+app-editors/atom-bin::sabayon-tools
+# MacBook Facetime HD driver
+media-video/bcwc_pcie::toaster
+# Required by gnome 3.18
+#=net-libs/libsoup-2.52.2
+#=dev-libs/glib-2.46.2-r1
+#=dev-util/gdbus-codegen-2.46.2
+
+# tlp
+app-laptop/tlp::tlp
+sys-power/linux-x86-power-tools::tlp

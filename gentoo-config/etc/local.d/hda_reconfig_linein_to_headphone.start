@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+
+echo 0x1a 0x0321403f > /sys/class/sound/hwC0D0/user_pin_configs
+echo jack_detect=no > /sys/class/sound/hwC0D0/hints
+echo 1 > /sys/class/sound/hwC0D0/reconfig

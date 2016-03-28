@@ -1,0 +1,1 @@
+INSTALL_MASK="/usr/share/applications/qtconfig-qtgui-4.desktop $INSTALL_MASK"

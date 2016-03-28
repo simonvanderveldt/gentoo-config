@@ -1,0 +1,1 @@
+INSTALL_MASK="/usr/share/applications/PyCrust.desktop /usr/share/applications/PyAlaMode.desktop /usr/share/applications/PyShell.desktop /usr/share/applications/XRCed.desktop $INSTALL_MASK"
