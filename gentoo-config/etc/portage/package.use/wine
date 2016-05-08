@@ -1,0 +1,338 @@
+# WINE is no longer installed directly, keeping these for reference
+# app-emulation/wine -gstreamer -udisks -pulseaudio mp3 staging s3tc
+
+
+media-libs/libtxc_dxtn abi_x86_32
+x11-libs/libSM abi_x86_32
+# required by x11-libs/libSM (argument)
+>=sys-apps/util-linux-2.26.2 abi_x86_32
+>=x11-libs/libICE-1.0.9 abi_x86_32
+
+# required by virtual/pkgconfig-0-r1::gentoo
+# required by net-libs/gnutls-3.3.17.1::gentoo
+# required by app-emulation/wine-1.7.51::gentoo[ssl]
+# required by app-emulation/wine (argument)
+>=dev-util/pkgconfig-0.28-r2 abi_x86_32
+# required by media-libs/mesa-10.3.7-r1::gentoo
+# required by virtual/opengl-7.0-r1::gentoo
+# required by media-libs/glu-9.0.0-r1::gentoo
+# required by virtual/glu-9.0-r1::gentoo
+# required by app-emulation/wine-1.7.51::gentoo[opengl]
+# required by app-emulation/wine (argument)
+>=x11-proto/dri2proto-2.8-r1 abi_x86_32
+# required by dev-libs/glib-2.44.1::dantrell-gnome-3-16[xattr]
+# required by dev-util/pkgconfig-0.28-r2::gentoo[-internal-glib]
+# required by virtual/pkgconfig-0-r1::gentoo
+# required by net-libs/gnutls-3.3.17.1::gentoo
+# required by app-emulation/wine-1.7.51::gentoo[ssl]
+# required by app-emulation/wine (argument)
+>=sys-apps/attr-2.4.47-r2 abi_x86_32
+# required by x11-libs/libXxf86vm-1.1.4::gentoo
+# required by app-emulation/wine-1.7.51::gentoo[X]
+# required by app-emulation/wine (argument)
+>=x11-proto/xf86vidmodeproto-2.3.1-r1 abi_x86_32
+# required by app-emulation/wine-1.7.51::gentoo[mp3]
+# required by app-emulation/wine (argument)
+>=media-sound/mpg123-1.18.1 abi_x86_32
+# required by media-libs/mesa-10.3.7-r1::gentoo[llvm]
+# required by virtual/opengl-7.0-r1::gentoo
+# required by media-libs/glu-9.0.0-r1::gentoo
+# required by virtual/glu-9.0-r1::gentoo
+# required by app-emulation/wine-1.7.51::gentoo[opengl]
+# required by app-emulation/wine (argument)
+>=sys-devel/llvm-3.5.0 abi_x86_32 clang
+# required by sys-devel/prelink-20130503::gentoo
+# required by app-emulation/wine-1.7.51::gentoo[prelink]
+# required by app-emulation/wine (argument)
+>=dev-libs/elfutils-0.163 static-libs
+# required by app-emulation/wine-1.7.51::gentoo[fontconfig]
+# required by app-emulation/wine (argument)
+>=media-libs/fontconfig-2.11.1-r2 abi_x86_32
+# required by net-libs/gnutls-3.3.17.1::gentoo
+# required by app-emulation/wine-1.7.51::gentoo[ssl]
+# required by app-emulation/wine (argument)
+>=dev-libs/libtasn1-4.5 abi_x86_32
+# required by media-libs/mesa-10.3.7-r1::gentoo
+# required by virtual/opengl-7.0-r1::gentoo
+# required by media-libs/glu-9.0.0-r1::gentoo
+# required by virtual/glu-9.0-r1::gentoo
+# required by app-emulation/wine-1.7.51::gentoo[opengl]
+# required by app-emulation/wine (argument)
+>=x11-libs/libxshmfence-1.2 abi_x86_32
+# required by media-libs/fontconfig-2.11.1-r2::gentoo
+# required by app-emulation/wine-1.7.51::gentoo[fontconfig]
+# required by app-emulation/wine (argument)
+>=media-libs/freetype-2.5.5 abi_x86_32
+# required by dev-libs/glib-2.44.1::dantrell-gnome-3-16
+# required by dev-util/pkgconfig-0.28-r2::gentoo[-internal-glib]
+# required by virtual/pkgconfig-0-r1::gentoo
+# required by net-libs/gnutls-3.3.17.1::gentoo
+# required by app-emulation/wine-1.7.51::gentoo[ssl]
+# required by app-emulation/wine (argument)
+>=virtual/libiconv-0-r2 abi_x86_32
+# required by app-emulation/wine-1.7.51::gentoo[alsa]
+# required by app-emulation/wine (argument)
+>=media-libs/alsa-lib-1.0.29 abi_x86_32
+# required by virtual/opengl-7.0-r1::gentoo
+# required by media-libs/glu-9.0.0-r1::gentoo
+# required by virtual/glu-9.0-r1::gentoo
+# required by app-emulation/wine-1.7.51::gentoo[opengl]
+# required by app-emulation/wine (argument)
+media-libs/mesa abi_x86_32 gles2
+# required by media-libs/libpng-1.6.18::gentoo
+# required by app-emulation/wine-1.7.51::gentoo[png]
+# required by app-emulation/wine (argument)
+>=sys-libs/zlib-1.2.8-r1 abi_x86_32
+# required by virtual/jpeg-0-r2::gentoo
+# required by app-emulation/wine-1.7.51::gentoo[jpeg]
+# required by app-emulation/wine (argument)
+>=media-libs/libjpeg-turbo-1.3.1 abi_x86_32
+# required by media-libs/glu-9.0.0-r1::gentoo
+# required by virtual/glu-9.0-r1::gentoo
+# required by app-emulation/wine-1.7.51::gentoo[opengl]
+# required by app-emulation/wine (argument)
+>=virtual/opengl-7.0-r1 abi_x86_32
+# required by app-emulation/wine-1.7.51::gentoo[lcms]
+# required by app-emulation/wine (argument)
+>=media-libs/lcms-2.6-r1 abi_x86_32
+# required by sys-devel/gettext-0.19.6-r1::dantrell-gnome
+# required by dev-libs/glib-2.44.1::dantrell-gnome-3-16
+# required by dev-util/pkgconfig-0.28-r2::gentoo[-internal-glib]
+# required by virtual/pkgconfig-0-r1::gentoo
+# required by net-libs/gnutls-3.3.17.1::gentoo
+# required by app-emulation/wine-1.7.51::gentoo[ssl]
+# required by app-emulation/wine (argument)
+>=virtual/libintl-0-r2 abi_x86_32
+# required by x11-libs/libXrandr-1.4.2::gentoo
+# required by app-emulation/wine-1.7.51::gentoo[X]
+# required by app-emulation/wine (argument)
+>=x11-proto/renderproto-0.11.1-r1 abi_x86_32
+# required by net-libs/gnutls-3.3.17.1::gentoo
+# required by app-emulation/wine-1.7.51::gentoo[ssl]
+# required by app-emulation/wine (argument)
+>=dev-libs/nettle-3.1.1 abi_x86_32
+# required by app-emulation/wine-1.7.51::gentoo[png]
+# required by app-emulation/wine (argument)
+media-libs/libpng abi_x86_32
+# required by media-libs/mesa-10.3.7-r1::gentoo
+# required by virtual/opengl-7.0-r1::gentoo
+# required by media-libs/glu-9.0.0-r1::gentoo
+# required by virtual/glu-9.0-r1::gentoo
+# required by app-emulation/wine-1.7.51::gentoo[opengl]
+# required by app-emulation/wine (argument)
+>=x11-libs/libXxf86vm-1.1.4 abi_x86_32
+# required by media-libs/mesa-10.3.7-r1::gentoo
+# required by virtual/opengl-7.0-r1::gentoo
+# required by media-libs/glu-9.0.0-r1::gentoo
+# required by virtual/glu-9.0-r1::gentoo
+# required by app-emulation/wine-1.7.51::gentoo[opengl]
+# required by app-emulation/wine (argument)
+>=dev-libs/expat-2.1.0-r5 abi_x86_32
+# required by virtual/glu-9.0-r1::gentoo
+# required by app-emulation/wine-1.7.51::gentoo[opengl]
+# required by app-emulation/wine (argument)
+>=media-libs/glu-9.0.0-r1 abi_x86_32
+# required by virtual/libudev-215-r1::gentoo
+# required by media-libs/mesa-10.3.7-r1::gentoo[udev]
+# required by virtual/opengl-7.0-r1::gentoo
+# required by media-libs/glu-9.0.0-r1::gentoo
+# required by virtual/glu-9.0-r1::gentoo
+# required by app-emulation/wine-1.7.51::gentoo[opengl]
+# required by app-emulation/wine (argument)
+sys-fs/udev abi_x86_32 gudev
+sys-fs/eudev abi_x86_32
+# required by app-emulation/wine-1.7.51::gentoo[nls]
+# required by app-emulation/wine (argument)
+>=sys-devel/gettext-0.19.6-r1 abi_x86_32
+# required by x11-libs/libXcomposite-0.4.4-r1::gentoo
+# required by app-emulation/wine-1.7.51::gentoo[xcomposite]
+# required by app-emulation/wine (argument)
+>=x11-proto/compositeproto-0.4.2-r1 abi_x86_32
+# required by media-libs/mesa-10.3.7-r1::gentoo[dri3]
+# required by virtual/opengl-7.0-r1::gentoo
+# required by media-libs/glu-9.0.0-r1::gentoo
+# required by virtual/glu-9.0-r1::gentoo
+# required by app-emulation/wine-1.7.51::gentoo[opengl]
+# required by app-emulation/wine (argument)
+>=x11-proto/presentproto-1.0 abi_x86_32
+# required by app-emulation/wine-1.7.51::gentoo[xcomposite]
+# required by app-emulation/wine (argument)
+>=x11-libs/libXcomposite-0.4.4-r1 abi_x86_32
+# required by media-libs/mesa-10.3.7-r1::gentoo[dri3]
+# required by virtual/opengl-7.0-r1::gentoo
+# required by media-libs/glu-9.0.0-r1::gentoo
+# required by virtual/glu-9.0-r1::gentoo
+# required by app-emulation/wine-1.7.51::gentoo[opengl]
+# required by app-emulation/wine (argument)
+>=x11-proto/dri3proto-1.0 abi_x86_32
+# required by app-emulation/wine-1.7.51::gentoo[jpeg]
+# required by app-emulation/wine (argument)
+>=virtual/jpeg-0-r2:0 abi_x86_32
+# required by x11-libs/libXcursor-1.1.14::gentoo
+# required by app-emulation/wine-1.7.51::gentoo[X]
+# required by app-emulation/wine (argument)
+>=x11-libs/libXrender-0.9.8 abi_x86_32
+# required by app-emulation/wine-1.7.51::gentoo[xml]
+# required by app-emulation/wine (argument)
+>=dev-libs/libxslt-1.1.28-r4 abi_x86_32
+# required by dev-libs/nettle-3.1.1::gentoo[gmp]
+# required by net-libs/gnutls-3.3.17.1::gentoo
+# required by app-emulation/wine-1.7.51::gentoo[ssl]
+# required by app-emulation/wine (argument)
+>=dev-libs/gmp-6.0.0a abi_x86_32
+# required by app-emulation/wine-1.7.51::gentoo[X]
+# required by app-emulation/wine (argument)
+>=x11-libs/libXi-1.7.4 abi_x86_32
+# required by app-emulation/wine-1.7.51::gentoo[X]
+# required by app-emulation/wine (argument)
+>=x11-libs/libXcursor-1.1.14 abi_x86_32
+# required by app-emulation/wine-1.7.51::gentoo[ssl]
+# required by app-emulation/wine (argument)
+net-libs/gnutls abi_x86_32 pkcs11
+# required by net-libs/gnutls-3.3.17.1::gentoo[pkcs11]
+# required by app-emulation/libvirt-1.3.1-r1::gentoo
+# required by @selected
+# required by @world (argument)
+app-crypt/p11-kit abi_x86_32
+# required by dev-libs/libgcrypt-1.6.4::dantrell-gnome
+# required by dev-libs/libxslt-1.1.28-r4::gentoo[crypt]
+# required by dev-libs/glib-2.44.1::dantrell-gnome-3-16
+# required by dev-util/pkgconfig-0.28-r2::gentoo[-internal-glib]
+# required by virtual/pkgconfig-0-r1::gentoo
+# required by net-libs/gnutls-3.3.17.1::gentoo
+# required by app-emulation/wine-1.7.51::gentoo[ssl]
+# required by app-emulation/wine (argument)
+>=dev-libs/libgpg-error-1.19 abi_x86_32
+# required by sys-fs/udev-216::gentoo[gudev]
+# required by virtual/libudev-215-r1::gentoo
+# required by media-libs/mesa-10.3.7-r1::gentoo[udev]
+# required by virtual/opengl-7.0-r1::gentoo
+# required by media-libs/glu-9.0.0-r1::gentoo
+# required by virtual/glu-9.0-r1::gentoo
+# required by app-emulation/wine-1.7.51::gentoo[opengl]
+# required by app-emulation/wine (argument)
+>=dev-libs/glib-2.44.1 abi_x86_32
+# required by virtual/libffi-3.0.13-r1::gentoo
+# required by dev-libs/glib-2.44.1::dantrell-gnome-3-16
+# required by dev-util/pkgconfig-0.28-r2::gentoo[-internal-glib]
+# required by virtual/pkgconfig-0-r1::gentoo
+# required by net-libs/gnutls-3.3.17.1::gentoo
+# required by app-emulation/wine-1.7.51::gentoo[ssl]
+# required by app-emulation/wine (argument)
+>=dev-libs/libffi-3.0.13-r1 abi_x86_32
+# required by net-libs/gnutls-3.3.17.1::gentoo
+# required by app-emulation/wine-1.7.51::gentoo[ssl]
+# required by app-emulation/wine (argument)
+>=virtual/pkgconfig-0-r1 abi_x86_32
+# required by app-emulation/wine-1.7.51::gentoo[ncurses]
+# required by app-emulation/wine (argument)
+>=sys-libs/ncurses-5.9-r5:0 abi_x86_32
+# required by app-emulation/wine-1.7.51::gentoo[X]
+# required by app-emulation/wine (argument)
+>=x11-libs/libXrandr-1.4.2 abi_x86_32
+# required by x11-libs/libXdamage-1.1.4-r1::gentoo
+# required by media-libs/mesa-10.3.7-r1::gentoo
+# required by virtual/opengl-7.0-r1::gentoo
+# required by media-libs/glu-9.0.0-r1::gentoo
+# required by virtual/glu-9.0-r1::gentoo
+# required by app-emulation/wine-1.7.51::gentoo[opengl]
+# required by app-emulation/wine (argument)
+>=x11-proto/damageproto-1.2.1-r1 abi_x86_32
+# required by app-emulation/wine-1.7.51::gentoo[s3tc]
+# required by app-emulation/wine (argument)
+>=media-libs/libtxc_dxtn-1.0.1-r1 abi_x86_32
+# required by media-libs/mesa-10.3.7-r1::gentoo
+# required by virtual/opengl-7.0-r1::gentoo
+# required by media-libs/glu-9.0.0-r1::gentoo
+# required by virtual/glu-9.0-r1::gentoo
+# required by app-emulation/wine-1.7.51::gentoo[opengl]
+# required by app-emulation/wine (argument)
+>=x11-proto/glproto-1.4.17 abi_x86_32
+# required by app-emulation/wine-1.7.51::gentoo[opengl]
+# required by app-emulation/wine (argument)
+>=virtual/glu-9.0-r1 abi_x86_32
+# required by x11-libs/libXcursor-1.1.14::gentoo
+# required by app-emulation/wine-1.7.51::gentoo[X]
+# required by app-emulation/wine (argument)
+>=x11-libs/libXfixes-5.0.1 abi_x86_32
+# required by sys-devel/llvm-3.5.0::gentoo[libffi]
+# required by media-libs/mesa-10.3.7-r1::gentoo[llvm]
+# required by virtual/opengl-7.0-r1::gentoo
+# required by media-libs/glu-9.0.0-r1::gentoo
+# required by virtual/glu-9.0-r1::gentoo
+# required by app-emulation/wine-1.7.51::gentoo[opengl]
+# required by app-emulation/wine (argument)
+>=virtual/libffi-3.0.13-r1 abi_x86_32
+# required by media-libs/mesa-10.3.7-r1::gentoo
+# required by virtual/opengl-7.0-r1::gentoo
+# required by media-libs/glu-9.0.0-r1::gentoo
+# required by virtual/glu-9.0-r1::gentoo
+# required by app-emulation/wine-1.7.51::gentoo[opengl]
+# required by app-emulation/wine (argument)
+>=x11-proto/xf86driproto-2.1.1-r1 abi_x86_32
+# required by dev-libs/libxslt-1.1.28-r4::gentoo[crypt]
+# required by dev-libs/glib-2.44.1::dantrell-gnome-3-16
+# required by dev-util/pkgconfig-0.28-r2::gentoo[-internal-glib]
+# required by virtual/pkgconfig-0-r1::gentoo
+# required by net-libs/gnutls-3.3.17.1::gentoo
+# required by app-emulation/wine-1.7.51::gentoo[ssl]
+# required by app-emulation/wine (argument)
+>=dev-libs/libgcrypt-1.6.4 abi_x86_32
+# required by media-libs/mesa-10.3.7-r1::gentoo
+# required by virtual/opengl-7.0-r1::gentoo
+# required by media-libs/glu-9.0.0-r1::gentoo
+# required by virtual/glu-9.0-r1::gentoo
+# required by app-emulation/wine-1.7.51::gentoo[opengl]
+# required by app-emulation/wine (argument)
+>=x11-libs/libXdamage-1.1.4-r1 abi_x86_32
+# required by media-libs/freetype-2.5.5::gentoo[bzip2]
+# required by app-emulation/wine-1.7.51::gentoo[truetype]
+# required by app-emulation/wine (argument)
+>=app-arch/bzip2-1.0.6-r6 abi_x86_32
+# required by x11-libs/libXrandr-1.4.2::gentoo
+# required by app-emulation/wine-1.7.51::gentoo[X]
+# required by app-emulation/wine (argument)
+>=x11-proto/randrproto-1.4.0-r1 abi_x86_32
+# required by media-libs/mesa-10.3.7-r1::gentoo[udev]
+# required by virtual/opengl-7.0-r1::gentoo
+# required by media-libs/glu-9.0.0-r1::gentoo
+# required by virtual/glu-9.0-r1::gentoo
+# required by app-emulation/wine-1.7.51::gentoo[opengl]
+# required by app-emulation/wine (argument)
+virtual/libudev abi_x86_32
+# required by dev-libs/libxslt-1.1.28-r4::gentoo
+# required by dev-libs/glib-2.44.1::dantrell-gnome-3-16
+# required by dev-util/pkgconfig-0.28-r2::gentoo[-internal-glib]
+# required by virtual/pkgconfig-0-r1::gentoo
+# required by net-libs/gnutls-3.3.17.1::gentoo
+# required by app-emulation/wine-1.7.51::gentoo[ssl]
+# required by app-emulation/wine (argument)
+>=dev-libs/libxml2-2.9.2-r1 abi_x86_32
+# required by media-libs/mesa-10.3.7-r1::gentoo
+# required by virtual/opengl-7.0-r1::gentoo
+# required by media-libs/glu-9.0.0-r1::gentoo
+# required by virtual/glu-9.0-r1::gentoo
+# required by app-emulation/wine-1.7.51::gentoo[opengl]
+# required by app-emulation/wine (argument)
+>=x11-libs/libdrm-2.4.59 abi_x86_32
+# required by x11-libs/libXfixes-5.0.1::gentoo
+# required by x11-libs/libXdamage-1.1.4-r1::gentoo
+# required by media-libs/mesa-10.3.7-r1::gentoo
+# required by virtual/opengl-7.0-r1::gentoo
+# required by media-libs/glu-9.0.0-r1::gentoo
+# required by virtual/glu-9.0-r1::gentoo
+# required by app-emulation/wine-1.7.51::gentoo[opengl]
+# required by app-emulation/wine (argument)
+>=x11-proto/fixesproto-5.0-r1 abi_x86_32
+
+# required by dev-python/wxpython-2.8.12.1-r2::gentoo
+# required by app-emulation/playonlinux-4.2.8::gentoo
+# required by playonlinux (argument)
+x11-libs/wxGTK tiff -gnome -gstreamer
+
+# required by battle.net + wine
+net-nds/openldap abi_x86_32
+# required by net-nds/openldap (argument)
+dev-libs/openssl abi_x86_32
+# required by 32bit steam games that use ALSA
+media-plugins/alsa-plugins abi_x86_32
