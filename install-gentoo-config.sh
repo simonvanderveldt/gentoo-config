@@ -3,4 +3,4 @@
 # See https://lists.gnu.org/archive/html/help-stow/2013-04/msg00008.html
 set -x
 
-stow -v --no-folding --target=/ gentoo-config
+stow -v --no-folding --target=/ $1
