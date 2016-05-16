@@ -1,3 +1,6 @@
+# @system packages
+sys-devel/gcc multislot
+
 dev-vcs/git -webdav -gtk
 net-misc/iputils -caps -filecaps
 app-admin/sudo -sendmail -ldap
