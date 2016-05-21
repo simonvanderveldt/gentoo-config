@@ -73,6 +73,7 @@ sys-devel/gcc:4.9.3
 sys-fs/dosfstools
 sys-fs/eudev
 sys-fs/fuseiso
+sys-fs/ncdu
 sys-fs/ntfs3g
 sys-fs/zfs
 sys-kernel/gentoo-sources:4.1.12
