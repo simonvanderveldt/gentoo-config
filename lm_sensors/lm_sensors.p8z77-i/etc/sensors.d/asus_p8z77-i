@@ -1,0 +1,18 @@
+# lm_sensors configuration for the ASUS P8Z77-I Deluxe motherboard
+# Author: Simon van der Veldt <simon.vanderveldt <at> gmail.com>
+
+chip "nct6779-*"
+  label fan1 "Chassis fan"
+  label fan2 "CPU fan"
+  ignore fan5
+  ignore temp1
+  label temp2 "CPU temp"
+  label temp3 "MB temp"
+  ignore temp4
+  ignore temp5
+  ignore temp6
+  ignore temp7
+  ignore temp8
+  ignore temp9
+  ignore temp10
+  ignore intrusion1
