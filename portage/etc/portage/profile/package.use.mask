@@ -1,2 +1,1 @@
 sys-boot/grub -libzfs
-sys-fs/zfs -kernel-builtin

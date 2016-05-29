@@ -1,6 +1,0 @@
-EXTRA_ECONF='--enable-linux-builtin'
-
-# if [ "${EBUILD_PHASE_FUNC}" == "src_compile" ]; then
-#   ls -ahl "$S";
-#   # ./copy-builtin /usr/src/linux;
-# fi
