@@ -44,7 +44,6 @@ media-plugins/gst-plugins-libav
 media-plugins/gst-plugins-meta:0.10
 media-sound/alternative-toolbar
 media-sound/cinnamon-rhythmbox-tray
-media-sound/coverart-browser
 media-sound/jack-audio-connection-kit::proaudio
 media-sound/mixxx
 media-sound/pulseaudio
