@@ -1,4 +1,3 @@
-app-emulation/docker ~amd64
 app-emulation/virt-manager ~amd64
 net-wireless/broadcom-sta ~amd64
 www-client/google-chrome ~amd64
@@ -7,7 +6,6 @@ net-misc/dropbox ~amd64
 app-admin/keepassx ~amd64
 app-emulation/playonlinux ~amd64
 app-emulation/wine ~amd64
-app-emulation/docker-machine ~amd64
 www-client/firefox-bin ~amd64
 media-sound/bitwig-studio ~amd64
 net-im/slack ~amd64
@@ -16,6 +14,7 @@ media-sound/jack-audio-connection-kit::proaudio ~amd64
 dev-util/idea-community ~amd64
 app-editors/atom-bin ~amd64
 dev-util/shellcheck ~amd64
+=app-emulation/spice-0.12.7 ~amd64
 
 # ZFS
 sys-fs/zfs ~amd64
@@ -31,21 +30,8 @@ sys-kernel/spl ~amd64
 =x11-themes/moka-9999 **
 =x11-themes/faba-9999 **
 
-# Docker
-dev-go/go-md2man ~amd64
-=dev-go/blackfriday-1.2_p20150720 ~amd64
-=dev-go/sanitized-anchor-name-0_pre20150822 ~amd64
-=sys-libs/libseccomp-2.2.3 ~amd64
-app-emulation/containerd ~amd64
-app-emulation/runc ~amd64
-
 # OpenRA
 =dev-lang/mono-4.2.1.124 ~amd64
-
-# Docker Machine
-app-emulation/docker-machine ~amd64
-dev-lang/go ~amd64
-=dev-lang/go-bootstrap-1.4.2 ~amd64
 
 # tlp
 app-laptop/tlp ~amd64
