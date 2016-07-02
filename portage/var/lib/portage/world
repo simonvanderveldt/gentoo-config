@@ -17,6 +17,7 @@ app-emulation/virt-manager
 app-portage/eix
 app-portage/gentoolkit
 app-portage/pfl
+app-shells/fasd
 app-shells/zsh
 app-text/tree
 dev-lang/python:3.4
