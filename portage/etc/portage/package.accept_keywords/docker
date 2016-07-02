@@ -1,14 +1,2 @@
-# Docker
-# app-emulation/docker ~amd64
-dev-go/go-md2man ~amd64
-=dev-go/blackfriday-1.2_p20150720 ~amd64
-=dev-go/sanitized-anchor-name-0_pre20150822 ~amd64
-=sys-libs/libseccomp-2.2.3 ~amd64
-app-emulation/containerd ~amd64
-app-emulation/runc ~amd64
-
 # Docker Machine
 app-emulation/docker-machine ~amd64
-app-emulation/docker-machine ~amd64
-dev-lang/go ~amd64
-=dev-lang/go-bootstrap-1.4.2 ~amd64
