@@ -1,0 +1,4 @@
+# Configuration file for eselect
+# This file has been automatically generated.
+LDPATH="/usr/lib32/opengl/nvidia/lib:/usr/lib64/opengl/nvidia/lib"
+OPENGL_PROFILE="nvidia"
