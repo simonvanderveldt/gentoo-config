@@ -26,7 +26,6 @@ dev-python/pylint
 dev-util/android-tools
 dev-vcs/git
 dev-vcs/tig
-games-strategy/openra
 gnome-base/dconf-editor
 gnome-base/gnome-light
 gnome-extra/gnome-calculator
