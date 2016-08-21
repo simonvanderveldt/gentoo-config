@@ -5,12 +5,12 @@ dev-libs/libdbusmenu::elementary
 =x11-themes/moka-9999::jorgicio
 =x11-themes/faba-9999::jorgicio
 x11-themes/numix-icon-theme::sabayon
+app-editors/atom-bin::sabayon-tools
 dev-util/idea-community::sabayon
 net-im/slack::goltia
 media-sound/bitwig-studio::funtoo-bitwig-studio
 media-sound/mixxx::proaudio
 media-sound/jack-audio-connection-kit::proaudio
-app-editors/atom-bin::sabayon-tools
 
 # MacBook Facetime HD driver
 media-video/bcwc_pcie::toaster
