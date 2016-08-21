@@ -10,7 +10,6 @@ games-strategy/openra::dr
 net-im/slack::goltia
 media-sound/bitwig-studio::funtoo-bitwig-studio
 media-sound/mixxx::proaudio
-sys-apps/hprofile::bar
 media-sound/jack-audio-connection-kit::proaudio
 app-editors/atom-bin::sabayon-tools
 # MacBook Facetime HD driver

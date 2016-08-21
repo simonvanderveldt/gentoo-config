@@ -9,7 +9,6 @@ app-emulation/wine ~amd64
 www-client/firefox-bin ~amd64
 media-sound/bitwig-studio ~amd64
 net-im/slack ~amd64
-sys-apps/hprofile ~amd64
 media-sound/jack-audio-connection-kit::proaudio ~amd64
 dev-util/idea-community ~amd64
 app-editors/atom-bin ~amd64
