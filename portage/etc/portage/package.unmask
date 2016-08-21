@@ -6,7 +6,7 @@ dev-libs/libdbusmenu::elementary
 =x11-themes/faba-9999::jorgicio
 x11-themes/numix-icon-theme::sabayon
 app-editors/atom-bin::sabayon-tools
-dev-util/idea-community::sabayon
+dev-util/idea-community::hossie
 net-im/slack::goltia
 media-sound/bitwig-studio::funtoo-bitwig-studio
 media-sound/mixxx::proaudio
