@@ -29,9 +29,6 @@ sys-kernel/spl ~amd64
 =x11-themes/moka-9999 **
 =x11-themes/faba-9999 **
 
-# OpenRA
-=dev-lang/mono-4.2.1.124 ~amd64
-
 # tlp
 app-laptop/tlp ~amd64
 sys-power/linux-x86-power-tools ~amd64
