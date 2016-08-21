@@ -11,12 +11,9 @@ media-sound/bitwig-studio::funtoo-bitwig-studio
 media-sound/mixxx::proaudio
 media-sound/jack-audio-connection-kit::proaudio
 app-editors/atom-bin::sabayon-tools
+
 # MacBook Facetime HD driver
 media-video/bcwc_pcie::toaster
-# Required by gnome 3.18
-#=net-libs/libsoup-2.52.2
-#=dev-libs/glib-2.46.2-r1
-#=dev-util/gdbus-codegen-2.46.2
 
 # tlp
 app-laptop/tlp::tlp
