@@ -5,7 +5,7 @@ dev-libs/libdbusmenu::elementary
 =x11-themes/moka-9999::jorgicio
 =x11-themes/faba-9999::jorgicio
 x11-themes/numix-icon-theme::sabayon
-app-editors/atom-bin::sabayon-tools
+app-editors/atom-bin::jorgicio
 dev-util/idea-community::hossie
 net-im/slack::goltia
 media-sound/bitwig-studio::funtoo-bitwig-studio
