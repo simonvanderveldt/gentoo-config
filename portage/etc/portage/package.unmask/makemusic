@@ -1,0 +1,28 @@
+# Applications
+media-sound/bitwig-studio::funtoo-bitwig-studio
+media-sound/mixxx::proaudio
+media-sound/jack-audio-connection-kit::proaudio
+media-sound/ladish::bar
+media-sound/laditools::bar
+media-sound/hydrogen::bar
+media-sound/seq24::bar
+media-sound/linuxsampler::proaudio
+
+# fabla-1
+x11-libs/ntk::simonvanderveldt
+
+# lmms
+media-sound/lmms::proaudio
+
+# KX Project
+media-sound/carla::simonvanderveldt
+
+# Shuriken
+media-libs/juce::proaudio
+
+# LV2 plugins
+## Ingen
+media-sound/ingen::proaudio
+media-sound/drobilla::proaudio
+
+# Libraries

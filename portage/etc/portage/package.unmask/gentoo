@@ -1,6 +1,4 @@
-media-sound/noise::elementary
-x11-libs/granite::elementary
-dev-libs/libdbusmenu::elementary
+#dev-libs/libdbusmenu::elementary
 #dev-db/sqlheavy::elementary
 =x11-themes/moka-9999::jorgicio
 =x11-themes/faba-9999::jorgicio
@@ -8,9 +6,6 @@ x11-themes/numix-icon-theme::sabayon
 app-editors/atom-bin::jorgicio
 dev-util/idea-community::hossie
 net-im/slack::goltia
-media-sound/bitwig-studio::funtoo-bitwig-studio
-media-sound/mixxx::proaudio
-media-sound/jack-audio-connection-kit::proaudio
 
 # MacBook Facetime HD driver
 media-video/bcwc_pcie::toaster
@@ -18,3 +13,7 @@ media-video/bcwc_pcie::toaster
 # tlp
 app-laptop/tlp::tlp
 sys-power/linux-x86-power-tools::tlp
+
+# Multimedia
+media-sound/noise::elementary
+x11-libs/granite::elementary
