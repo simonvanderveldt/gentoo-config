@@ -28,6 +28,8 @@ www-servers/lighttpd -gdbm -ipv6
 sys-apps/lm_sensors sensord
 net-misc/rsync -ipv6
 net-misc/iputils -caps -filecaps
+# Required for x11-misc/xdg-utils
+app-text/xmlto text
 
 app-emulation/qemu -jpeg -png -vnc spice opengl usb
 net-misc/spice-gtk python usbredir
