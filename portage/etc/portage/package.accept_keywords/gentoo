@@ -13,6 +13,7 @@ dev-util/idea-community ~amd64
 app-editors/atom-bin ~amd64
 dev-util/shellcheck ~amd64
 =app-emulation/spice-0.12.7 ~amd64
+app-admin/collectd ~amd64
 
 # repoman
 =app-portage/repoman-2.3.0-r1 ~amd64
