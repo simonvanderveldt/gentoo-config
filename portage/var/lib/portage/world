@@ -16,6 +16,7 @@ app-emulation/playonlinux
 app-emulation/qemu
 app-emulation/virt-manager
 app-misc/solaar
+app-office/homebank
 app-portage/eix
 app-portage/gentoolkit
 app-portage/pfl
