@@ -23,6 +23,7 @@ app-text/tree
 dev-lang/python:3.4
 dev-python/pip
 dev-python/pylint
+dev-qt/qt-creator
 dev-util/android-tools
 dev-util/idea-community
 dev-vcs/git
