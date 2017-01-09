@@ -3,7 +3,6 @@ media-sound/pulseaudio jack
 media-sound/jack-audio-connection-kit alsa
 
 # LADISH & LASH
-# media-libs/gd fontconfig truetype jpeg png
 media-sound/ladish gtk
 media-libs/liblo -ipv6
 media-sound/zynaddsubfx jack
@@ -14,20 +13,21 @@ media-sound/supercollider jack
 media-sound/amsynth jack
 media-sound/qjackctl alsa
 
-# qtractor
+# Qtractor
 media-sound/qtractor jacksession ladspa lv2 libsamplerate rubberband debug
 media-libs/suil qt4 gtk
 
+# Jalv
 media-sound/jalv jack-session gtk qt4
 
 # Bitwig Studio
 x11-libs/cairo xcb
 
-# ardour
+# Ardour
 media-sound/ardour jack lv2
 >=sci-libs/fftw-3.3.4 threads
 
-# lmms
+# LMMS
 media-sound/lmms -pulseaudio -alsa jack calf carla gig sf2
 media-sound/fluidsynth -pulseaudio jack sndfile
 
@@ -36,8 +36,6 @@ media-sound/sequencer64 jack jack-session lash
 
 # Hydrogen
 media-sound/hydrogen -pulseaudio jack jack-session
-
-media-plugins/calf lv2
 
 # KX Project
 dev-python/PyQt4 X svg
@@ -55,3 +53,6 @@ media-libs/aubio ffmpeg libsamplerate sndfile
 
 # Drumkv1
 media-sound/drumkv1 jack jackmidi jacksession lv2
+
+# LV2 plugins
+media-plugins/calf lv2
