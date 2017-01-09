@@ -14,6 +14,10 @@ app-editors/atom-bin ~amd64
 dev-util/shellcheck ~amd64
 =app-emulation/spice-0.12.7 ~amd64
 
+# repoman
+=app-portage/repoman-2.3.0-r1 ~amd64
+=dev-python/lxml-3.6.4 ~amd64
+
 # ZFS
 sys-fs/zfs ~amd64
 sys-fs/zfs-kmod ~amd64
