@@ -72,11 +72,6 @@ net-p2p/deluge gtk
 # belastingdienst belastingaangifte
 #media-libs/libcanberra abi_x86_32
 
-# required by media-sound/clementine-1.2.3::gentoo
-# required by clementine (argument)
->=app-crypt/qca-2.1.0.3 qt4
-media-plugins/gst-plugins-meta flac mp3
-
 # required by media-sound/lollypop-0.9.52::jorgicio
 # required by media-sound/lollypop (argument)
 dev-libs/gobject-introspection cairo
