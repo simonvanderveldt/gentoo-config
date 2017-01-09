@@ -20,6 +20,9 @@ media-libs/suil qt4 gtk
 
 media-sound/jalv jack-session gtk qt4
 
+# Bitwig Studio
+x11-libs/cairo xcb
+
 # ardour
 media-sound/ardour jack lv2
 >=sci-libs/fftw-3.3.4 threads
