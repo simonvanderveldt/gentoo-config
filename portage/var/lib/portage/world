@@ -92,7 +92,7 @@ net-dns/bind-tools
 net-fs/autofs
 net-fs/nfs-utils
 net-im/slack
-net-misc/dropbox
+net-misc/keychain
 net-misc/netkit-telnetd
 net-misc/networkmanager
 net-misc/wol
