@@ -12,8 +12,6 @@ app-misc/tracker -eds gtk cue flac mp3 playlists
 net-fs/samba -server
 media-sound/alsa-utils -libsamplerate
 x11-base/xorg-server -ipv6
-media-sound/pulseaudio jack
-media-sound/jack-audio-connection-kit alsa
 <=dev-lang/python-3.0.0 -gdbm
 # Required by dropbox
 net-misc/dropbox X

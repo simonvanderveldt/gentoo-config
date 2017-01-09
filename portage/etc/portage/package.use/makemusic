@@ -1,0 +1,54 @@
+# JACK and other sound systems
+media-sound/pulseaudio jack
+media-sound/jack-audio-connection-kit alsa
+
+# LADISH & LASH
+# media-libs/gd fontconfig truetype jpeg png
+media-sound/ladish gtk
+media-libs/liblo -ipv6
+media-sound/zynaddsubfx jack
+media-sound/buzztrax -introspection
+media-sound/seq24 jack
+media-sound/linuxsampler jack
+media-sound/supercollider jack
+media-sound/amsynth jack
+media-sound/qjackctl alsa
+
+# qtractor
+media-sound/qtractor jacksession ladspa lv2 libsamplerate rubberband debug
+media-libs/suil qt4 gtk
+
+media-sound/jalv jack-session gtk qt4
+
+# ardour
+media-sound/ardour jack lv2
+>=sci-libs/fftw-3.3.4 threads
+
+# lmms
+media-sound/lmms -pulseaudio -alsa jack calf carla gig sf2
+media-sound/fluidsynth -pulseaudio jack sndfile
+
+# Sequencer64
+media-sound/sequencer64 jack jack-session lash
+
+# Hydrogen
+media-sound/hydrogen -pulseaudio jack jack-session
+
+media-plugins/calf lv2
+
+# KX Project
+dev-python/PyQt4 X svg
+media-sound/cadence -pulseaudio jack
+media-sound/carla -pulseaudio jack gtk3 gtk2 X
+
+# Mixxx
+media-sound/mixxx qt4 mp3 hid
+media-libs/portaudio alsa jack
+dev-qt/qtscript scripttools
+
+# Shuriken
+media-libs/juce -multilib
+media-libs/aubio ffmpeg libsamplerate sndfile
+
+# Drumkv1
+media-sound/drumkv1 jack jackmidi jacksession lv2

@@ -1,0 +1,64 @@
+# JACK related tools
+media-sound/jack-audio-connection-kit::proaudio ~amd64
+media-sound/qjackctl ~amd64
+=media-sound/ladish-9999*::bar **
+media-sound/laditools ~amd64
+=media-sound/cadence-9999* **
+
+# LV2 hosts
+## Jalv
+media-sound/jalv ~amd64
+media-libs/lv2 ~amd64
+media-libs/lilv ~amd64
+dev-libs/serd ~amd64
+dev-libs/sord ~amd64
+media-libs/sratom ~amd64
+## Carla
+=media-sound/carla-9999* **
+
+# LADISH & LASH
+virtual/liblash ~amd64
+
+## DAWs & editors
+media-sound/ardour ~amd64
+=media-sound/lmms-9999* **
+# Shuriken
+=media-sound/shuriken-9999*::simonvanderveldt **
+media-libs/juce::proaudio ~amd64
+# Qtractor
+media-sound/qtractor ~amd64
+=media-libs/suil-0.8.2 ~amd64
+media-sound/buzztrax ~amd64
+media-sound/qmidiarp ~amd64
+# Mixxx 2.0
+media-sound/mixxx ~amd64
+=media-libs/taglib-1.10 ~amd64
+=media-libs/fidlib-0.9.10-r1 ~amd64
+
+
+## Synthesizers
+media-sound/amsynth ~amd64
+media-sound/drumkv1 ~amd64
+=media-sound/helm-9999::simonvanderveldt ~amd64
+=media-sound/stegosaurus-9999*::simonvanderveldt **
+media-sound/yoshimi ~amd64
+media-sound/zynaddsubfx ~amd64
+# AMS-LV2
+media-plugins/ams-lv2 ~amd64
+media-libs/lvtk ~amd64
+
+
+## Samplers
+media-sound/linuxsampler ~amd64
+media-libs/libgig ~amd64
+
+
+## LV2 plugins
+media-plugins/calf ~amd64
+# Ingen
+=media-sound/ingen-9999*::proaudio **
+=media-sound/drobilla-9999*::proaudio **
+# Fabla1
+media-sound/fabla ~amd64
+=media-sound/fabla-1.9999* **
+=x11-libs/ntk-9999-r2 **
