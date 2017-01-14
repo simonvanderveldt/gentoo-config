@@ -114,8 +114,8 @@ sys-fs/ncdu
 sys-fs/ntfs3g
 sys-fs/zfs
 sys-kernel/genkernel
-sys-kernel/gentoo-sources:4.1.15-r1
 sys-kernel/gentoo-sources:4.4.6
+sys-kernel/gentoo-sources:4.4.39
 sys-power/acpi
 sys-power/acpid
 sys-power/pm-utils
