@@ -127,7 +127,7 @@ www-client/firefox-bin
 www-client/google-chrome
 www-servers/lighttpd
 x11-base/xorg-server
-x11-drivers/nvidia-drivers:0/361
+x11-drivers/nvidia-drivers:0/375
 x11-misc/redshift
 x11-misc/xclip
 x11-themes/moka
