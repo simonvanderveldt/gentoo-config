@@ -35,7 +35,6 @@ dev-vcs/tig
 gnome-base/dconf-editor
 gnome-base/gnome-light
 gnome-extra/gnome-calculator
-gnome-extra/gnome-calendar
 gnome-extra/gnome-search-tool
 gnome-extra/gnome-system-monitor
 gnome-extra/gnome-tweak-tool
