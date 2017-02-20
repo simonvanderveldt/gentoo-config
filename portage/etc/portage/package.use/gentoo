@@ -5,7 +5,7 @@ dev-vcs/git -webdav -gtk
 net-misc/iputils -caps -filecaps
 app-admin/sudo -sendmail -ldap
 app-crypt/pinentry -gtk
-app-crypt/gnupg -usb
+app-crypt/gnupg -usb -bzip2
 net-misc/networkmanager -wext -dhcpcd dhclient
 x11-misc/redshift gtk
 app-misc/tracker -eds gtk cue flac mp3 playlists
