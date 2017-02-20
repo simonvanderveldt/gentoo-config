@@ -28,6 +28,7 @@ www-servers/lighttpd -gdbm -ipv6
 sys-apps/lm_sensors sensord
 net-misc/rsync -ipv6
 net-misc/iputils -caps -filecaps
+app-editors/nano -spell -magic
 net-nds/openldap -syslog -tcpd -crypt
 # Required by app-emulation/libvirt[virt-network] to enable NAT networking
 net-firewall/iptables ipv6
