@@ -4,3 +4,7 @@ net-libs/webkit-gtk -egl -geoloc -opengl -webgl
 
 # required by www-client/google-chrome-46.0.2490.86_p1::gentoo
 >=x11-libs/gdk-pixbuf-2.32.2 X
+
+# required by app-misc/tracker-1.8.3-r1::dantrell-gnome-3-20
+# required by gnome-extra/nautilus-tracker-tags-1.8.3::dantrell-gnome-3-20
+virtual/imagemagick-tools png jpeg
