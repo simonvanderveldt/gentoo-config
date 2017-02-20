@@ -28,6 +28,8 @@ www-servers/lighttpd -gdbm -ipv6
 sys-apps/lm_sensors sensord
 net-misc/rsync -ipv6
 net-misc/iputils -caps -filecaps
+# Required by app-emulation/libvirt[virt-network] to enable NAT networking
+net-firewall/iptables ipv6
 # Required for x11-misc/xdg-utils
 app-text/xmlto text
 
