@@ -38,7 +38,6 @@ app-text/xmlto text
 media-plugins/gst-plugins-meta ffmpeg flac mp3
 media-video/ffmpeg aac vdpau
 media-sound/noise mpris
-media-video/mpv -dvd -enca -xscreensaver vdpau
 
 app-emulation/qemu -jpeg -png -vnc spice opengl usb
 net-misc/spice-gtk python usbredir
