@@ -52,6 +52,7 @@ media-libs/suil
 media-plugins/ams-lv2
 media-plugins/calf
 media-plugins/gst-plugins-meta:1.0
+media-plugins/swh-lv2
 media-sound/a2jmidid
 media-sound/alternative-toolbar
 media-sound/amsynth
