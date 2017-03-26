@@ -65,14 +65,10 @@ x11-libs/libXext abi_x86_32
 x11-libs/libXdmcp abi_x86_32
 x11-libs/libxcb abi_x86_32
 
+# Deluge
 net-p2p/deluge gtk
-# required by net-p2p/deluge-1.3.6::gentoo
-# required by deluge (argument)
->=net-libs/rb_libtorrent-0.16.17 python
-# required by net-libs/rb_libtorrent-0.16.17::gentoo
-# required by net-p2p/deluge-1.3.6::gentoo
-# required by deluge (argument)
->=dev-libs/boost-1.56.0-r1 python
+net-libs/libtorrent-rasterbar python -geoip
+dev-libs/boost python
 
 # belastingdienst belastingaangifte
 #media-libs/libcanberra abi_x86_32
