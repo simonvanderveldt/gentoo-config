@@ -51,6 +51,7 @@ media-libs/libtxc_dxtn
 media-libs/suil
 media-plugins/ams-lv2
 media-plugins/calf
+media-plugins/deteriorate-lv2
 media-plugins/gst-plugins-meta:1.0
 media-plugins/swh-lv2
 media-sound/a2jmidid
@@ -60,7 +61,6 @@ media-sound/buzztrax
 media-sound/cadence
 media-sound/carla
 media-sound/cinnamon-rhythmbox-tray
-media-sound/deteriorate-lv2
 media-sound/drumkv1
 media-sound/fabla
 media-sound/fabla:1
