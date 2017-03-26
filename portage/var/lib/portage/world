@@ -19,6 +19,7 @@ app-misc/solaar
 app-office/homebank
 app-portage/eix
 app-portage/gentoolkit
+app-portage/metagen
 app-portage/pfl
 app-portage/repoman
 app-shells/fasd
