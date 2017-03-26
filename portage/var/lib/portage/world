@@ -43,6 +43,8 @@ media-gfx/freecad
 media-gfx/gimp
 media-gfx/gnome-screenshot
 media-gfx/inkscape
+media-gfx/sane-backends
+media-gfx/simple-scan
 media-libs/liblo
 media-libs/libtxc_dxtn
 media-libs/suil

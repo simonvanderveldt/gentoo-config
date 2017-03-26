@@ -35,6 +35,9 @@ net-firewall/iptables ipv6
 # Required for x11-misc/xdg-utils
 app-text/xmlto text
 
+# Scanners
+media-gfx/sane-backends usb threads
+
 # Multimedia
 media-plugins/gst-plugins-meta ffmpeg flac mp3
 media-video/ffmpeg aac vdpau

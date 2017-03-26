@@ -7,4 +7,4 @@ BASEDIR=$(dirname "$0")
 chown root:root "${BASEDIR}/etc/sudoers.d/wheel"
 
 # Add user `simon` to the relevant groups
-usermod -a -G wheel,kvm,libvirt,docker simon
+usermod -a -G wheel,kvm,libvirt,docker,scanner simon
