@@ -30,8 +30,6 @@ net-misc/rsync -ipv6
 net-misc/iputils -caps -filecaps
 app-editors/nano -spell -magic
 net-nds/openldap -syslog -tcpd -crypt
-# Required by app-emulation/libvirt[virt-network] to enable NAT networking
-net-firewall/iptables ipv6
 # Required for x11-misc/xdg-utils
 app-text/xmlto text
 
@@ -42,17 +40,6 @@ media-gfx/sane-backends usb threads
 media-plugins/gst-plugins-meta ffmpeg flac mp3
 media-video/ffmpeg aac vdpau
 media-sound/noise mpris
-
-app-emulation/qemu -jpeg -png -vnc spice opengl usb
-net-misc/spice-gtk python usbredir
-net-libs/gtk-vnc python
-app-emulation/virt-manager gtk
-# Required by virt-manager
-app-emulation/libvirt-glib python
-# Required for networking options in virt-manager
-app-emulation/libvirt virt-network
-net-dns/dnsmasq script
-media-sound/alsa-tools -alsa_cards_emu10k1x gtk
 
 # required by x11-drivers/nvidia-drivers (argument)
 x11-proto/xextproto abi_x86_32
@@ -67,6 +54,21 @@ x11-proto/kbproto abi_x86_32
 x11-libs/libXext abi_x86_32
 x11-libs/libXdmcp abi_x86_32
 x11-libs/libxcb abi_x86_32
+
+# QEMU
+app-emulation/qemu -jpeg -png -vnc spice opengl usb
+
+# virt-manager
+app-emulation/virt-manager gtk
+app-emulation/libvirt-glib python
+# Required for networking options in virt-manager
+app-emulation/libvirt virt-network
+# Required by app-emulation/libvirt[virt-network] to enable NAT networking
+net-firewall/iptables ipv6
+net-misc/spice-gtk python usbredir
+net-libs/gtk-vnc python
+net-dns/dnsmasq script
+net-nds/rpcbind -tcpd
 
 # Deluge
 net-p2p/deluge gtk
