@@ -1,2 +1,2 @@
-app-emulation/docker -device-mapper overlay experimental
+app-emulation/docker -device-mapper experimental
 sys-libs/libseccomp static-libs
