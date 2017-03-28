@@ -1,8 +1,10 @@
 #dev-libs/libdbusmenu::elementary
 #dev-db/sqlheavy::elementary
-=x11-themes/moka-9999::jorgicio
-=x11-themes/faba-9999::jorgicio
-x11-themes/numix-icon-theme::sabayon
+
+# Moka icon theme
+x11-themes/moka-icon-theme::jorgicio
+x11-themes/faba-icon-theme::jorgicio
+
 app-editors/atom-bin::jorgicio
 dev-util/idea-community::hossie
 net-im/slack::goltia

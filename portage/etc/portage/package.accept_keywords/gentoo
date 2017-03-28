@@ -29,9 +29,9 @@ sys-kernel/spl ~amd64
 #net-libs/libsoup ~amd64
 #dev-libs/glib ~amd64
 
-# Moka
-=x11-themes/moka-9999 **
-=x11-themes/faba-9999 **
+# Moka icon theme
+x11-themes/moka-icon-theme ~amd64
+x11-themes/faba-icon-theme ~amd64
 
 # tlp
 app-laptop/tlp ~amd64
