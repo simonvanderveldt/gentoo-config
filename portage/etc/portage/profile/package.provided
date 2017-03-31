@@ -1,4 +1,3 @@
 x11-terms/xterm-314
-#app-text/poppler-0.32.0
 # Don't need Wine since PlayOnLinux provides the Wine versions
 app-emulation/wine-1.9.4
