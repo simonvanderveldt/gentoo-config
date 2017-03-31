@@ -42,18 +42,19 @@ media-video/ffmpeg aac vdpau
 media-sound/noise mpris
 
 # required by x11-drivers/nvidia-drivers (argument)
-x11-proto/xextproto abi_x86_32
-x11-libs/libX11 abi_x86_32
-x11-proto/xcb-proto abi_x86_32
 dev-libs/libpthread-stubs abi_x86_32
+x11-libs/libvdpau abi_x86_32
+x11-libs/libX11 abi_x86_32
 x11-libs/libXau abi_x86_32
-x11-proto/xproto abi_x86_32
-x11-proto/inputproto abi_x86_32
-x11-proto/xf86bigfontproto abi_x86_32
-x11-proto/kbproto abi_x86_32
-x11-libs/libXext abi_x86_32
-x11-libs/libXdmcp abi_x86_32
 x11-libs/libxcb abi_x86_32
+x11-libs/libXdmcp abi_x86_32
+x11-libs/libXext abi_x86_32
+x11-proto/inputproto abi_x86_32
+x11-proto/kbproto abi_x86_32
+x11-proto/xcb-proto abi_x86_32
+x11-proto/xextproto abi_x86_32
+x11-proto/xf86bigfontproto abi_x86_32
+x11-proto/xproto abi_x86_32
 
 # QEMU
 app-emulation/qemu -jpeg -png -vnc spice opengl usb
