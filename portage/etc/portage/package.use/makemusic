@@ -6,7 +6,6 @@ media-sound/jack-audio-connection-kit alsa
 media-sound/ladish gtk
 media-libs/liblo -ipv6
 media-sound/zynaddsubfx jack
-media-sound/seq24 jack
 media-sound/linuxsampler jack
 media-sound/supercollider jack
 media-sound/amsynth jack
