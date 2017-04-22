@@ -28,7 +28,6 @@ media-libs/juce::proaudio ~amd64
 # Qtractor
 media-sound/qtractor ~amd64
 =media-libs/suil-0.8.2 ~amd64
-media-sound/buzztrax ~amd64
 media-sound/qmidiarp ~amd64
 # Mixxx 2.0
 media-sound/mixxx ~amd64
