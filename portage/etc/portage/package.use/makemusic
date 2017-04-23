@@ -20,7 +20,7 @@ media-sound/qtractor jacksession ladspa lv2 libsamplerate rubberband debug
 media-libs/suil qt4 gtk
 
 # Jalv
-media-sound/jalv jack-session gtk qt4
+media-sound/jalv gtk2
 
 # Bitwig Studio
 x11-libs/cairo xcb
