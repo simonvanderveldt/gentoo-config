@@ -1,6 +1,5 @@
 # JACK related tools
 media-sound/jack-audio-connection-kit::proaudio ~amd64
-media-sound/qjackctl ~amd64
 =media-sound/ladish-9999*::bar **
 media-sound/laditools ~amd64
 =media-sound/cadence-9999* **

@@ -9,7 +9,6 @@ media-sound/zynaddsubfx jack
 media-sound/linuxsampler jack
 media-sound/supercollider jack
 media-sound/amsynth jack
-media-sound/qjackctl alsa
 # required by media-sound/ladish-9999::bar[gtk]
 # required by x11-libs/flowcanvas-0.7.1-r2::gentoo
 # required by media-gfx/graphviz-2.38.0-r1::gentoo
