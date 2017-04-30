@@ -53,6 +53,7 @@ media-plugins/ams-lv2
 media-plugins/calf
 media-plugins/deteriorate-lv2
 media-plugins/gst-plugins-meta:1.0
+media-plugins/nekobi
 media-plugins/swh-lv2
 media-sound/a2jmidid
 media-sound/alternative-toolbar

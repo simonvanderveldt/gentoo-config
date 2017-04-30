@@ -62,3 +62,4 @@ media-sound/fabla ~amd64
 =x11-libs/ntk-9999-r2 **
 media-plugins/deteriorate-lv2 ~amd64
 media-plugins/swh-lv2 ~amd64
+=media-plugins/nekobi-9999 **
