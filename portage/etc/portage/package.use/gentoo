@@ -13,10 +13,6 @@ net-fs/samba -server
 media-sound/alsa-utils -libsamplerate
 x11-base/xorg-server -ipv6
 <=dev-lang/python-3.0.0 -gdbm
-# Required by dropbox
-net-misc/dropbox X
-dev-libs/libpcre pcre16
-dev-qt/qtcore icu
 # Have to enable cups for ghostscript since CUPS itself needs it and we need to have CUPS installed
 # because Chrome needs it :|
 app-text/ghostscript-gpl cups
@@ -70,6 +66,16 @@ net-misc/spice-gtk python usbredir
 net-libs/gtk-vnc python
 net-dns/dnsmasq script
 net-nds/rpcbind -tcpd
+
+# Dropbox
+net-misc/dropbox X
+# Required by net-misc/dropbox[X]
+# Required by dev-qt/qtwebkit:5
+dev-qt/qtcore icu
+# Required by net-misc/dropbox[X]
+# Required by dev-qt/qtwebkit:5
+# Required by dev-qt/qtcore
+dev-libs/libpcre pcre16
 
 # Deluge
 net-p2p/deluge gtk
