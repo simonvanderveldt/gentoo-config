@@ -1,7 +1,7 @@
 # @system packages
 sys-devel/gcc multislot
 
-dev-vcs/git -webdav -gtk
+dev-vcs/git -webdav -gtk -gnome-keyring
 net-misc/iputils -caps -filecaps
 app-admin/sudo -sendmail -ldap
 app-crypt/pinentry -gtk
