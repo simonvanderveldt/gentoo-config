@@ -1,6 +1,3 @@
-#dev-libs/libdbusmenu::elementary
-#dev-db/sqlheavy::elementary
-
 # Moka icon theme
 x11-themes/moka-icon-theme::jorgicio
 x11-themes/faba-icon-theme::jorgicio
