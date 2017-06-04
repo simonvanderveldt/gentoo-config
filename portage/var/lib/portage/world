@@ -18,6 +18,7 @@ app-emulation/virt-manager
 app-misc/solaar
 app-office/homebank
 app-portage/eix
+app-portage/genlop
 app-portage/gentoolkit
 app-portage/metagen
 app-portage/pfl
