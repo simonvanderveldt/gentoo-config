@@ -41,7 +41,7 @@ media-sound/hydrogen -pulseaudio jack jack-session
 # KX Project
 dev-python/PyQt4 X svg
 media-sound/cadence -pulseaudio jack
-media-sound/carla -pulseaudio jack gtk3 gtk2 X
+media-sound/carla -pulseaudio jack gtk gtk2 X
 
 # Mixxx
 media-sound/mixxx qt4 mp3 hid
