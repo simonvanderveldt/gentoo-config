@@ -57,3 +57,6 @@ media-sound/drumkv1 jack jackmidi jacksession lv2
 
 # LV2 plugins
 media-plugins/calf lv2
+
+# Audacity
+media-sound/audacity jack alsa flac sbsms
