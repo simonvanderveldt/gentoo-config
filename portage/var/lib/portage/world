@@ -130,7 +130,7 @@ sys-process/lsof
 www-client/firefox-bin
 www-client/google-chrome
 x11-base/xorg-server
-x11-drivers/nvidia-drivers:0/378
+x11-drivers/nvidia-drivers:0/381
 x11-misc/redshift
 x11-misc/xclip
 x11-themes/moka-icon-theme
