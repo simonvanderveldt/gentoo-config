@@ -1,2 +1,2 @@
-app-emulation/docker -device-mapper experimental
+app-emulation/docker -device-mapper -container-init experimental
 sys-libs/libseccomp static-libs
