@@ -108,8 +108,8 @@ sys-apps/lm_sensors
 sys-apps/mlocate
 sys-apps/usbutils
 sys-boot/grub
-sys-devel/gcc:4.8.5
-sys-devel/gcc:4.9.3
+sys-devel/gcc:4.9.4
+sys-devel/gcc:5.4.0
 sys-fs/dosfstools
 sys-fs/eudev
 sys-fs/fuseiso
