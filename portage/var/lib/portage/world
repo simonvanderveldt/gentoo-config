@@ -94,6 +94,7 @@ net-dns/bind-tools
 net-fs/autofs
 net-fs/nfs-utils
 net-im/slack
+net-misc/chrony
 net-misc/keychain
 net-misc/netkit-telnetd
 net-misc/networkmanager
