@@ -118,7 +118,6 @@ sys-fs/ncdu
 sys-fs/ntfs3g
 sys-fs/zfs
 sys-kernel/genkernel
-sys-kernel/gentoo-sources:4.4.39
 sys-kernel/gentoo-sources:4.4.52
 sys-kernel/gentoo-sources:4.9.16
 sys-power/acpi
