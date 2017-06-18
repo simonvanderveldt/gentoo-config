@@ -102,7 +102,6 @@ net-misc/networkmanager
 net-misc/wol
 net-nds/openldap
 net-p2p/deluge
-net-wireless/broadcom-sta
 net-wireless/wpa_supplicant
 sci-libs/opencascade:6.8.0
 sys-apps/lm_sensors
@@ -120,6 +119,7 @@ sys-fs/zfs
 sys-kernel/genkernel
 sys-kernel/gentoo-sources:4.4.52
 sys-kernel/gentoo-sources:4.9.16
+sys-kernel/linux-firmware
 sys-power/acpi
 sys-power/acpid
 sys-power/pm-utils
