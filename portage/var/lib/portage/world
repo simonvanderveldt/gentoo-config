@@ -89,6 +89,7 @@ media-sound/stegosaurus
 media-sound/synthv1::audio-overlay
 media-sound/zynaddsubfx
 media-video/ffmpeg
+net-analyzer/netcat6
 net-analyzer/traceroute
 net-dns/bind-tools
 net-fs/autofs
