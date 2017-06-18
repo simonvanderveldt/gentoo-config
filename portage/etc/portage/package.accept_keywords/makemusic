@@ -30,9 +30,6 @@ media-sound/qtractor ~amd64
 media-sound/qmidiarp ~amd64
 # Mixxx 2.0
 media-sound/mixxx ~amd64
-=media-libs/taglib-1.10 ~amd64
-=media-libs/fidlib-0.9.10-r1 ~amd64
-
 
 ## Synthesizers
 media-sound/amsynth ~amd64
