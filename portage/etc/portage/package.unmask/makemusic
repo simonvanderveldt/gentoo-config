@@ -1,5 +1,4 @@
 # Applications
-media-sound/bitwig-studio::funtoo-bitwig-studio
 media-sound/jack-audio-connection-kit::proaudio
 media-sound/ladish::bar
 media-sound/laditools::bar

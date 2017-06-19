@@ -62,6 +62,7 @@ media-sound/a2jmidid
 media-sound/alternative-toolbar
 media-sound/amsynth
 media-sound/audacity
+media-sound/bitwig-studio::audio-overlay
 media-sound/cadence
 media-sound/carla
 media-sound/cinnamon-rhythmbox-tray
