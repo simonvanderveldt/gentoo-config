@@ -1,6 +1,6 @@
 # JACK and other sound systems
+media-sound/jack2 alsa
 media-sound/pulseaudio jack
-media-sound/jack-audio-connection-kit alsa
 
 # LADISH & LASH
 media-sound/ladish gtk

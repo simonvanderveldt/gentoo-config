@@ -1,5 +1,4 @@
 # Applications
-media-sound/jack-audio-connection-kit::proaudio
 media-sound/ladish::bar
 media-sound/laditools::bar
 media-sound/linuxsampler::proaudio

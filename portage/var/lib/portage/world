@@ -70,7 +70,7 @@ media-sound/fabla
 media-sound/fabla:1
 media-sound/helm
 media-sound/ingen
-media-sound/jack-audio-connection-kit::proaudio
+media-sound/jack2
 media-sound/jalv
 media-sound/ladish
 media-sound/ladish::bar
