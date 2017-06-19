@@ -35,9 +35,6 @@ media-sound/fluidsynth -pulseaudio jack sndfile
 # Sequencer64
 media-sound/sequencer64 jack jack-session lash
 
-# Hydrogen
-media-sound/hydrogen -pulseaudio jack jack-session
-
 # KX Project
 dev-python/PyQt4 X svg
 media-sound/cadence -pulseaudio jack
