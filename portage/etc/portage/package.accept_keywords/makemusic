@@ -1,7 +1,6 @@
 # JACK related tools
 media-sound/jack2 ~amd64
 =media-sound/ladish-9999*::bar **
-media-sound/laditools ~amd64
 =media-sound/cadence-9999* **
 
 # LV2 hosts
