@@ -65,7 +65,7 @@ media-sound/bitwig-studio::audio-overlay
 media-sound/cadence
 media-sound/carla
 media-sound/cinnamon-rhythmbox-tray
-media-sound/drumkv1
+media-sound/drumkv1::audio-overlay
 media-sound/fabla
 media-sound/fabla:1
 media-sound/helm
