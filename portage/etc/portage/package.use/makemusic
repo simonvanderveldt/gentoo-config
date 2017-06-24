@@ -49,8 +49,9 @@ dev-qt/qtscript scripttools
 media-libs/juce -multilib
 media-libs/aubio ffmpeg libsamplerate sndfile
 
-# Drumkv1
+# v1 suite
 media-sound/drumkv1 standalone lv2
+media-sound/synthv1 standalone lv2
 
 # LV2 plugins
 media-plugins/calf lv2
