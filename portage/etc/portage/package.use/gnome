@@ -15,3 +15,5 @@ dev-libs/libpcre  abi_x86_32
 # required by gnome-base/gnome-control-center
 # required by net-misc/networkmanager[modemmanager]
 net-dialup/ppp ipv6
+
+gnome-extra/nm-applet -modemmanager
