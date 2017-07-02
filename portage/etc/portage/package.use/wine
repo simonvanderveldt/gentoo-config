@@ -328,6 +328,14 @@ virtual/libudev abi_x86_32
 # required by app-emulation/wine-1.7.51::gentoo[opengl]
 # required by app-emulation/wine (argument)
 >=x11-proto/fixesproto-5.0-r1 abi_x86_32
+# required by x11-libs/libdrm-2.4.80::gentoo
+# required by media-libs/mesa-17.0.6::gentoo
+# required by x11-base/xorg-server-1.19.3::gentoo[glamor]
+# required by x11-base/xorg-drivers-1.19::gentoo[video_cards_i965]
+# required by x11-base/xorg-server-1.19.3::gentoo[xorg]
+# required by @selected
+# required by @world (argument)
+x11-libs/libpciaccess abi_x86_32
 
 # required by dev-python/wxpython-2.8.12.1-r2::gentoo
 # required by app-emulation/playonlinux-4.2.8::gentoo

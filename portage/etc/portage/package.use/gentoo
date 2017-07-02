@@ -11,7 +11,6 @@ x11-misc/redshift gtk
 app-misc/tracker -eds gtk cue flac mp3 playlists
 net-fs/samba -server
 media-sound/alsa-utils -libsamplerate
-x11-base/xorg-server -ipv6
 <=dev-lang/python-3.0.0 -gdbm
 # Have to enable cups for ghostscript since CUPS itself needs it and we need to have CUPS installed
 # because Chrome needs it :|
@@ -28,6 +27,14 @@ net-nds/openldap -syslog -tcpd -crypt
 # Required for x11-misc/xdg-utils
 app-text/xmlto text
 net-libs/gnutls -idn
+
+# Xorg
+x11-base/xorg-server -ipv6
+# required by x11-base/xorg-drivers-1.19::gentoo[video_cards_i965]
+# required by x11-base/xorg-server-1.19.3::gentoo[xorg]
+# required by @selected
+# required by @world (argument)
+x11-base/xorg-server glamor
 
 # Scanners
 media-gfx/sane-backends usb threads
