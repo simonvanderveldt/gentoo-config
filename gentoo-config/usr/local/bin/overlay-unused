@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+# Show overlays from which no package is installed
+
+for overlay_file in $(find -L /etc/portage/repos.conf/ -not -type d); do
+  overlay=$(basename "${overlay_file}" ".conf")
+  eix -c --installed-from-overlay "${overlay}" &> /dev/null || echo "${overlay}"
+done
