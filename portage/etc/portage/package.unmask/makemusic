@@ -18,5 +18,3 @@ media-libs/juce::proaudio
 ## Ingen
 media-sound/ingen::proaudio
 media-sound/drobilla::proaudio
-
-# Libraries
