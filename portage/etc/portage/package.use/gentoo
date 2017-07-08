@@ -27,6 +27,7 @@ net-nds/openldap -syslog -tcpd -crypt
 # Required for x11-misc/xdg-utils
 app-text/xmlto text
 net-libs/gnutls -idn
+dev-lang/tk truetype
 
 # Xorg
 x11-base/xorg-server -ipv6
