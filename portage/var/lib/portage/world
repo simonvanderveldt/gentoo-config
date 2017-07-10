@@ -83,6 +83,7 @@ media-sound/pulseaudio
 media-sound/qmidiarp
 media-sound/qtractor
 media-sound/rhythmbox
+media-sound/samplv1::audio-overlay
 media-sound/sequencer64
 media-sound/shuriken
 media-sound/stegosaurus

@@ -52,6 +52,7 @@ media-libs/aubio ffmpeg libsamplerate sndfile
 # v1 suite
 media-sound/drumkv1 standalone lv2
 media-sound/synthv1 standalone lv2
+media-sound/samplv1 standalone lv2
 
 # LV2 plugins
 media-plugins/calf lv2

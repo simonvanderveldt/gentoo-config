@@ -34,6 +34,7 @@ media-sound/mixxx ~amd64
 media-sound/amsynth ~amd64
 media-sound/drumkv1 ~amd64
 media-sound/synthv1 ~amd64
+media-sound/samplv1 ~amd64
 =media-sound/helm-9999::simonvanderveldt ~amd64
 =media-sound/stegosaurus-9999*::simonvanderveldt **
 media-sound/yoshimi ~amd64
