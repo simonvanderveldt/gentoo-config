@@ -1,0 +1,14 @@
+from https://bugzilla.gnome.org/show_bug.cgi?id=758057
+@@ -, +, @@
+ src/gcal-application.c | 2 --
+ 1 file changed, 2 deletions(-)
+--- a/src/gcal-application.c
++++ a/src/gcal-application.c
+@@ -246,8 +246,6 @@ gcal_application_activate (GApplication *application)
+      if (error != NULL)
+          g_warning ("Error loading stylesheet from file %s. %s", CSS_FILE, error->message);
+
+-     g_object_set (gtk_settings_get_default (), "gtk-application-prefer-dark-theme", FALSE, NULL);
+-
+      g_object_unref (css_file);
+    }
