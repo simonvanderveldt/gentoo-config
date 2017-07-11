@@ -73,7 +73,7 @@ app-emulation/libvirt virt-network
 net-firewall/iptables ipv6
 net-misc/spice-gtk python usbredir
 net-libs/gtk-vnc python
-net-dns/dnsmasq script
+net-dns/dnsmasq script -id
 net-nds/rpcbind -tcpd
 
 # Dropbox
