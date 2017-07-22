@@ -29,7 +29,7 @@ media-sound/lmms -pulseaudio -alsa jack calf carla gig sf2
 media-sound/fluidsynth -pulseaudio jack sndfile
 
 # Sequencer64
-media-sound/sequencer64 jack jack-session
+media-sound/sequencer64 jack lash
 
 # KX Project
 dev-python/PyQt4 X svg

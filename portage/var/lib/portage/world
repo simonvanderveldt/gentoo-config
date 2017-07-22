@@ -84,7 +84,7 @@ media-sound/qmidiarp
 media-sound/qtractor
 media-sound/rhythmbox
 media-sound/samplv1::audio-overlay
-media-sound/sequencer64
+media-sound/sequencer64::audio-overlay
 media-sound/shuriken
 media-sound/stegosaurus
 media-sound/synthv1::audio-overlay
