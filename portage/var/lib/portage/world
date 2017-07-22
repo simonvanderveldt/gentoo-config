@@ -74,8 +74,7 @@ media-sound/helm
 media-sound/ingen
 media-sound/jack2
 media-sound/jalv
-media-sound/ladish
-media-sound/ladish::bar
+media-sound/ladish::audio-overlay
 media-sound/linuxsampler
 media-sound/lmms
 media-sound/mixxx

@@ -3,16 +3,12 @@ media-sound/jack2 alsa
 media-sound/pulseaudio jack
 
 # LADISH & LASH
-media-sound/ladish gtk
+media-sound/ladish lash
 media-libs/liblo -ipv6
 media-sound/zynaddsubfx jack
 media-sound/linuxsampler jack
 media-sound/supercollider jack
 media-sound/amsynth jack
-# required by media-sound/ladish-9999::bar[gtk]
-# required by x11-libs/flowcanvas-0.7.1-r2::gentoo
-# required by media-gfx/graphviz-2.38.0-r1::gentoo
-media-libs/gd jpeg truetype png fontconfig
 
 # Qtractor
 media-sound/qtractor jacksession ladspa lv2 libsamplerate rubberband debug
