@@ -30,6 +30,7 @@ media-sound/qmidiarp ~amd64
 # Mixxx 2.0
 media-sound/mixxx ~amd64
 media-sound/sequencer64 ~amd64
+media-sound/pure-data ~amd64
 
 ## Synthesizers
 media-sound/amsynth ~amd64

@@ -55,3 +55,6 @@ media-plugins/calf lv2
 
 # Audacity
 media-sound/audacity jack alsa flac sbsms
+
+# pure-data
+media-sound/pure-data alsa fftw jack

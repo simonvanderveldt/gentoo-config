@@ -81,6 +81,7 @@ media-sound/mixxx
 media-sound/noise
 media-sound/pulseaudio
 media-sound/qmidiarp
+media-sound/pure-data::audio-overlay
 media-sound/qtractor
 media-sound/rhythmbox
 media-sound/samplv1::audio-overlay
