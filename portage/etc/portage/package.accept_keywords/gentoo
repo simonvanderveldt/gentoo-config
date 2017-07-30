@@ -7,7 +7,7 @@ app-emulation/playonlinux ~amd64
 app-emulation/wine ~amd64
 www-client/firefox-bin ~amd64
 media-sound/bitwig-studio ~amd64
-net-im/slack ~amd64
+net-im/slack-bin ~amd64
 dev-util/idea-community ~amd64
 app-editors/atom-bin ~amd64
 dev-util/shellcheck ~amd64
