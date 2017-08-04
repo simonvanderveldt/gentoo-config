@@ -12,9 +12,6 @@ app-misc/tracker -eds gtk cue flac mp3 playlists
 net-fs/samba -server
 media-sound/alsa-utils -libsamplerate
 <=dev-lang/python-3.0.0 -gdbm
-# Have to enable cups for ghostscript since CUPS itself needs it and we need to have CUPS installed
-# because Chrome needs it :|
-app-text/ghostscript-gpl cups
 media-gfx/gimp curl jpeg png svg tiff
 sys-fs/ntfs3g -external-fuse -ntfsprogs
 media-sound/rhythmbox webkit
