@@ -1,5 +1,5 @@
 # JACK and other sound systems
-media-sound/jack2 alsa
+media-sound/jack2 alsa abi_x86_32
 media-sound/pulseaudio jack
 
 # LADISH & LASH
