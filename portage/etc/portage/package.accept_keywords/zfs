@@ -2,3 +2,5 @@
 sys-fs/zfs ~amd64
 sys-fs/zfs-kmod ~amd64
 sys-kernel/spl ~amd64
+=sys-kernel/genkernel-3.5.1.1 ~amd64
+=app-misc/pax-utils-1.2.2-r1 ~amd64
