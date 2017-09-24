@@ -60,3 +60,6 @@ media-plugins/swh-lv2 ~amd64
 media-sound/fabla ~amd64
 =media-sound/fabla-1.9999* **
 =x11-libs/ntk-9999-r2 **
+
+# Libraries
+media-libs/liblo ~amd64
