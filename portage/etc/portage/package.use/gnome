@@ -17,3 +17,5 @@ dev-libs/libpcre  abi_x86_32
 net-dialup/ppp ipv6
 
 gnome-extra/nm-applet -modemmanager
+
+sys-fs/udisks -nls
