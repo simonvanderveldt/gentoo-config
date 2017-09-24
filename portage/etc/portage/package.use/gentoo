@@ -25,6 +25,7 @@ net-nds/openldap -syslog -tcpd -crypt
 app-text/xmlto text
 net-libs/gnutls -idn
 dev-lang/tk truetype
+net-wireless/bluez -mesh
 
 # Xorg
 x11-base/xorg-server -ipv6
