@@ -1,1 +1,2 @@
+# Unmask grub ZFS support
 sys-boot/grub -libzfs
