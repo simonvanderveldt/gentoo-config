@@ -53,6 +53,7 @@ media-plugins/deteriorate-lv2 ~amd64
 media-plugins/swh-lv2 ~amd64
 =media-plugins/nekobi-9999 **
 =media-plugins/mverb-9999 **
+media-plugins/artyfx::audio-overlay **
 ## Ingen
 =media-sound/ingen-9999*::proaudio **
 =media-sound/drobilla-9999*::proaudio **

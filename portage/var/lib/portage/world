@@ -53,6 +53,7 @@ media-gfx/simple-scan
 media-libs/liblo
 media-libs/libtxc_dxtn
 media-libs/suil
+media-plugins/artyfx::audio-overlay
 media-plugins/calf
 media-plugins/deteriorate-lv2
 media-plugins/gst-plugins-meta:1.0
