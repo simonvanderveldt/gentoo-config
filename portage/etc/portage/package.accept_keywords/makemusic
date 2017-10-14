@@ -63,6 +63,9 @@ media-plugins/distrho-ports **
 media-sound/fabla ~amd64
 =media-sound/fabla-1.9999* **
 =x11-libs/ntk-9999-r2 **
+# ir.lv2
+media-plugins/ir_lv2 ~amd64
+media-libs/zita-convolver ~amd64
 
 # Libraries
 media-libs/liblo ~amd64
