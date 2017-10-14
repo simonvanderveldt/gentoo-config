@@ -10,6 +10,7 @@ app-arch/unzip
 app-crypt/keybase
 app-crypt/seahorse
 app-editors/atom-bin
+app-editors/nano
 app-emulation/docker
 app-emulation/docker-machine
 app-emulation/libvirt
