@@ -81,6 +81,7 @@ media-sound/linuxsampler
 media-sound/lmms
 media-sound/mixxx
 media-sound/noise
+media-sound/padthv1::audio-overlay
 media-sound/pulseaudio
 media-sound/qmidiarp
 media-sound/pure-data::audio-overlay
