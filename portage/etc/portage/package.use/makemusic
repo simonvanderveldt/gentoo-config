@@ -52,6 +52,7 @@ media-sound/samplv1 standalone lv2
 
 # LV2 plugins
 media-plugins/calf lv2
+media-plugins/distrho-ports lv2
 
 # Audacity
 media-sound/audacity jack alsa flac sbsms

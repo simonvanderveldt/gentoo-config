@@ -56,6 +56,7 @@ media-libs/suil
 media-plugins/artyfx::audio-overlay
 media-plugins/calf
 media-plugins/deteriorate-lv2
+media-plugins/distrho-ports::audio-overlay
 media-plugins/gst-plugins-meta:1.0
 media-plugins/mverb
 media-plugins/nekobi
