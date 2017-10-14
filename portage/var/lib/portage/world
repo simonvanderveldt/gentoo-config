@@ -59,6 +59,7 @@ media-plugins/deteriorate-lv2
 media-plugins/distrho-ports::audio-overlay
 media-plugins/gst-plugins-meta:1.0
 media-plugins/ir_lv2
+media-plugins/mda-lv2
 media-plugins/mverb
 media-plugins/nekobi
 media-plugins/swh-lv2
