@@ -12,7 +12,7 @@ media-sound/amsynth jack
 
 # Qtractor
 media-sound/qtractor libsamplerate rubberband
-media-libs/suil qt4 gtk
+media-libs/suil qt5 gtk
 
 # Jalv
 media-sound/jalv gtk2
@@ -46,10 +46,10 @@ media-libs/juce -multilib
 media-libs/aubio ffmpeg libsamplerate sndfile
 
 # v1 suite
-media-sound/drumkv1 standalone lv2
-media-sound/padthv1 standalone lv2
-media-sound/synthv1 standalone lv2
-media-sound/samplv1 standalone lv2
+media-sound/drumkv1 standalone lv2 qt5
+media-sound/padthv1 standalone lv2 qt5
+media-sound/synthv1 standalone lv2 qt5
+media-sound/samplv1 standalone lv2 qt5
 
 # LV2 plugins
 media-plugins/calf lv2
