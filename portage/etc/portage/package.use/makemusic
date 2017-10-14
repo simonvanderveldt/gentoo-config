@@ -11,7 +11,7 @@ media-sound/supercollider jack
 media-sound/amsynth jack
 
 # Qtractor
-media-sound/qtractor jacksession ladspa lv2 libsamplerate rubberband debug
+media-sound/qtractor libsamplerate rubberband
 media-libs/suil qt4 gtk
 
 # Jalv
