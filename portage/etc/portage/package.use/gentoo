@@ -26,6 +26,7 @@ app-text/xmlto text
 net-libs/gnutls -idn
 dev-lang/tk truetype
 net-wireless/bluez -mesh
+app-admin/keepassxc http
 
 # Xorg
 x11-base/xorg-server -ipv6

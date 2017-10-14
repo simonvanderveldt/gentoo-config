@@ -2,7 +2,7 @@ net-wireless/broadcom-sta ~amd64
 www-client/google-chrome ~amd64
 app-admin/stow ~amd64
 net-misc/dropbox ~amd64
-app-admin/keepassx ~amd64
+app-admin/keepassxc ~amd64
 app-emulation/playonlinux ~amd64
 app-emulation/wine ~amd64
 www-client/firefox-bin ~amd64
