@@ -1,5 +1,5 @@
 # Qt Creator
-dev-qt/qt-creator cmake python
+dev-qt/qt-creator cmake designer python
 dev-libs/botan threads
 dev-qt/qtwebchannel qml
 media-libs/libvpx svc
