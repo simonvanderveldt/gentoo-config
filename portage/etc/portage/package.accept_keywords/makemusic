@@ -29,7 +29,7 @@ media-sound/pure-data ~amd64
 media-libs/juce::proaudio ~amd64
 ## Qtractor
 media-sound/qtractor ~amd64
-=media-libs/suil-0.8.2 ~amd64
+media-libs/suil ~amd64
 
 # Synthesizers
 media-sound/amsynth ~amd64
