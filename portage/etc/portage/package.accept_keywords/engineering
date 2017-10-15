@@ -5,7 +5,7 @@ media-gfx/freecad **
 sci-libs/libmed ~amd64
 sci-libs/opencascade ~amd64
 app-eselect/eselect-opencascade ~amd64
-=dev-cpp/eigen-3.2.8-r1 ~amd64
-=media-libs/SoQt-1.5.0-r1 ~amd64
-=sci-libs/opencascade-6.9.0 ~amd64
-=dev-python/pivy-0.5_alpha20110303-r1 ~amd64
+dev-cpp/eigen ~amd64
+media-libs/SoQt ~amd64
+sci-libs/opencascade ~amd64
+dev-python/pivy ~amd64
