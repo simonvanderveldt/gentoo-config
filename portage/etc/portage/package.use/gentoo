@@ -12,6 +12,7 @@ app-misc/tracker -eds gtk cue flac mp3 playlists
 net-fs/samba -server
 media-sound/alsa-utils -libsamplerate
 <=dev-lang/python-3.0.0 -gdbm
+dev-lang/python tk
 media-gfx/gimp curl jpeg png svg tiff
 sys-fs/ntfs3g -external-fuse -ntfsprogs
 media-sound/rhythmbox webkit
