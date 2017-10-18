@@ -62,6 +62,7 @@ media-plugins/ir_lv2
 media-plugins/mda-lv2
 media-plugins/mverb
 media-plugins/nekobi
+media-plugins/sorcer::audio-overlay
 media-plugins/swh-lv2
 media-sound/a2jmidid
 media-sound/alternative-toolbar

@@ -66,6 +66,9 @@ media-sound/fabla ~amd64
 # ir.lv2
 media-plugins/ir_lv2 ~amd64
 media-libs/zita-convolver ~amd64
+# Sorcer
+media-plugins/sorcer ~amd64
+x11-libs/ntk ~amd64
 
 # Libraries
 media-libs/liblo ~amd64
