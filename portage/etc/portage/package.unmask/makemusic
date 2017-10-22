@@ -1,9 +1,6 @@
 # Applications
 media-sound/linuxsampler::proaudio
 
-# fabla-1
-x11-libs/ntk::simonvanderveldt
-
 # lmms
 media-sound/lmms::proaudio
 

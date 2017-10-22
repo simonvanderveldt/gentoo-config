@@ -48,27 +48,24 @@ media-sound/linuxsampler ~amd64
 media-libs/libgig ~amd64
 
 # LV2 plugins
-media-plugins/calf ~amd64
-media-plugins/mda-lv2 ~amd64
-media-plugins/deteriorate-lv2 ~amd64
-media-plugins/swh-lv2 ~amd64
-=media-plugins/nekobi-9999 **
-=media-plugins/mverb-9999 **
+x11-libs/ntk::audio-overlay ~amd64
 media-plugins/artyfx::audio-overlay **
+media-plugins/calf ~amd64
+media-plugins/deteriorate-lv2 ~amd64
 media-plugins/distrho-ports **
+media-sound/fabla ~amd64
+=media-sound/fabla-1.9999* **
+media-plugins/mda-lv2 ~amd64
+=media-plugins/mverb-9999 **
+=media-plugins/nekobi-9999 **
+media-plugins/swh-lv2 ~amd64
+media-plugins/sorcer ~amd64
 ## Ingen
 =media-sound/ingen-9999*::proaudio **
 =media-sound/drobilla-9999*::proaudio **
-## Fabla1
-media-sound/fabla ~amd64
-=media-sound/fabla-1.9999* **
-=x11-libs/ntk-9999-r2 **
 # ir.lv2
 media-plugins/ir_lv2 ~amd64
 media-libs/zita-convolver ~amd64
-# Sorcer
-media-plugins/sorcer ~amd64
-x11-libs/ntk ~amd64
 
 # Libraries
 media-libs/liblo ~amd64
