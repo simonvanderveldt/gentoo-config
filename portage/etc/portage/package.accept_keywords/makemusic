@@ -1,6 +1,6 @@
 # JACK related tools
 media-sound/jack2 ~amd64
-=media-sound/ladish-9999*::audio-overlay **
+=media-sound/ladish-9999* **
 =media-sound/cadence-9999* **
 
 # LV2 hosts
@@ -49,7 +49,7 @@ media-libs/libgig ~amd64
 
 # LV2 plugins
 x11-libs/ntk::audio-overlay ~amd64
-media-plugins/artyfx::audio-overlay **
+media-plugins/artyfx **
 media-plugins/calf ~amd64
 media-plugins/deteriorate-lv2 ~amd64
 media-plugins/distrho-ports **
