@@ -56,7 +56,7 @@ media-plugins/calf lv2
 media-plugins/distrho-ports lv2
 
 # Audacity
-media-sound/audacity jack alsa flac sbsms
+media-sound/audacity -lame -midi -nls -portmixer -soundtouch -vorbis -vst jack alsa ffmpeg flac sbsms
 
 # pure-data
 media-sound/pure-data alsa fftw jack
