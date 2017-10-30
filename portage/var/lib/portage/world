@@ -57,6 +57,8 @@ media-plugins/artyfx::audio-overlay
 media-plugins/calf
 media-plugins/deteriorate-lv2
 media-plugins/distrho-ports::audio-overlay
+media-plugins/fabla:1::audio-overlay
+media-plugins/fabla:2::audio-overlay
 media-plugins/gst-plugins-meta:1.0
 media-plugins/ir_lv2
 media-plugins/mda-lv2
@@ -73,8 +75,6 @@ media-sound/cadence
 media-sound/carla
 media-sound/cinnamon-rhythmbox-tray
 media-sound/drumkv1::audio-overlay
-media-sound/fabla
-media-sound/fabla:1
 media-sound/helm
 media-sound/ingen
 media-sound/jack2
