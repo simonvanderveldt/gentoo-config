@@ -1,3 +1,1 @@
 x11-terms/xterm-314
-# Don't need Wine since PlayOnLinux provides the Wine versions
-app-emulation/wine-1.9.4

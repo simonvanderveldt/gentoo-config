@@ -17,6 +17,8 @@ app-emulation/libvirt
 app-emulation/playonlinux
 app-emulation/qemu
 app-emulation/virt-manager
+app-emulation/wine-staging
+app-emulation/winetricks
 app-misc/solaar
 app-office/homebank
 app-portage/eix

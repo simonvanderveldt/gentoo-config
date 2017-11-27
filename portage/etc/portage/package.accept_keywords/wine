@@ -1,0 +1,4 @@
+virtual/wine ~amd64
+app-emulation/wine-vanilla ~amd64
+app-emulation/wine-staging ~amd64
+dev-util/patchbin ~amd64
