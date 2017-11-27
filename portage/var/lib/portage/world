@@ -47,7 +47,6 @@ gnome-extra/gnome-system-monitor
 gnome-extra/gnome-tweak-tool
 gnome-extra/nautilus-dropbox
 media-fonts/corefonts
-media-gfx/freecad
 media-gfx/gimp
 media-gfx/gnome-screenshot
 media-gfx/inkscape
@@ -112,7 +111,6 @@ net-misc/wol
 net-nds/openldap
 net-p2p/deluge
 net-wireless/wpa_supplicant
-sci-libs/opencascade:6.8.0
 sys-apps/lm_sensors
 sys-apps/mlocate
 sys-apps/usbutils
