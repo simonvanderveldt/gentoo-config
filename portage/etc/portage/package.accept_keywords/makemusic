@@ -24,8 +24,6 @@ media-sound/qmidiarp ~amd64
 media-sound/mixxx ~amd64
 media-sound/sequencer64 ~amd64
 media-sound/pure-data ~amd64
-## Shuriken
-=media-sound/shuriken-9999*::simonvanderveldt **
 media-libs/juce::proaudio ~amd64
 ## Qtractor
 media-sound/qtractor ~amd64

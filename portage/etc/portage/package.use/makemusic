@@ -41,10 +41,6 @@ media-sound/mixxx mp3 hid ffmpeg
 media-libs/portaudio alsa jack
 dev-qt/qtscript scripttools
 
-# Shuriken
-media-libs/juce -multilib
-media-libs/aubio ffmpeg libsamplerate sndfile
-
 # v1 suite
 media-sound/drumkv1 standalone lv2 qt5
 media-sound/padthv1 standalone lv2 qt5

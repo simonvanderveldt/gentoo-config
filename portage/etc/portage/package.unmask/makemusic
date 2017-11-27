@@ -7,9 +7,6 @@ media-sound/lmms::proaudio
 # KX Project
 media-sound/carla::simonvanderveldt
 
-# Shuriken
-media-libs/juce::proaudio
-
 # LV2 plugins
 ## Ingen
 media-sound/ingen::proaudio
