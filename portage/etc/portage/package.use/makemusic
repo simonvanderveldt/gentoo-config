@@ -56,3 +56,6 @@ media-sound/audacity -lame -midi -nls -portmixer -soundtouch -vorbis -vst jack a
 
 # pure-data
 media-sound/pure-data alsa fftw jack
+
+# Libraries
+media-libs/libmonome udev

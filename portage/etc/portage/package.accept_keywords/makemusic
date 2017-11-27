@@ -66,3 +66,7 @@ media-libs/zita-convolver ~amd64
 
 # Libraries
 media-libs/liblo ~amd64
+
+# serialosc
+media-sound/serialosc::audio-overlay **
+media-libs/libmonome::audio-overlay **

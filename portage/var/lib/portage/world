@@ -92,6 +92,7 @@ media-sound/qtractor
 media-sound/rhythmbox
 media-sound/samplv1::audio-overlay
 media-sound/sequencer64::audio-overlay
+media-sound/serialosc::audio-overlay
 media-sound/stegosaurus
 media-sound/synthv1::audio-overlay
 media-sound/zynaddsubfx
