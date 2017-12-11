@@ -1,0 +1,26 @@
+#!/usr/bin/env sh
+set -ex
+
+if [ "$(id -u)" != "0" ]; then
+  exec sudo "$0" "$@"
+fi
+
+# Update the portage tree and eix cache
+eix-sync
+
+# Check for security updates
+glsa-check --list
+
+# Update world
+world-emerge
+
+# Update live ebuilds (git, -9999, etc)
+# sudo emerge -av @live-rebuild
+
+# Cleanup unused packages
+emerge --ask --depclean
+
+# Update packages for which their build time dependencies have been updated
+emerge --ask --verbose --getbinpkg=n @preserved-rebuild
+# revdep-rebuild should no longer be necessary since we can use @preserved-rebuild
+# revdep-rebuild -i
