@@ -142,9 +142,6 @@ media-libs/libpng abi_x86_32
 # required by app-emulation/wine (argument)
 sys-fs/udev abi_x86_32 gudev
 sys-fs/eudev abi_x86_32
-# required by app-emulation/wine-1.7.51::gentoo[nls]
-# required by app-emulation/wine (argument)
->=sys-devel/gettext-0.19.6-r1 abi_x86_32
 # required by x11-libs/libXcomposite-0.4.4-r1::gentoo
 # required by app-emulation/wine-1.7.51::gentoo[xcomposite]
 # required by app-emulation/wine (argument)
