@@ -44,7 +44,6 @@ media-gfx/sane-backends usb threads
 media-plugins/gst-plugins-meta ffmpeg flac mp3
 media-video/ffmpeg aac vaapi vdpau
 x11-libs/libva X
-media-sound/noise mpris
 
 # required by x11-drivers/nvidia-drivers (argument)
 dev-libs/libpthread-stubs abi_x86_32
