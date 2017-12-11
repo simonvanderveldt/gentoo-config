@@ -1,5 +1,0 @@
->=dev-python/pyside-1.2.2-r1 X svg
->=dev-libs/xerces-c-3.1.2 icu
-sci-libs/opencascade -vtk
-sci-libs/vtk tbb
-dev-cpp/eigen -openmp
