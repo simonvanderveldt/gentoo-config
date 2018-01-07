@@ -1,3 +1,6 @@
 sys-fs/zfs rootfs
 sys-fs/zfs-kmod rootfs
 sys-boot/grub libzfs
+
+# required by sys-kernel/genkernel
+sys-apps/util-linux static-libs
