@@ -1,0 +1,23 @@
+Patch from https://bugs.winehq.org/show_bug.cgi?id=43733#c4
+
+diff --git a/dlls/advapi32/registry.c b/dlls/advapi32/registry.c
+index 7a26fff..2adcbe0 100644
+--- a/dlls/advapi32/registry.c
++++ b/dlls/advapi32/registry.c
+@@ -520,6 +520,16 @@ LSTATUS WINAPI RegOpenKeyExW( HKEY hkey, LPCWSTR name, DWORD options, REGSAM acc
+ {
+     OBJECT_ATTRIBUTES attr;
+     UNICODE_STRING nameW;
++    DWORD nSize = MAX_PATH;
++    WCHAR curappname[nSize] ;
++
++    GetModuleFileNameW(NULL, curappname,  nSize);
++
++    static const WCHAR winekey[]={'S','o','f','t','w','a','r','e','\\','W','i','n','e',0};
++    static const WCHAR appname[] = {'C',':','\\','P','r','o','g','r','a','m',' ','F','i','l','e','s','\\','C','y','c','l','i','n','g',' ','\'','7','4','\\','M','a','x',' ','7','\\','M','a','x','R','T','_','n','o','c','e','f','.','e','x','e',0};
++
++    if( hkey == 0x80000001 && !lstrcmpW(name, winekey) && !lstrcmpW(curappname,appname) )
++    return 2;
+
+     if (retkey && (!name || !name[0]) &&
+         (HandleToUlong(hkey) >= HandleToUlong(HKEY_SPECIAL_ROOT_FIRST)) &&
