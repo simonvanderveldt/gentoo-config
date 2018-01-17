@@ -1,0 +1,36 @@
+From 920d3a93b72f6c5ae7e47fdc1812819110bed630 Mon Sep 17 00:00:00 2001
+From: Simon van der Veldt <simon.vanderveldt@gmail.com>
+Date: Mon, 15 Jan 2018 21:57:35 +0100
+Subject: [PATCH] Fix run_keybase to mount keybase directory under $HOME
+
+---
+ packaging/linux/run_keybase      |   9 ++--
+ 1 file changed, 5 insertions(+), 4 deletions(-)
+
+diff --git a/run_keybase b/run_keybase
+index dff49be..e4cf84e 100755
+--- a/packaging/linux/run_keybase
++++ b/packaging/linux/run_keybase
+@@ -39,8 +39,8 @@ kill_all() {
+   if killall Keybase &> /dev/null ; then
+     echo Shutting down Keybase GUI...
+   fi
+-  if fusermount -uz /keybase &> /dev/null ; then
+-    echo Unmounting /keybase...
++  if fusermount -uz "$HOME/keybase" &> /dev/null ; then
++    echo "Unmounting $HOME/keybase..."
+   fi
+   if killall kbfsfuse &> /dev/null ; then
+     echo Shutting down kbfsfuse...
+@@ -112,8 +112,9 @@ start_background() {
+   # We set the --auto-forked flag here so that updated clients that try to
+   # restart this service will know to re-fork it themselves. That's all it does.
+   keybase -d --log-file="$logdir/keybase.service.log" service --auto-forked &>> "$logdir/keybase.start.log" &
+-  echo Mounting /keybase...
+-  kbfsfuse -debug -log-to-file /keybase &>> "$logdir/keybase.start.log" &
++  echo "Mounting $HOME/keybase..."
++  [ ! -d "$HOME/keybase" ] && mkdir "$HOME/keybase"
++  kbfsfuse -debug -log-to-file "$HOME/keybase" &>> "$logdir/keybase.start.log" &
+   echo Launching Keybase GUI...
+   /opt/keybase/Keybase &>> "$logdir/Keybase.app.log" &
+   write_startup_token "background"
