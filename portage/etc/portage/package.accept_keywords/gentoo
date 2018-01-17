@@ -14,6 +14,7 @@ dev-util/shellcheck ~amd64
 app-admin/collectd ~amd64
 app-crypt/keybase ~amd64
 app-crypt/kbfs ~amd64
+net-im/discord-bin ~amd64
 
 # inkscape
 =media-gfx/scour-0.36 ~amd64
