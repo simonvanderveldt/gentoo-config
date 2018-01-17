@@ -7,7 +7,7 @@ app-arch/file-roller
 app-arch/p7zip
 app-arch/unrar
 app-arch/unzip
-app-crypt/keybase
+app-crypt/kbfs
 app-crypt/seahorse
 app-editors/atom-bin
 app-editors/nano
