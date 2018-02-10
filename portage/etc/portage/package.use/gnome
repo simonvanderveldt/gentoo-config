@@ -21,3 +21,8 @@ gnome-extra/nm-applet -modemmanager
 sys-fs/udisks
 
 media-video/ffmpegthumbnailer gtk
+
+# Appindicator support
+net-im/slack-bin ayatana
+# Required for appindicator support for gtk2 electron apps
+dev-libs/libdbusmenu gtk
