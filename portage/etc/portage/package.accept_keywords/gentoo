@@ -2,7 +2,6 @@ net-wireless/broadcom-sta ~amd64
 www-client/google-chrome ~amd64
 app-admin/stow ~amd64
 net-misc/dropbox ~amd64
-app-admin/keepassxc ~amd64
 app-emulation/playonlinux ~amd64
 app-emulation/wine ~amd64
 www-client/firefox-bin ~amd64
@@ -15,6 +14,10 @@ app-admin/collectd ~amd64
 app-crypt/keybase ~amd64
 app-crypt/kbfs ~amd64
 net-im/discord-bin ~amd64
+
+# keepassxc
+app-admin/keepassxc ~amd64
+app-crypt/argon2 ~amd64
 
 # inkscape
 =media-gfx/scour-0.36 ~amd64
