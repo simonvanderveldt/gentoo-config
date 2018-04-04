@@ -10,7 +10,6 @@ net-im/slack-bin ~amd64
 dev-util/idea-community ~amd64
 app-editors/atom-bin ~amd64
 dev-util/shellcheck ~amd64
-app-admin/collectd ~amd64
 app-crypt/keybase ~amd64
 app-crypt/kbfs ~amd64
 net-im/discord-bin ~amd64
