@@ -2,7 +2,7 @@
 set -ex
 
 if [ "$(id -u)" != "0" ]; then
-  exec sudo "$0" "$@"
+  exec sudo -E "$0" "$@"
 fi
 
 emerge --ask --verbose --tree --update --changed-use --binpkg-changed-deps=y --deep --verbose-conflicts --with-bdeps=y @world

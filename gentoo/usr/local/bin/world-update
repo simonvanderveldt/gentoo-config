@@ -2,7 +2,7 @@
 set -ex
 
 if [ "$(id -u)" != "0" ]; then
-  exec sudo "$0" "$@"
+  exec sudo -E "$0" "$@"
 fi
 
 # Update the portage tree and eix cache
