@@ -1,6 +1,6 @@
 virtual/wine abi_x86_32 staging
-app-emulation/wine-vanilla -cups abi_x86_32 mp3 s3tc
-app-emulation/wine-staging -cups abi_x86_32 mp3 s3tc
+app-emulation/wine-vanilla -cups abi_x86_32 mp3 s3tc vulkan
+app-emulation/wine-staging -cups abi_x86_32 mp3 s3tc vulkan
 app-emulation/wine-gecko abi_x86_32
 
 media-libs/libtxc_dxtn abi_x86_32
@@ -310,6 +310,8 @@ virtual/libudev abi_x86_32
 # required by app-emulation/wine-1.7.51::gentoo[ssl]
 # required by app-emulation/wine (argument)
 >=dev-libs/libxml2-2.9.2-r1 abi_x86_32
+# required by dev-libs/libxml2-2.9.7::gentoo[icu]
+dev-libs/icu abi_x86_32
 # required by media-libs/mesa-10.3.7-r1::gentoo
 # required by virtual/opengl-7.0-r1::gentoo
 # required by media-libs/glu-9.0.0-r1::gentoo
