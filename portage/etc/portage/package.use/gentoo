@@ -36,6 +36,8 @@ x11-base/xorg-server -ipv6
 # required by @selected
 # required by @world (argument)
 x11-base/xorg-server glamor
+# AMDGPU support, apparently not covered by radeonsi in VIDEO_CARDS :|
+x11-libs/libdrm video_cards_radeon
 
 # Scanners
 media-gfx/sane-backends usb threads
@@ -51,6 +53,7 @@ x11-libs/libvdpau abi_x86_32
 x11-libs/libX11 abi_x86_32
 x11-libs/libXau abi_x86_32
 x11-libs/libxcb abi_x86_32
+x11-base/xcb-proto abi_x86_32
 x11-libs/libXdmcp abi_x86_32
 x11-libs/libXext abi_x86_32
 x11-proto/inputproto abi_x86_32
@@ -154,3 +157,7 @@ dev-lang/python:3.4 sqlite
 # required by media-plugins/alsa-plugins-1.0.29::gentoo[pulseaudio]
 # required by media-plugins/alsa-plugins (argument)
 >=net-libs/libasyncns-0.8-r3 abi_x86_32
+
+# Vulkan
+media-libs/vulkan-loader abi_x86_32 demos X
+dev-util/glslang abi_x86_32

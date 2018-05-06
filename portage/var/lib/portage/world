@@ -55,6 +55,8 @@ media-gfx/sane-backends
 media-gfx/simple-scan
 media-libs/liblo
 media-libs/libtxc_dxtn
+media-libs/mesa
+media-libs/vulkan-loader
 media-plugins/artyfx::audio-overlay
 media-plugins/calf
 media-plugins/caps-plugins
@@ -124,6 +126,7 @@ sys-fs/ncdu
 sys-fs/ntfs3g
 sys-fs/zfs
 sys-kernel/genkernel
+sys-kernel/gentoo-sources:4.15.17
 sys-kernel/gentoo-sources:4.9.16
 sys-kernel/linux-firmware
 sys-power/acpi
@@ -136,7 +139,6 @@ sys-process/lsof
 www-client/firefox-bin
 www-client/google-chrome
 x11-base/xorg-server
-x11-drivers/nvidia-drivers:0/387
 x11-misc/redshift
 x11-misc/xclip
 x11-themes/moka-icon-theme

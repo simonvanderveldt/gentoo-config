@@ -346,3 +346,9 @@ net-nds/openldap abi_x86_32
 dev-libs/openssl abi_x86_32
 # required by 32bit steam games that use ALSA
 media-plugins/alsa-plugins abi_x86_32
+
+
+# required by media-libs/mesa-18.0.0::gentoo[video_cards_radeonsi,-video_cards_r600,-video_cards_radeon,llvm,-opencl]
+virtual/libelf abi_x86_32
+# required by virtual/libelf-3::gentoo
+dev-libs/elfutils abi_x86_32
