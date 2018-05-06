@@ -1,3 +1,5 @@
+dev-vcs/git gnome-keyring
+
 # Qt Creator
 dev-qt/qt-creator cmake designer python
 dev-util/cmake server
