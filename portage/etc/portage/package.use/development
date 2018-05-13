@@ -7,5 +7,9 @@ dev-libs/botan threads
 dev-qt/qtwebchannel qml
 media-libs/libvpx svc
 dev-qt/qtwebengine widgets
+
 # required by dev-qt/qtcore
 dev-libs/libpcre2 pcre16
+
+# required by dev-qt/qtwebengine
+dev-libs/libxml2 icu
