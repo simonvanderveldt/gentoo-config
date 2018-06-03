@@ -38,6 +38,7 @@ dev-python/pip
 dev-python/pylint
 dev-qt/qt-creator
 dev-util/android-tools
+dev-util/clion
 dev-util/idea-community
 dev-vcs/git
 dev-vcs/tig
