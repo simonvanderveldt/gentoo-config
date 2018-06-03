@@ -354,3 +354,19 @@ media-plugins/alsa-plugins abi_x86_32
 virtual/libelf abi_x86_32
 # required by virtual/libelf-3::gentoo
 dev-libs/elfutils abi_x86_32
+
+# Below needed for Lutris wine builds
+# Mainly gst-plugins-base + dependencies
+media-libs/gst-plugins-base abi_x86_32
+media-libs/gstreamer abi_x86_32
+dev-lang/orc abi_x86_32
+x11-proto/videoproto abi_x86_32
+x11-libs/libXv abi_x86_32
+x11-libs/pango abi_x86_32
+dev-libs/fribidi abi_x86_32
+x11-libs/libXft abi_x86_32
+media-libs/harfbuzz abi_x86_32
+media-gfx/graphite2 abi_x86_32
+x11-libs/cairo abi_x86_32
+sys-libs/binutils-libs abi_x86_32
+x11-libs/pixman abi_x86_32
