@@ -57,7 +57,6 @@ media-gfx/simple-scan
 media-libs/liblo
 media-libs/libtxc_dxtn
 media-libs/mesa
-media-libs/vulkan-loader
 media-plugins/artyfx::audio-overlay
 media-plugins/calf
 media-plugins/caps-plugins
