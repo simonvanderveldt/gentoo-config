@@ -19,6 +19,7 @@ app-emulation/virt-manager
 app-emulation/wine-staging
 app-emulation/winetricks
 app-metrics/collectd
+app-misc/screen
 app-misc/solaar
 app-office/homebank
 app-portage/eix
