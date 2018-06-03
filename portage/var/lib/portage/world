@@ -81,6 +81,7 @@ media-sound/bitwig-studio::audio-overlay
 media-sound/cadence
 media-sound/carla
 media-sound/drumkv1::audio-overlay
+media-sound/guitarix
 media-sound/helm
 media-sound/jack2
 media-sound/jalv

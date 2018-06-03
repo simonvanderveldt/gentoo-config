@@ -50,6 +50,7 @@ media-sound/samplv1 standalone lv2 qt5
 # LV2 plugins
 media-plugins/calf lv2
 media-plugins/distrho-ports lv2
+media-sound/guitarix lv2
 
 # Audacity
 media-sound/audacity -soundtouch -vorbis -vst jack alsa ffmpeg flac sbsms id3tag
