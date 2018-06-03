@@ -51,3 +51,4 @@ sys-power/linux-x86-power-tools ~amd64
 # Vulkan
 media-libs/vulkan-loader **
 dev-util/glslang **
+dev-util/vulkan-headers ~amd64
