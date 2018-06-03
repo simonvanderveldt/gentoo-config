@@ -65,7 +65,7 @@ x11-proto/xf86bigfontproto abi_x86_32
 x11-proto/xproto abi_x86_32
 
 # QEMU
-app-emulation/qemu -jpeg -png -vnc spice opengl usb gtk
+app-emulation/qemu -jpeg -png -vnc spice opengl usb gtk qemu_softmmu_targets_arm qemu_softmmu_targets_aarch64
 
 # virt-manager
 app-emulation/virt-manager gtk
