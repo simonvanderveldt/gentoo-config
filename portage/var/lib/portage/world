@@ -81,7 +81,6 @@ media-sound/cadence
 media-sound/carla
 media-sound/drumkv1::audio-overlay
 media-sound/helm
-media-sound/ingen
 media-sound/jack2
 media-sound/jalv
 media-sound/ladish::audio-overlay
@@ -96,7 +95,6 @@ media-sound/rhythmbox
 media-sound/samplv1::audio-overlay
 media-sound/sequencer64::audio-overlay
 media-sound/serialosc::audio-overlay
-media-sound/stegosaurus
 media-sound/synthv1::audio-overlay
 media-sound/zynaddsubfx
 media-video/ffmpeg
