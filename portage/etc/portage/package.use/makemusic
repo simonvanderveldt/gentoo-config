@@ -34,6 +34,7 @@ media-sound/sequencer64 jack lash
 # KX Project
 dev-python/PyQt4 X svg
 media-sound/cadence -pulseaudio ladish
+dev-python/PyQt5 gui svg widgets
 media-sound/carla -pulseaudio jack gtk gtk2 sf2 sfz X
 
 # Mixxx
