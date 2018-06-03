@@ -7,7 +7,6 @@ media-sound/ladish lash
 media-libs/liblo -ipv6
 media-sound/zynaddsubfx jack
 media-sound/linuxsampler jack
-media-sound/supercollider jack
 media-sound/amsynth jack
 
 # Qtractor
