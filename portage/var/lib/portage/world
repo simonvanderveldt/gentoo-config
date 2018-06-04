@@ -40,6 +40,7 @@ dev-qt/qt-creator
 dev-util/android-tools
 dev-util/clion
 dev-util/idea-community
+dev-util/shellcheck
 dev-vcs/git
 dev-vcs/tig
 gnome-base/dconf-editor
@@ -100,6 +101,7 @@ media-sound/sequencer64::audio-overlay
 media-sound/serialosc::audio-overlay
 media-sound/synthv1::audio-overlay
 media-sound/zynaddsubfx
+media-video/bcwc_pcie
 media-video/ffmpeg
 net-analyzer/netcat6
 net-analyzer/traceroute

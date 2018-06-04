@@ -1,12 +1,9 @@
 sys-kernel/gentoo-sources:4.15.17 ~amd64
 
 =sys-devel/gcc-7.3.0-r1 ~amd64
-net-wireless/broadcom-sta ~amd64
-www-client/google-chrome ~amd64
 app-admin/stow ~amd64
 net-misc/dropbox ~amd64
 app-emulation/playonlinux ~amd64
-app-emulation/wine ~amd64
 www-client/firefox-bin ~amd64
 media-sound/bitwig-studio ~amd64
 net-im/slack-bin ~amd64
@@ -16,39 +13,20 @@ dev-util/shellcheck ~amd64
 app-crypt/keybase ~amd64
 app-crypt/kbfs ~amd64
 net-im/discord-bin ~amd64
-media-libs/mesa ~amd64
 
 # keepassxc
 app-admin/keepassxc ~amd64
 app-crypt/argon2 ~amd64
-
-# inkscape
-=media-gfx/scour-0.36 ~amd64
-
-# repoman
-=app-portage/repoman-2.3.0-r1 ~amd64
-=dev-python/lxml-3.6.4 ~amd64
-
-# QEMU
-app-emulation/spice ~amd64
-
-# virt-manager
-app-emulation/virt-manager ~amd64
 
 # GNOME 3.18
 #dev-libs/appstream-glib ~amd64
 #net-libs/libsoup ~amd64
 #dev-libs/glib ~amd64
 
-# Moka icon theme
-x11-themes/moka-icon-theme ~amd64
-x11-themes/faba-icon-theme ~amd64
-
-# tlp
-app-laptop/tlp ~amd64
-sys-power/linux-x86-power-tools ~amd64
-
 # Vulkan
 media-libs/vulkan-loader **
-dev-util/glslang **
 dev-util/vulkan-headers ~amd64
+
+# MacBook Facetime HD driver
+media-video/bcwc_pcie ~amd64
+media-video/apple_facetimehd_firmware ~amd64

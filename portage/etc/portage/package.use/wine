@@ -1,5 +1,4 @@
 virtual/wine abi_x86_32 staging
-app-emulation/wine-vanilla -cups abi_x86_32 mp3 s3tc vulkan
 app-emulation/wine-staging -cups abi_x86_32 mp3 s3tc vulkan
 app-emulation/wine-gecko abi_x86_32
 

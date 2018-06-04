@@ -7,7 +7,4 @@ dev-util/idea-community::hossie
 
 # MacBook Facetime HD driver
 media-video/bcwc_pcie::toaster
-
-# tlp
-app-laptop/tlp::tlp
-sys-power/linux-x86-power-tools::tlp
+media-video/apple_facetimehd_firmware::toaster

@@ -17,7 +17,7 @@ media-gfx/gimp curl jpeg png svg tiff
 sys-fs/ntfs3g -external-fuse -ntfsprogs
 media-sound/rhythmbox webkit
 net-fs/nfs-utils -ipv6
-sys-apps/lm_sensors
+sys-apps/lm_sensors contrib
 net-misc/rsync -ipv6
 net-misc/iputils -caps -filecaps
 app-editors/nano -spell -magic
@@ -59,7 +59,6 @@ x11-libs/libXdmcp abi_x86_32
 x11-libs/libXext abi_x86_32
 x11-proto/inputproto abi_x86_32
 x11-proto/kbproto abi_x86_32
-x11-proto/xcb-proto abi_x86_32
 x11-proto/xextproto abi_x86_32
 x11-proto/xf86bigfontproto abi_x86_32
 x11-proto/xproto abi_x86_32

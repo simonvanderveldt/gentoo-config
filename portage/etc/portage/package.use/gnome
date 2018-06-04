@@ -5,8 +5,8 @@ net-libs/webkit-gtk -egl -geolocation -opengl -webgl -jit -libnotify
 # required by www-client/google-chrome-46.0.2490.86_p1::gentoo
 >=x11-libs/gdk-pixbuf-2.32.2 X
 
-# required by app-misc/tracker-1.8.3-r1::dantrell-gnome-3-20
-# required by gnome-extra/nautilus-tracker-tags-1.8.3::dantrell-gnome-3-20
+# required by app-misc/tracker
+# required by gnome-extra/nautilus-tracker-tags
 virtual/imagemagick-tools png jpeg
 
 # required by dev-libs/glib-2.48.2:2/48::dantrell-gnome
@@ -17,8 +17,6 @@ dev-libs/libpcre  abi_x86_32
 net-dialup/ppp ipv6
 
 gnome-extra/nm-applet -modemmanager
-
-sys-fs/udisks
 
 media-video/ffmpegthumbnailer gtk
 

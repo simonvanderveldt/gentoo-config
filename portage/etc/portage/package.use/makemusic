@@ -19,10 +19,6 @@ media-sound/jalv gtk2
 # Bitwig Studio
 x11-libs/cairo xcb
 
-# Ardour
-media-sound/ardour jack lv2
->=sci-libs/fftw-3.3.4 threads
-
 # LMMS
 media-sound/lmms -pulseaudio -alsa jack calf carla gig sf2
 media-sound/fluidsynth -pulseaudio jack sndfile
