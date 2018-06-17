@@ -55,3 +55,5 @@ media-libs/libmonome::audio-overlay **
 # guitarix
 media-libs/zita-resampler ~amd64
 media-sound/guitarix **
+
+media-sound/audacity ~amd64
