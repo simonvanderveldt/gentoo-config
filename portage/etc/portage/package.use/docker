@@ -1,4 +1,5 @@
-app-emulation/docker -device-mapper -container-init experimental
+app-emulation/docker -device-mapper -container-init -btrfs experimental
+app-emulation/containerd -btrfs
 sys-libs/libseccomp static-libs
 
 # Docker Compose
