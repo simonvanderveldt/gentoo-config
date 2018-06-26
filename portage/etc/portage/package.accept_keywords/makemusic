@@ -56,4 +56,7 @@ media-libs/libmonome::audio-overlay **
 media-libs/zita-resampler ~amd64
 media-sound/guitarix **
 
+# SuperCollider
+media-sound/supercollider ~amd64
+
 media-sound/audacity ~amd64

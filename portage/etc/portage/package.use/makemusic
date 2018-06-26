@@ -54,5 +54,8 @@ media-sound/audacity -soundtouch -vorbis -vst jack alsa ffmpeg flac sbsms id3tag
 # pure-data
 media-sound/pure-data alsa fftw jack
 
+# SuperCollider
+media-sound/supercollider jack server qt5
+
 # Libraries
 media-libs/libmonome udev
