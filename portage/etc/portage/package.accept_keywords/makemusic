@@ -58,5 +58,6 @@ media-sound/guitarix **
 
 # SuperCollider
 media-sound/supercollider ~amd64
+media-sound/sc3-plugins ~amd64
 
 media-sound/audacity ~amd64
