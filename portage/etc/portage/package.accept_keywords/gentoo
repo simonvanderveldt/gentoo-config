@@ -1,6 +1,5 @@
 sys-kernel/gentoo-sources:4.15.17 ~amd64
 
-sys-devel/gcc:7.3.0 ~amd64
 app-admin/stow ~amd64
 net-misc/dropbox ~amd64
 app-emulation/playonlinux ~amd64
