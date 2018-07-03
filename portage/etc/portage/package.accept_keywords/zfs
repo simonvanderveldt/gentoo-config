@@ -2,5 +2,4 @@
 sys-fs/zfs ~amd64
 sys-fs/zfs-kmod ~amd64
 sys-kernel/spl ~amd64
-sys-kernel/genkernel ~amd64
 app-misc/pax-utils ~amd64

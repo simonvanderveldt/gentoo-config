@@ -27,7 +27,6 @@ media-sound/padthv1 ~amd64
 media-sound/synthv1 ~amd64
 media-sound/samplv1 ~amd64
 media-sound/helm ~amd64
-media-sound/zynaddsubfx ~amd64
 media-libs/lvtk ~amd64
 
 # Samplers
