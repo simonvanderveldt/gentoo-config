@@ -227,7 +227,7 @@ app-crypt/p11-kit abi_x86_32
 >=virtual/pkgconfig-0-r1 abi_x86_32
 # required by app-emulation/wine-1.7.51::gentoo[ncurses]
 # required by app-emulation/wine (argument)
->=sys-libs/ncurses-5.9-r5:0 abi_x86_32
+sys-libs/ncurses abi_x86_32
 # required by app-emulation/wine-1.7.51::gentoo[X]
 # required by app-emulation/wine (argument)
 >=x11-libs/libXrandr-1.4.2 abi_x86_32
