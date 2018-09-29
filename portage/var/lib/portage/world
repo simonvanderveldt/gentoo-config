@@ -35,7 +35,6 @@ app-text/tree
 dev-embedded/dfu-programmer
 dev-java/groovy
 dev-java/icedtea-bin
-dev-lang/python:3.4
 dev-python/awscli
 dev-python/pip
 dev-python/pylint
