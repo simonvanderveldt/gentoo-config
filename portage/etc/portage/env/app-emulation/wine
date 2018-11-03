@@ -1,1 +1,0 @@
-INSTALL_MASK="/usr/share/applications/wine-browsedrive.desktop /usr/share/applications/wine-notepad.desktop /usr/share/applications/wine-uninstaller.desktop /usr/share/applications/wine-winecfg.desktop /usr/share/applications/wine.desktop $INSTALL_MASK"
