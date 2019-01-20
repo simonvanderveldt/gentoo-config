@@ -6,8 +6,9 @@ media-sound/jack2 ~amd64
 # LV2 hosts
 ## Jalv
 media-sound/jalv ~amd64
+
 ## Carla
-=media-sound/carla-9999* **
+media-sound/carla **
 
 # DAWs & editors
 =media-sound/lmms-9999* **
