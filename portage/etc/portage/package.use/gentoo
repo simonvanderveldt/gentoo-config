@@ -15,7 +15,6 @@ media-sound/alsa-utils -libsamplerate
 dev-lang/python tk
 media-gfx/gimp curl jpeg png svg tiff
 sys-fs/ntfs3g -external-fuse -ntfsprogs
-media-sound/rhythmbox webkit
 net-fs/nfs-utils -ipv6
 sys-apps/lm_sensors contrib
 net-misc/rsync -ipv6

@@ -98,7 +98,6 @@ media-sound/padthv1::audio-overlay
 media-sound/pure-data::audio-overlay
 media-sound/qmidiarp
 media-sound/qtractor
-media-sound/rhythmbox
 media-sound/samplv1::audio-overlay
 media-sound/sc3-plugins::audio-overlay
 media-sound/sequencer64::audio-overlay
