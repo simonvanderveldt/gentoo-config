@@ -45,6 +45,7 @@ dev-util/idea-community
 dev-util/shellcheck
 dev-vcs/git
 dev-vcs/tig
+games-util/steam-launcher
 gnome-base/dconf-editor
 gnome-base/gnome-light
 gnome-extra/gnome-calculator
