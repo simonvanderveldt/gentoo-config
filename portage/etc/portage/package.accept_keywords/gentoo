@@ -1,4 +1,5 @@
 sys-kernel/gentoo-sources:4.15.17 ~amd64
+media-libs/mesa ~amd64
 
 app-admin/stow ~amd64
 app-emulation/playonlinux ~amd64
