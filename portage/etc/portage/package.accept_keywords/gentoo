@@ -10,6 +10,7 @@ dev-util/shellcheck ~amd64
 app-crypt/keybase ~amd64
 app-crypt/kbfs ~amd64
 net-im/discord-bin ~amd64
+net-p2p/syncthing ~amd64
 
 # keepassxc
 app-admin/keepassxc ~amd64
