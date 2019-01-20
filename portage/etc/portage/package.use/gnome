@@ -1,6 +1,6 @@
 gnome-base/nautilus -tracker
 gnome-base/gvfs mtp archive samba nfs fuse
-net-libs/webkit-gtk -egl -geolocation -opengl -webgl -jit -libnotify
+net-libs/webkit-gtk -egl -geolocation -webgl -jit -libnotify
 
 # required by www-client/google-chrome-46.0.2490.86_p1::gentoo
 >=x11-libs/gdk-pixbuf-2.32.2 X
