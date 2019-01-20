@@ -37,7 +37,6 @@ dev-java/groovy
 dev-java/icedtea-bin
 dev-python/awscli
 dev-python/pip
-dev-python/pylint
 dev-qt/qt-creator
 dev-util/android-tools
 dev-util/catalyst
