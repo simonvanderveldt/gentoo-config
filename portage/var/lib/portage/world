@@ -14,11 +14,8 @@ app-editors/nano
 app-emulation/docker
 app-emulation/docker-compose
 app-emulation/libvirt
-app-emulation/playonlinux
 app-emulation/qemu
 app-emulation/virt-manager
-app-emulation/wine-staging
-app-emulation/winetricks
 app-metrics/collectd
 app-misc/screen
 app-misc/solaar
@@ -45,7 +42,6 @@ dev-util/idea-community
 dev-util/shellcheck
 dev-vcs/git
 dev-vcs/tig
-games-util/steam-launcher
 gnome-base/dconf-editor
 gnome-base/gnome-light
 gnome-extra/gnome-calculator
