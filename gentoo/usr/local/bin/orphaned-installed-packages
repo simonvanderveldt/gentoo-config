@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# From https://www.reddit.com/r/Gentoo/comments/ahmmby/one_idea_how_one_can_motivate_themself_to_get/
+# List orphaned packages that are currently installed
+# These are potential packages to help maintain
+
+grep -x -f <(equery list -F  '$category/$name' '*') <(portageq --orphaned --no-version)
