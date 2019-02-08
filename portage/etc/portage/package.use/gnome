@@ -1,5 +1,5 @@
-gnome-base/nautilus -tracker
 gnome-base/gvfs mtp archive samba nfs fuse
+gnome-base/nautilus -tracker
 net-libs/webkit-gtk -egl -geolocation -webgl -jit -libnotify
 
 # required by www-client/google-chrome-46.0.2490.86_p1::gentoo
