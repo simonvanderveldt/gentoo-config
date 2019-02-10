@@ -18,5 +18,6 @@ docker pull gentoo/stage3-amd64
 docker run --rm -ti \
   --cap-add=SYS_PTRACE \
   --volumes-from portage \
+  -e FEATURES="binpkg-multi-instance -news" \
   -v "${HOME}/.portage-pkgdir":/usr/portage/packages \
   gentoo/stage3-amd64
