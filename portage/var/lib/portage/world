@@ -60,7 +60,6 @@ media-libs/mesa
 media-plugins/gst-plugins-meta:1.0
 media-video/bcwc_pcie
 media-video/ffmpeg
-net-analyzer/netcat6
 net-analyzer/traceroute
 net-dns/bind-tools
 net-fs/autofs
