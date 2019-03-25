@@ -2,6 +2,10 @@ virtual/wine abi_x86_32 staging
 app-emulation/wine-staging -cups abi_x86_32 mp3 s3tc vulkan
 app-emulation/wine-gecko abi_x86_32
 
+# required by app-emulation/wine-staging[faudio]
+# required by app-emulation/faudio
+media-libs/libsdl2 abi_x86_32
+
 media-libs/libtxc_dxtn abi_x86_32
 x11-libs/libSM abi_x86_32
 # required by x11-libs/libSM (argument)
