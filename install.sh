@@ -12,5 +12,7 @@ stow -v --no-folding --ignore install.sh --target=/ "${1}"
 
 # Run package specific install script if it exists
 if [ -x "${1}/install.sh" ]; then
-  "${1}/install.sh"
+  pushd "${1}"
+  ./install.sh
+  popd
 fi
