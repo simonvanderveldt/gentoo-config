@@ -1,6 +1,4 @@
 sys-kernel/gentoo-sources:4.15.17 ~amd64
-media-libs/mesa ~amd64
-
 app-admin/stow ~amd64
 app-emulation/playonlinux ~amd64
 media-sound/bitwig-studio ~amd64
@@ -21,6 +19,10 @@ app-crypt/argon2 ~amd64
 #dev-libs/appstream-glib ~amd64
 #net-libs/libsoup ~amd64
 #dev-libs/glib ~amd64
+
+# mesa
+media-libs/mesa ~amd64
+sys-devel/llvm:8 ~amd64
 
 # Vulkan
 media-libs/vulkan-loader **
