@@ -21,8 +21,6 @@ net-misc/rsync -ipv6
 net-misc/iputils -caps -filecaps
 app-editors/nano -spell -magic
 net-nds/openldap -syslog -tcpd -crypt
-# Required for x11-misc/xdg-utils
-app-text/xmlto text
 net-libs/gnutls -idn
 dev-lang/tk truetype
 net-wireless/bluez -mesh
