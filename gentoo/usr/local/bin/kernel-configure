@@ -1,0 +1,17 @@
+#!/usr/bin/env sh
+set -ex
+
+if [ "$(id -u)" != "0" ]; then
+  exec sudo "$0" "$@"
+fi
+
+pushd /usr/src/linux
+
+# Set env var to overwrite current kernel config
+# otherwise the file gets replaced removing the symlink
+export KCONFIG_OVERWRITECONFIG=1
+
+# Configure the kernel
+make menuconfig
+
+popd

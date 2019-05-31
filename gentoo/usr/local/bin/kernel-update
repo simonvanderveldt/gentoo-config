@@ -1,0 +1,41 @@
+#!/usr/bin/env sh
+set -ex
+
+if [ "$(id -u)" != "0" ]; then
+  exec sudo "$0" "$@"
+fi
+
+kernel-configure
+
+pushd /usr/src/linux
+
+# Get the kernel version
+KERNEL_VERSION=$(make kernelrelease)
+
+# Build the kernel + modules
+MAKEOPTS=$(portageq envvar MAKEOPTS)
+make $MAKEOPTS
+
+# install kernel modules to /lib/modules/<kernelname>
+make modules_install
+
+# install kernel (vmlinuz), System.map and kernel config to /boot
+make install
+
+# Rebuild binary kernel modules (nvidia, zfs)
+emerge -a @module-rebuild
+
+# Rebuild xorg modules
+emerge @x11-module-rebuild
+
+# Create initramfs and install to /boot/
+dracut --force --kver "${KERNEL_VERSION}"
+
+# Update grub2 config automatically based on the files that were just installed to /boot
+# grub-mkconfig needs the /boot/grub directory to exist
+if [ ! -d /boot/grub ] ; then
+    mkdir /boot/grub
+fi
+grub-mkconfig -o /boot/grub/grub.cfg
+
+popd
