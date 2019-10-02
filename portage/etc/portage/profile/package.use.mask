@@ -1,2 +1,5 @@
 # Unmask grub ZFS support
 sys-boot/grub -libzfs
+
+# Mask webkit-gtk opengl
+net-libs/webkit-gtk opengl
