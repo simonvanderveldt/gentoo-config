@@ -1,0 +1,17 @@
+#!/usr/bin/env sh
+set -ex
+
+if [ "$#" -ne 1 ]
+then
+  echo "Usage: ${SCRIPTNAME} <ebuild-name>"
+  exit 1
+fi
+
+# Get ebuild directory
+EBUILD_PATH=$(equery w "${1}")
+EBUILD_DIR=$(dirname "${EBUILD_PATH}")
+
+# Go to the ebuild's directory and show the git log
+pushd "${EBUILD_DIR}"
+git log .
+popd
