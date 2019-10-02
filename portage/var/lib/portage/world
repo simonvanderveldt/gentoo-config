@@ -100,6 +100,5 @@ sys-process/lsof
 www-client/firefox-bin
 www-client/google-chrome
 x11-base/xorg-server
-x11-misc/redshift
 x11-misc/xclip
 x11-themes/moka-icon-theme
