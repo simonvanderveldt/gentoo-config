@@ -3,9 +3,6 @@ set -x
 
 BASEDIR=$(dirname "$0")
 
-# Set profile
-eselect profile set dantrell-gnome-3-26:default/linux/amd64/17.0/desktop/gnome/3.26
-
 # Set locale
 eselect locale set en_US.utf8
 env-update
