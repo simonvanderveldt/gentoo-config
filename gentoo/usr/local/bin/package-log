@@ -8,7 +8,7 @@ then
 fi
 
 # Get ebuild directory
-EBUILD_PATH=$(equery w "${1}")
+EBUILD_PATH=$(equery w --include-masked "${1}")
 EBUILD_DIR=$(dirname "${EBUILD_PATH}")
 
 # Go to the ebuild's directory and show the git log
