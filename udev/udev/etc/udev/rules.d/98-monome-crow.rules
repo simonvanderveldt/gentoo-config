@@ -1,0 +1,3 @@
+# Monome crow
+# Disable ModemManager
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="0483", ATTRS{idProduct}=="5740", ENV{ID_MM_DEVICE_IGNORE}="1"
