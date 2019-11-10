@@ -2,8 +2,3 @@
 dev-qt/qt-creator ~amd64
 dev-libs/botan ~amd64
 dev-util/clion ~amd64
-
-# aws-cli
-dev-python/awscli ~amd64
-dev-python/botocore ~amd64
-dev-python/s3transfer ~amd64

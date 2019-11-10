@@ -33,7 +33,6 @@ app-text/tree
 dev-embedded/dfu-programmer
 dev-java/groovy
 dev-java/icedtea-bin
-dev-python/awscli
 dev-python/pip
 dev-qt/qt-creator
 dev-util/android-tools
