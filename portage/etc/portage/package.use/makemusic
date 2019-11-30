@@ -5,7 +5,7 @@ media-sound/pulseaudio jack
 # LADISH & LASH
 media-sound/ladish lash
 media-libs/liblo -ipv6
-media-sound/zynaddsubfx jack
+
 media-sound/linuxsampler jack
 media-sound/amsynth jack
 
