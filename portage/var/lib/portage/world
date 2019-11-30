@@ -79,7 +79,6 @@ sys-apps/lm-sensors
 sys-apps/mlocate
 sys-apps/usbutils
 sys-boot/grub
-sys-devel/gcc:7.3.0
 sys-fs/dosfstools
 sys-fs/eudev
 sys-fs/fuseiso
