@@ -63,6 +63,7 @@ net-analyzer/traceroute
 net-dns/bind-tools
 net-fs/autofs
 net-fs/nfs-utils
+net-im/discord-bin
 net-im/slack-bin
 net-misc/chrony
 net-misc/keychain
