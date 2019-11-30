@@ -4,7 +4,7 @@ set -x
 BASEDIR=$(dirname "$0")
 
 # Set locale
-eselect locale set en_US.utf8
+locale-gen
 env-update
 
 # Set GCC version
