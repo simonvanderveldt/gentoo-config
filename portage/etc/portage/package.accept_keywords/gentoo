@@ -10,6 +10,7 @@ app-crypt/keybase ~amd64
 app-crypt/kbfs ~amd64
 net-im/discord-bin ~amd64
 net-p2p/syncthing ~amd64
+net-p2p/syncthing-gtk::simonvanderveldt ~amd64
 x11-themes/moka-icon-theme ~amd64
 x11-themes/faba-icon-theme ~amd64
 
