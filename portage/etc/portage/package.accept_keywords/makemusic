@@ -61,4 +61,6 @@ media-sound/guitarix ~amd64
 media-sound/supercollider ~amd64
 media-sound/sc3-plugins ~amd64
 
+# Audacity
 media-sound/audacity ~amd64
+media-libs/portaudio ~amd64
