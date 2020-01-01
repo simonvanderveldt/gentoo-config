@@ -20,6 +20,7 @@ media-sound/pure-data ~amd64
 ## Qtractor
 media-sound/qtractor ~amd64
 media-libs/suil ~amd64
+media-libs/lv2 ~amd64
 
 # Synthesizers
 media-sound/amsynth ~amd64
