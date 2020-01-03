@@ -1,0 +1,14 @@
+#!/usr/bin/env sh
+set -ex
+
+if [ "$#" -ne 1 ]
+then
+  echo "Usage: ${SCRIPTNAME} <ebuild-name>"
+  exit 1
+fi
+
+# Get ebuild path
+EBUILD_PATH=$(equery w --include-masked "${1}")
+
+# Open the ebuild in $EDITOR
+exec $EDITOR "${EBUILD_PATH}"
