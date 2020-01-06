@@ -13,7 +13,7 @@ dev-lang/python tk
 media-gfx/gimp curl jpeg png svg tiff
 sys-fs/ntfs3g -external-fuse -ntfsprogs
 net-fs/nfs-utils -ipv6
-sys-apps/lm_sensors contrib
+sys-apps/lm-sensors contrib
 net-misc/rsync -ipv6
 net-misc/iputils -caps -filecaps
 app-editors/nano -spell -magic
