@@ -1,4 +1,4 @@
-#!/usr/bin/env sh
+#!/usr/bin/env bash
 set -ex
 
 if [ "$(id -u)" != "0" ]; then
@@ -10,11 +10,11 @@ kernel-configure
 pushd /usr/src/linux
 
 # Get the kernel version
-KERNEL_VERSION=$(make kernelrelease)
+KERNEL_VERSION="$(make -s kernelrelease)"
 
 # Build the kernel + modules
-MAKEOPTS=$(portageq envvar MAKEOPTS)
-make $MAKEOPTS
+MAKEOPTS="$(portageq envvar MAKEOPTS)"
+make ${MAKEOPTS}
 
 # install kernel modules to /lib/modules/<kernelname>
 make modules_install
