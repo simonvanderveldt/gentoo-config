@@ -22,6 +22,7 @@ net-libs/gnutls -idn
 dev-lang/tk truetype
 net-wireless/bluez -mesh
 app-admin/keepassxc browser -network
+net-print/cups usb
 
 # Xorg
 x11-base/xorg-server -ipv6
