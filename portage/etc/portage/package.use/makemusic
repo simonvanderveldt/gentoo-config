@@ -56,7 +56,7 @@ media-sound/pure-data alsa fftw jack
 
 # SuperCollider
 media-sound/supercollider jack server qt5 X
-dev-qt/qtwebengine widgets
+dev-qt/qtwebengine widgets jumbo-build
 dev-qt/qtwebchannel qml
 dev-libs/libxml2 icu
 media-libs/libvpx svc
