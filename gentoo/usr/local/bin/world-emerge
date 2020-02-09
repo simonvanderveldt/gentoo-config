@@ -5,4 +5,4 @@ if [ "$(id -u)" != "0" ]; then
   exec sudo -E "$0" "$@"
 fi
 
-emerge --ask --verbose --tree --update --newuse --binpkg-respect-use=y --binpkg-changed-deps=y --deep --verbose-conflicts --with-bdeps=y @world
+emerge --ask --verbose --tree --update --newuse --deep --changed-deps=y --with-bdeps=y --backtrack=50 @world
