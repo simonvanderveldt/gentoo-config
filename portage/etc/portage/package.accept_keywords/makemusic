@@ -11,7 +11,6 @@ media-sound/jalv ~amd64
 media-sound/carla **
 
 # DAWs & editors
-media-sound/lmms ~amd64
 media-sound/qmidiarp ~amd64
 media-sound/mixxx ~amd64
 media-sound/sequencer64 ~amd64

@@ -26,7 +26,6 @@ media-sound/jack2
 media-sound/jalv
 media-sound/ladish::audio-overlay
 media-sound/linuxsampler
-media-sound/lmms
 media-sound/padthv1::audio-overlay
 media-sound/pure-data::audio-overlay
 media-sound/qmidiarp
