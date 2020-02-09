@@ -7,7 +7,7 @@ media-sound/ladish lash
 media-libs/liblo -ipv6
 
 media-sound/linuxsampler jack
-media-sound/amsynth jack
+media-sound/amsynth jack lv2 gtk
 
 # Qtractor
 media-sound/qtractor libsamplerate rubberband
