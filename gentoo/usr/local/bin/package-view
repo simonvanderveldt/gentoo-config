@@ -10,5 +10,5 @@ fi
 # Get ebuild path
 EBUILD_PATH=$(equery w --include-masked "${1}")
 
-# Open the ebuild in $EDITOR
-exec $EDITOR "${EBUILD_PATH}"
+# View the ebuild
+exec less "${EBUILD_PATH}"
