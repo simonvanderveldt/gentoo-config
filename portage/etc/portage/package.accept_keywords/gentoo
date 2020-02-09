@@ -23,13 +23,9 @@ app-crypt/argon2 ~amd64
 #net-libs/libsoup ~amd64
 #dev-libs/glib ~amd64
 
-# mesa
+# Mesa
 media-libs/mesa ~amd64
 sys-devel/llvm:8 ~amd64
-
-# Vulkan
-media-libs/vulkan-loader **
-dev-util/vulkan-headers ~amd64
 
 # MacBook Facetime HD driver
 media-video/bcwc_pcie ~amd64
