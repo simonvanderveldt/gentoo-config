@@ -24,6 +24,9 @@ net-wireless/bluez -mesh
 app-admin/keepassxc browser -network
 net-print/cups usb
 
+# required by app-portage/pfl[network-cron]
+sys-apps/util-linux caps
+
 # Xorg
 x11-base/xorg-server -ipv6
 # required by x11-base/xorg-drivers-1.19::gentoo[video_cards_i965]
