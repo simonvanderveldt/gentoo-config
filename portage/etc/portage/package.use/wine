@@ -6,7 +6,6 @@ app-emulation/wine-gecko abi_x86_32
 # required by app-emulation/faudio
 media-libs/libsdl2 abi_x86_32
 
-media-libs/libtxc_dxtn abi_x86_32
 x11-libs/libSM abi_x86_32
 # required by x11-libs/libSM (argument)
 >=sys-apps/util-linux-2.26.2 abi_x86_32
@@ -243,9 +242,6 @@ sys-libs/ncurses abi_x86_32
 # required by app-emulation/wine-1.7.51::gentoo[opengl]
 # required by app-emulation/wine (argument)
 >=x11-proto/damageproto-1.2.1-r1 abi_x86_32
-# required by app-emulation/wine-1.7.51::gentoo[s3tc]
-# required by app-emulation/wine (argument)
->=media-libs/libtxc_dxtn-1.0.1-r1 abi_x86_32
 # required by media-libs/mesa-10.3.7-r1::gentoo
 # required by virtual/opengl-7.0-r1::gentoo
 # required by media-libs/glu-9.0.0-r1::gentoo
