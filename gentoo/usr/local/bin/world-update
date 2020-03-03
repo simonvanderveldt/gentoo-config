@@ -24,3 +24,6 @@ emerge --ask --depclean
 emerge --ask --verbose --getbinpkg=n @preserved-rebuild
 # revdep-rebuild should no longer be necessary since we can use @preserved-rebuild
 # revdep-rebuild -i
+
+# Clean up distfiles, only keep the ones for installed packages
+eclean-dist --deep
