@@ -63,3 +63,6 @@ media-sound/sc3-plugins ~amd64
 # Audacity
 media-sound/audacity ~amd64
 media-libs/portaudio ~amd64
+
+# Luppp
+media-sound/luppp::audio-overlay ~amd64
