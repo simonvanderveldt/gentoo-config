@@ -8,7 +8,7 @@ media-sound/jack2 ~amd64
 media-sound/jalv ~amd64
 
 ## Carla
-media-sound/carla **
+media-sound/carla ~amd64
 
 # DAWs & editors
 media-sound/qmidiarp ~amd64
