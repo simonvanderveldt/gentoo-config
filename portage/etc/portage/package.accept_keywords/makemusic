@@ -38,7 +38,7 @@ media-libs/libgig ~amd64
 x11-libs/ntk::audio-overlay ~amd64
 media-plugins/artyfx **
 media-plugins/deteriorate-lv2 ~amd64
-media-plugins/distrho-ports **
+media-plugins/distrho-ports ~amd64
 media-plugins/fabla **
 media-plugins/mda-lv2 ~amd64
 =media-plugins/mverb-9999 **
