@@ -92,7 +92,6 @@ sys-fs/ncdu
 sys-fs/ntfs3g
 sys-fs/zfs
 sys-kernel/dracut
-sys-kernel/genkernel
 sys-kernel/gentoo-sources:4.15.17
 sys-kernel/gentoo-sources:4.9.16
 sys-kernel/linux-firmware
