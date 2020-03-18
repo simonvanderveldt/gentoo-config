@@ -34,7 +34,6 @@ app-shells/fasd
 app-shells/zsh
 app-text/tree
 dev-embedded/dfu-programmer
-dev-java/groovy
 dev-java/icedtea-bin
 dev-python/pip
 dev-util/android-tools
