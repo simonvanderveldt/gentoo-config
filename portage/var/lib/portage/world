@@ -8,6 +8,7 @@ app-arch/p7zip
 app-arch/unrar
 app-arch/unzip
 app-benchmarks/unigine-heaven
+app-benchmarks/unigine-valley
 app-crypt/kbfs
 app-crypt/keybase
 app-crypt/seahorse
