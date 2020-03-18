@@ -1,1 +1,4 @@
+app-benchmarks/unigine-heaven ~amd64
+
+# Steam
 games-util/steam-launcher ~amd64
