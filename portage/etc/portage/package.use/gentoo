@@ -51,16 +51,6 @@ media-libs/graphene abi_x86_32
 media-video/ffmpeg aac vaapi vdpau
 x11-libs/libva X
 
-# required by x11-drivers/nvidia-drivers (argument)
-dev-libs/libpthread-stubs abi_x86_32
-x11-libs/libvdpau abi_x86_32
-x11-libs/libX11 abi_x86_32
-x11-libs/libXau abi_x86_32
-x11-libs/libxcb abi_x86_32
-x11-base/xcb-proto abi_x86_32
-x11-libs/libXdmcp abi_x86_32
-x11-libs/libXext abi_x86_32
-
 # QEMU
 app-emulation/qemu -jpeg -png -vnc gtk opengl spice usb
 

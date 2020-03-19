@@ -14,6 +14,13 @@ x11-libs/libSM abi_x86_32
 >=sys-apps/util-linux-2.26.2 abi_x86_32
 >=x11-libs/libICE-1.0.9 abi_x86_32
 
+dev-libs/libpthread-stubs abi_x86_32
+x11-libs/libX11 abi_x86_32
+x11-libs/libxcb abi_x86_32
+x11-libs/libXau abi_x86_32
+x11-libs/libXdmcp abi_x86_32
+x11-base/xcb-proto abi_x86_32
+
 # required by virtual/pkgconfig-0-r1::gentoo
 # required by net-libs/gnutls-3.3.17.1::gentoo
 # required by app-emulation/wine-1.7.51::gentoo[ssl]
