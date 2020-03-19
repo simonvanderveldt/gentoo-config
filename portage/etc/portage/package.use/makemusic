@@ -23,7 +23,6 @@ x11-libs/cairo xcb
 media-sound/sequencer64 jack lash
 
 # KX Project
-dev-python/PyQt4 X svg
 media-sound/cadence -pulseaudio ladish
 dev-python/PyQt5 gui svg widgets
 media-sound/carla -pulseaudio jack gtk gtk2 sf2 sfz X
@@ -56,6 +55,8 @@ dev-qt/qtwebengine widgets jumbo-build
 dev-qt/qtwebchannel qml
 dev-libs/libxml2 icu
 media-libs/libvpx svc
+## Required by dev-qt/qtwebengine
+sys-libs/zlib minizip
 
 # Libraries
 media-libs/libmonome udev

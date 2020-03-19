@@ -9,8 +9,7 @@ x11-misc/redshift gtk
 app-misc/tracker -eds gtk cue flac mp3 playlists
 net-fs/samba -server
 media-sound/alsa-utils -libsamplerate
-<=dev-lang/python-3.0.0 -gdbm
-dev-lang/python tk
+dev-lang/python -gdbm tk
 media-gfx/gimp curl jpeg png svg tiff
 sys-fs/ntfs3g -external-fuse -ntfsprogs
 net-fs/nfs-utils -ipv6
@@ -73,16 +72,6 @@ dev-libs/boost python
 
 # belastingdienst belastingaangifte
 #media-libs/libcanberra abi_x86_32
-
-# required by media-sound/lollypop-0.9.52::jorgicio
-# required by media-sound/lollypop (argument)
-dev-libs/gobject-introspection cairo
-dev-lang/python:3.4 sqlite
-
-# required by media-video/vlc-2.1.5-r1::gentoo
-# required by @preserved-rebuild (argument)
->=sys-libs/zlib-1.2.8-r1 minizip
->=sys-libs/gdbm-1.11 berkdb
 
 # Vulkan
 media-libs/vulkan-loader abi_x86_32 demos X
