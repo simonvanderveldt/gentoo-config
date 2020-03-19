@@ -1,3 +1,4 @@
+sys-apps/openrc -netifrc
 dev-vcs/git -webdav -gtk -gnome-keyring
 net-misc/iputils -caps -filecaps
 app-admin/sudo -sendmail -ldap
