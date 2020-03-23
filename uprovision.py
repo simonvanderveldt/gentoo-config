@@ -26,13 +26,15 @@ Example package structure:
 #  Add del command instead to remove/clean up the target file
 # Add some way to view changes?
 #  For links this would be change of symlink target or change from regular file -> symlink
-#  For copy this would be a diff (using difflib)
+#  For copy this would be a diff (using difflib) or change from symlink -> regular file
+# Show if OK files are links or copied?
 
 import argparse
 import hashlib
 import shutil
 import subprocess
 import sys
+import tempfile
 from pathlib import Path
 
 GREEN = "\33[32m"
@@ -55,22 +57,39 @@ class ProvisionedFile:
     @property
     def state(self):
         if not self._state:
-            if not self.destination.exists():
-                self._state = "new"
-            else:
-                source_hash = get_hash(self.source)
-                target_hash = get_hash(self.destination)
-                if self.step == "link" and not self.destination.samefile(self.source):
-                    self._state = "changed"
-                elif self.step == "copy" and source_hash != target_hash:
+            if self.step == "link":
+                # Need to check if destination is a symlink first because exists() follows symlinks
+                if self.destination.is_symlink():
+                    # Need to compare source and target paths manually
+                    # because samefile accesses the file which means it'll fail when the symlink
+                    # points to a non-existing file
+                    if self.destination.resolve() != self.source.resolve():
+                        self._state = "changed"
+                    else: # Working symlink, not the same file as source
+                        self._state = "ok"
+                elif self.destination.exists(): # Regular file
                     self._state = "changed"
                 else:
-                    self._state = "ok"
+                    self._state = "new"
+            elif self.step == "copy":
+                if not self.destination.exists():
+                    self._state = "new"
+                else:
+                    source_hash = get_hash(self.source)
+                    target_hash = get_hash(self.destination)
+                    if source_hash != target_hash:
+                        self._state = "changed"
+                    else:
+                        self._state = "ok"
         return self._state
 
     def install(self):
         if self.step == "link":
-            self.destination.symlink_to(self.source.resolve())
+            # Atomically (over)write symlink
+            with tempfile.TemporaryDirectory() as temp_dir:
+                temp_destination = Path(temp_dir).joinpath(self.source.name)
+                temp_destination.symlink_to(self.source.resolve())
+                temp_destination.rename(self.destination)
         if self.step == "copy":
             shutil.copy(self.source, self.destination)
 
