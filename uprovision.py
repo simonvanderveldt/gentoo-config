@@ -122,15 +122,16 @@ for source_path in Path().glob(f"{args.package}/link/**/*"):
 ok_files = [file for file in files if file.state == "ok"]
 new_files = [file for file in files if file.state == "new"]
 changed_files = [file for file in files if file.state == "changed"]
-init_scripts = [init_script for init_script in Path().glob(
-    f"{args.package}/init/*.sh")if init_script.is_file()]
 
+print(f"Provisioning {args.package}")
 for file in ok_files + new_files + changed_files:
     print(file.destination, STATE_ICONS[file.state])
+    if file.state == "changed" and file.destination.is_symlink():
+        print(f"{file.destination.resolve()} => {file.source.resolve()}")
 
 # Install files
 if new_files or changed_files:
-    choice = input(f"Do you want to apply these changes?"
+    choice = input(f"Do you want to apply these changes? "
                    f"({summary(ok_files, new_files, changed_files, True)}) [y/n] ").lower()
     if choice == "y":
         for file in new_files + changed_files:
@@ -142,16 +143,13 @@ if new_files or changed_files:
 else:
     print(f"{summary(ok_files, new_files, changed_files)}")
 
-# Run init scripts
-if init_scripts:
-    for script in init_scripts:
-        print(script)
-    choice = input("Do you want to run these scripts? [y/n] ").lower()
+# Run init script
+init_script = Path(f"{args.package}/init.sh")
+if init_script.is_file():
+    choice = input(f"Do you want to run {args.package}'s init script? [y/n] ").lower()
     if choice == "y":
-        # Run init script(s)
-        for init_script in init_scripts:
-            print(f"Running init script {init_script}")
-            subprocess.run([init_script], shell=True, check=True)
+        print(f"Running {args.package} init script")
+        subprocess.run([init_script], shell=True, check=True)
     elif choice == "n":
         sys.exit()
     else:
