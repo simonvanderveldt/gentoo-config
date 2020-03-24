@@ -1,0 +1,6 @@
+chip "coretemp-isa-*"
+  label temp1 "package"
+  label temp2 "core 0"
+  label temp3 "core 1"
+  label temp4 "core 2"
+  label temp5 "core 3"

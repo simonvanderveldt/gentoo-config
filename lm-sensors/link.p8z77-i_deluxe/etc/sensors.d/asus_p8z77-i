@@ -1,5 +1,3 @@
-# lm_sensors configuration for the ASUS P8Z77-I Deluxe motherboard
-
 chip "nct6779-*"
   label fan1 "chassis"
   label fan2 "cpu"
@@ -32,14 +30,3 @@ chip "nct6779-*"
   ignore intrusion0
   ignore intrusion1
   ignore beep_enable
-
-chip "coretemp-isa-*"
-  label temp1 "package"
-  label temp2 "core 0"
-  label temp3 "core 1"
-  label temp4 "core 2"
-  label temp5 "core 3"
-
-chip "amdgpu-pci-*"
-  label fan1 "gpu"
-  label temp1 "gpu"
