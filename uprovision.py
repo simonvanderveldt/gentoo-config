@@ -35,6 +35,7 @@ import shutil
 import subprocess
 import sys
 import tempfile
+from itertools import chain
 from pathlib import Path
 
 GREEN = "\33[32m"
@@ -112,10 +113,14 @@ parser.add_argument("package")
 args = parser.parse_args()
 
 files = []
-for source_path in Path().glob(f"{args.package}/copy/**/*"):
+board_name = "_".join(
+    Path("/sys/devices/virtual/dmi/id/board_name").read_text().strip().casefold().split())
+for source_path in chain(Path().glob(f"{args.package}/copy/**/*"),
+                         Path().glob(f"{args.package}/copy.{board_name}/**/*")):
     if source_path.is_file():
         files.append(ProvisionedFile(source_path, step="copy"))
-for source_path in Path().glob(f"{args.package}/link/**/*"):
+for source_path in chain(Path().glob(f"{args.package}/link/**/*"),
+                         Path().glob(f"{args.package}/link.{board_name}/**/*")):
     if source_path.is_file():
         files.append(ProvisionedFile(source_path, step="link"))
 
