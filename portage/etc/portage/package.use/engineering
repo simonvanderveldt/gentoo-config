@@ -1,4 +1,0 @@
-# ParaView
-sci-visualization/paraview -webengine qt5
-sci-libs/cgnslib -fortran
-sci-libs/hdf5 -fortran
