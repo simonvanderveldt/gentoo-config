@@ -23,6 +23,6 @@ gnome-extra/nm-applet -modemmanager
 media-video/ffmpegthumbnailer gtk
 
 # Appindicator support
-net-im/slack-bin ayatana
+net-im/slack appindicator
 # Required for appindicator support for gtk2 electron apps
 dev-libs/libdbusmenu gtk
