@@ -85,6 +85,8 @@ class ProvisionedFile:
         return self._state
 
     def install(self):
+        # Ensure parent directory/directories exist
+        self.destination.parent.mkdir(parents=True, exist_ok=True)
         if self.step == "link":
             # Atomically (over)write symlink
             with tempfile.TemporaryDirectory() as temp_dir:
