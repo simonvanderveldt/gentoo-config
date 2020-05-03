@@ -1,0 +1,27 @@
+From 8e2dab70b7a23618e5eb6e0294f23403d4bda994 Mon Sep 17 00:00:00 2001
+From: Simon van der Veldt <simon.vanderveldt@gmail.com>
+Date: Sun, 3 May 2020 14:03:58 +0200
+Subject: [PATCH] Overide GSETTINGS_BACKEND to make steam work because of their
+ old glib version
+
+See https://github.com/anyc/steam-overlay/issues/232#issuecomment-490614171
+---
+ steam.desktop | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/steam.desktop b/steam.desktop
+index 0c34c82..4f70ad1 100644
+--- a/steam.desktop
++++ b/steam.desktop
+@@ -27,7 +27,7 @@ Comment[th]=โปรแกรมสำหรับจัดการและ
+ Comment[tr]=Steam üzerinden oyun oynama ve düzenleme uygulaması
+ Comment[uk]=Програма для керування іграми та запуску ігор у Steam
+ Comment[vi]=Ứng dụng để quản lý và chơi trò chơi trên Steam
+-Exec=/usr/bin/steam %U
++Exec=env GSETTINGS_BACKEND=memory /usr/bin/steam %U
+ Icon=steam
+ Terminal=false
+ Type=Application
+-- 
+2.26.2
+
