@@ -1,5 +1,5 @@
-app-benchmarks/unigine-heaven ~amd64
-app-benchmarks/unigine-valley ~amd64
+app-benchmarks/unigine-heaven-bin ~amd64
+app-benchmarks/unigine-valley-bin ~amd64
 
 # Steam
 games-util/steam-launcher ~amd64

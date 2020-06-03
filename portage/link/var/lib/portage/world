@@ -7,8 +7,8 @@ app-arch/file-roller
 app-arch/p7zip
 app-arch/unrar
 app-arch/unzip
-app-benchmarks/unigine-heaven
-app-benchmarks/unigine-valley
+app-benchmarks/unigine-heaven-bin
+app-benchmarks/unigine-valley-bin
 app-crypt/kbfs
 app-crypt/keybase
 app-crypt/seahorse
