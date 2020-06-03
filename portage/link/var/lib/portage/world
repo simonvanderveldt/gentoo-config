@@ -8,6 +8,7 @@ app-arch/p7zip
 app-arch/unrar
 app-arch/unzip
 app-benchmarks/unigine-heaven-bin
+app-benchmarks/unigine-superposition-bin
 app-benchmarks/unigine-valley-bin
 app-crypt/kbfs
 app-crypt/keybase
