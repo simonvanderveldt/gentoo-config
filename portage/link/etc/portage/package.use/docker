@@ -4,18 +4,21 @@ sys-libs/libseccomp static-libs
 
 # Docker Compose
 app-emulation/docker-compose -python_targets_python2_7
-dev-python/docker-py -python_targets_python2_7
-dev-python/texttable -python_targets_python2_7
-dev-python/cached-property -python_targets_python2_7
 dev-python/backports-ssl-match-hostname -python_targets_python2_7
-dev-python/websocket-client -python_targets_python2_7
+dev-python/cached-property -python_targets_python2_7
+dev-python/distro -python_targets_python2_7
+dev-python/docker-py -python_targets_python2_7
+dev-python/docker-pycreds -python_targets_python2_7
 dev-python/dockerpty -python_targets_python2_7
 dev-python/docopt -python_targets_python2_7
-dev-python/docker-pycreds -python_targets_python2_7
-dev-python/jsonschema -python_targets_python2_7
-dev-python/webcolors -python_targets_python2_7
-dev-python/vcversioner -python_targets_python2_7
-dev-python/strict-rfc3339 -python_targets_python2_7
 dev-python/functools32 -python_targets_python2_7
-dev-python/rfc3987 -python_targets_python2_7
+dev-python/jsonschema -python_targets_python2_7
 dev-python/regex -python_targets_python2_7
+dev-python/rfc3339-validator -python_targets_python2_7
+dev-python/rfc3986-validator -python_targets_python2_7
+dev-python/rfc3987 -python_targets_python2_7
+dev-python/strict-rfc3339 -python_targets_python2_7
+dev-python/texttable -python_targets_python2_7
+dev-python/vcversioner -python_targets_python2_7
+dev-python/webcolors -python_targets_python2_7
+dev-python/websocket-client -python_targets_python2_7
