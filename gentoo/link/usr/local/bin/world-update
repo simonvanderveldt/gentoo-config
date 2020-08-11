@@ -14,9 +14,6 @@ glsa-check --list
 # Update world
 world-emerge
 
-# Update live ebuilds (git, -9999, etc)
-# sudo emerge -av @live-rebuild
-
 # Cleanup unused packages
 emerge --ask --depclean
 
