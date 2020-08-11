@@ -25,7 +25,6 @@ app-metrics/collectd
 app-misc/screen
 app-misc/solaar
 app-mobilephone/dfu-util
-app-office/homebank
 app-portage/eix
 app-portage/genlop
 app-portage/gentoolkit
