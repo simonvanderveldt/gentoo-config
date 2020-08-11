@@ -37,7 +37,7 @@ x11-base/xorg-server -ipv6
 x11-base/xorg-server glamor
 # AMDGPU support, apparently not covered by radeonsi in VIDEO_CARDS :|
 x11-libs/libdrm video_cards_radeon
-media-libs/mesa lm-sensors vulkan
+media-libs/mesa lm-sensors vaapi vulkan
 
 # Scanners
 media-gfx/sane-backends usb threads
