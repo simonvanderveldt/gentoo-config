@@ -1,3 +1,4 @@
+sys-kernel/gentoo-kernel-bin -initramfs
 sys-apps/openrc -netifrc
 dev-vcs/git -webdav -gtk -gnome-keyring
 net-misc/iputils -caps -filecaps
