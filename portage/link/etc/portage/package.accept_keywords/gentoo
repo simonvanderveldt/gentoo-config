@@ -25,7 +25,6 @@ app-crypt/argon2 ~amd64
 
 # Mesa
 media-libs/mesa ~amd64
-sys-devel/llvm:8 ~amd64
 
 # MacBook Facetime HD driver
 media-video/bcwc_pcie ~amd64

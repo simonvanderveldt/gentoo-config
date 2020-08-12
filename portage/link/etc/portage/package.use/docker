@@ -4,7 +4,6 @@ sys-libs/libseccomp static-libs
 
 # Docker Compose
 app-emulation/docker-compose -python_targets_python2_7
-dev-python/backports-ssl-match-hostname -python_targets_python2_7
 dev-python/cached-property -python_targets_python2_7
 dev-python/distro -python_targets_python2_7
 dev-python/docker-py -python_targets_python2_7
