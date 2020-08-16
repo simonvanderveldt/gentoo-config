@@ -9,6 +9,9 @@ app-arch/zstd abi_x86_32
 # required by app-emulation/faudio
 media-libs/libsdl2 abi_x86_32
 
+# required by app-emulation/wine-staging[unwind]
+sys-libs/libunwind abi_x86_32
+
 x11-libs/libSM abi_x86_32
 # required by x11-libs/libSM (argument)
 >=sys-apps/util-linux-2.26.2 abi_x86_32
@@ -308,6 +311,7 @@ media-plugins/alsa-plugins abi_x86_32
 # required by media-plugins/alsa-plugins-1.0.29::gentoo[pulseaudio]
 # required by media-plugins/alsa-plugins (argument)
 >=media-libs/flac-1.3.1-r1 abi_x86_32
+media-libs/opus abi_x86_32
 # required by media-sound/pulseaudio-6.0::gentoo[caps]
 sys-libs/libcap abi_x86_32
 sys-libs/pam abi_x86_32
