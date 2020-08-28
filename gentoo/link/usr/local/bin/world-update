@@ -18,7 +18,8 @@ world-emerge
 emerge --ask --depclean
 
 # Update packages for which their build time dependencies have been updated
-emerge --ask --verbose --getbinpkg=n --exclude app-editors/atom-bin @preserved-rebuild
+# Exclude binary packages because rebuilding them doesn't make a difference
+emerge --ask --verbose --getbinpkg=n --exclude "*/*-bin" @preserved-rebuild
 
 # Clean up distfiles, only keep the ones for installed packages
 eclean-dist --deep
