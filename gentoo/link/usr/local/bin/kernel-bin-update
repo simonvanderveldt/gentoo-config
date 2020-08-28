@@ -1,0 +1,27 @@
+#!/usr/bin/env bash
+set -ex
+
+if [ "$(id -u)" != "0" ]; then
+  exec sudo "$0" "$@"
+fi
+
+# Get the kernel version
+pushd /usr/src/linux
+KERNEL_VERSION="$(make -s kernelrelease)"
+popd
+
+# Rebuild out of tree kernel modules (zfs)
+emerge -av --getbinpkg=n --exclude gentoo-kernel-bin @module-rebuild
+
+# Rebuild xorg modules
+emerge @x11-module-rebuild
+
+# Create initramfs and install to /boot/
+dracut --force --kver "${KERNEL_VERSION}"
+
+# Ensure the /boot/grub directory exists because grub-mkconfig fails if it doesn't
+if [ ! -d /boot/grub ] ; then
+    mkdir /boot/grub
+fi
+# Update grub2 config based on the files that were just installed to /boot
+grub-mkconfig -o /boot/grub/grub.cfg
