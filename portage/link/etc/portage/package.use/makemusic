@@ -39,7 +39,7 @@ media-sound/synthv1 standalone lv2
 media-sound/samplv1 standalone lv2
 
 # LV2 plugins
-media-plugins/calf lv2
+media-plugins/calf gtk lv2
 media-plugins/distrho-ports lv2
 media-sound/guitarix lv2
 
