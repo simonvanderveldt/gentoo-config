@@ -75,7 +75,6 @@ net-misc/wol
 net-nds/openldap
 net-p2p/deluge
 net-p2p/syncthing
-net-p2p/syncthing-gtk::simonvanderveldt
 net-wireless/wpa_supplicant
 sci-visualization/paraview
 sys-apps/gnome-disk-utility
