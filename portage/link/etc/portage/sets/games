@@ -1,3 +1,6 @@
+app-benchmarks/unigine-heaven-bin
+app-benchmarks/unigine-superposition-bin
+app-benchmarks/unigine-valley-bin
 app-emulation/playonlinux
 app-emulation/wine-staging
 app-emulation/winetricks
