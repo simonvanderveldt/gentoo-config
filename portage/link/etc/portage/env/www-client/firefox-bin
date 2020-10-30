@@ -1,0 +1,4 @@
+post_src_install() {
+  echo "Fixing .desktop icon"
+  sed -i -e "s/Icon=firefox-bin/Icon=firefox/" "${D}/usr/share/applications/${PN}.desktop" || die "sed failed"
+}
