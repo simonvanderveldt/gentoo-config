@@ -55,7 +55,6 @@ media-gfx/sane-backends
 media-gfx/simple-scan
 media-libs/mesa
 media-plugins/gst-plugins-meta:1.0
-media-sound/luppp
 media-video/bcwc_pcie
 media-video/ffmpeg
 net-analyzer/traceroute
