@@ -1,5 +1,4 @@
 dev-vcs/git gnome-keyring
-sys-cluster/kubernetes -kube-apiserver -kube-controller-manager -kube-proxy -kube-scheduler -kubeadm -kubelet
 
 # required by dev-qt/qtcore
 dev-libs/libpcre2 pcre16

@@ -83,7 +83,7 @@ sys-apps/lm-sensors
 sys-apps/mlocate
 sys-apps/usbutils
 sys-boot/grub
-sys-cluster/kubernetes
+sys-cluster/kubectl
 sys-fs/dosfstools
 sys-fs/eudev
 sys-fs/fuseiso
