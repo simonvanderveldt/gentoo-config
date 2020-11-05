@@ -72,7 +72,6 @@ net-nds/openldap
 net-p2p/deluge
 net-p2p/syncthing
 net-wireless/wpa_supplicant
-sci-visualization/paraview
 sys-apps/gnome-disk-utility
 sys-apps/lm-sensors
 sys-apps/mlocate
