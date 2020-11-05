@@ -117,12 +117,15 @@ args = parser.parse_args()
 files = []
 board_name = "_".join(
     Path("/sys/devices/virtual/dmi/id/board_name").read_text().strip().casefold().split())
+host_name = Path("/proc/sys/kernel/hostname").read_text().strip().casefold()
 for source_path in chain(Path().glob(f"{args.package}/copy/**/*"),
-                         Path().glob(f"{args.package}/copy.{board_name}/**/*")):
+                         Path().glob(f"{args.package}/copy.{board_name}/**/*"),
+                         Path().glob(f"{args.package}/copy.{host_name}/**/*")):
     if source_path.is_file():
         files.append(ProvisionedFile(source_path, step="copy"))
 for source_path in chain(Path().glob(f"{args.package}/link/**/*"),
-                         Path().glob(f"{args.package}/link.{board_name}/**/*")):
+                         Path().glob(f"{args.package}/link.{board_name}/**/*"),
+                         Path().glob(f"{args.package}/link.{host_name}/**/*")):
     if source_path.is_file():
         files.append(ProvisionedFile(source_path, step="link"))
 
