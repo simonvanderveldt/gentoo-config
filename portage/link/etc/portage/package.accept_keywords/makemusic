@@ -40,6 +40,7 @@ media-plugins/artyfx **
 media-plugins/bitrot **
 media-plugins/deteriorate-lv2 ~amd64
 media-plugins/distrho-ports ~amd64
+media-plugins/dragonfly-reverb ~amd64
 media-plugins/fabla **
 media-plugins/mda-lv2 ~amd64
 =media-plugins/mverb-9999 **

@@ -4,6 +4,7 @@ media-plugins/calf
 media-plugins/caps-plugins
 media-plugins/deteriorate-lv2
 media-plugins/distrho-ports::audio-overlay
+media-plugins/dragonfly-reverb
 media-plugins/fabla:1::audio-overlay
 media-plugins/fabla:2::audio-overlay
 media-plugins/ir_lv2
