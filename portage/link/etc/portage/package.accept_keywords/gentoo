@@ -5,7 +5,6 @@ media-sound/bitwig-studio ~amd64
 net-im/slack ~amd64
 dev-util/idea-community ~amd64
 app-editors/atom-bin ~amd64
-dev-util/shellcheck ~amd64
 app-crypt/keybase ~amd64
 app-crypt/kbfs ~amd64
 net-im/discord-bin ~amd64
@@ -28,3 +27,7 @@ media-libs/mesa ~amd64
 # MacBook Facetime HD driver
 media-video/bcwc_pcie ~amd64
 media-video/apple_facetimehd_firmware ~amd64
+
+# Shellcheck
+dev-util/shellcheck ~amd64
+dev-haskell/unordered-containers ~amd64
