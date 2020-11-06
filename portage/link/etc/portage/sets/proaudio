@@ -39,5 +39,6 @@ media-sound/samplv1::audio-overlay
 media-sound/sc3-plugins::audio-overlay
 media-sound/sequencer64::audio-overlay
 media-sound/serialosc::audio-overlay
+media-sound/setbfree
 media-sound/supercollider
 media-sound/synthv1::audio-overlay
