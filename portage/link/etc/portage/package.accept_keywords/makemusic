@@ -45,6 +45,9 @@ media-plugins/mda-lv2 ~amd64
 =media-plugins/mverb-9999 **
 =media-plugins/nekobi-9999 **
 media-plugins/sorcer ~amd64
+## x42-plugins
+media-plugins/x42-plugins ~amd64
+media-libs/libltc ~amd64
 ## ir.lv2
 media-plugins/ir_lv2 ~amd64
 media-libs/zita-convolver ~amd64

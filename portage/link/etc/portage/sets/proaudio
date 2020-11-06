@@ -13,6 +13,7 @@ media-plugins/mverb
 media-plugins/nekobi
 media-plugins/sorcer::audio-overlay
 media-plugins/swh-lv2
+media-plugins/x42-plugins
 media-sound/a2jmidid
 media-sound/alsa-utils
 media-sound/amsynth
