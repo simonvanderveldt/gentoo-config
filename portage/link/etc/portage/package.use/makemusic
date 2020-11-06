@@ -11,6 +11,7 @@ media-sound/amsynth jack lv2 gtk
 
 # Qtractor
 media-sound/qtractor libsamplerate rubberband
+media-libs/rubberband -programs
 media-libs/suil qt5 gtk
 
 # Jalv
