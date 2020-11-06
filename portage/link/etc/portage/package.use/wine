@@ -2,12 +2,16 @@ virtual/wine abi_x86_32 staging
 app-emulation/wine-staging -cups abi_x86_32 mp3 s3tc vulkan
 app-emulation/wine-gecko abi_x86_32
 
+# required by media-libs/mesa
+media-libs/libglvnd abi_x86_32
+
 # required by media-libs/mesa[zstd]
 app-arch/zstd abi_x86_32
 
 # required by app-emulation/wine-staging[faudio]
 # required by app-emulation/faudio
 media-libs/libsdl2 abi_x86_32
+x11-libs/libXext abi_x86_32
 
 # required by app-emulation/wine-staging[unwind]
 sys-libs/libunwind abi_x86_32
