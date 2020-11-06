@@ -37,6 +37,7 @@ media-libs/libgig ~amd64
 # LV2 plugins
 x11-libs/ntk::audio-overlay ~amd64
 media-plugins/artyfx **
+media-plugins/bitrot **
 media-plugins/deteriorate-lv2 ~amd64
 media-plugins/distrho-ports ~amd64
 media-plugins/fabla **
