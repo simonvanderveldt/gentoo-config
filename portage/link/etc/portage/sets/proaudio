@@ -30,6 +30,7 @@ media-sound/jalv
 media-sound/ladish::audio-overlay
 media-sound/linuxsampler
 media-sound/luppp
+media-sound/new-session-manager
 media-sound/padthv1::audio-overlay
 media-sound/pure-data::audio-overlay
 media-sound/qmidiarp

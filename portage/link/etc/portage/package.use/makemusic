@@ -60,3 +60,6 @@ sys-libs/zlib minizip
 
 # Libraries
 media-libs/libmonome udev
+
+# New-session-manager
+media-sound/new-session-manager gui jack
