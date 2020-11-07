@@ -29,6 +29,7 @@ app-portage/gentoolkit
 app-portage/metagen
 app-portage/pfl
 app-portage/repoman
+app-shells/direnv
 app-shells/fasd
 app-shells/zsh
 app-text/tree
