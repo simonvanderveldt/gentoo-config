@@ -26,6 +26,7 @@ media-sound/drumkv1::audio-overlay
 media-sound/guitarix
 media-sound/helm
 media-sound/jack2
+media-sound/jack_capture
 media-sound/jalv
 media-sound/ladish::audio-overlay
 media-sound/linuxsampler
