@@ -6,7 +6,6 @@ app-admin/sudo -sendmail -ldap
 app-crypt/pinentry -gtk
 app-crypt/gnupg -usb -bzip2
 net-misc/networkmanager -wext -dhcpcd dhclient
-app-misc/tracker -eds gtk cue flac mp3 playlists
 net-fs/samba -server
 media-sound/alsa-utils -libsamplerate
 dev-lang/python -gdbm tk
