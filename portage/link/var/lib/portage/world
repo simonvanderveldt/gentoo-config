@@ -57,6 +57,8 @@ media-gfx/simple-scan
 media-plugins/gst-plugins-meta:1.0
 media-video/bcwc_pcie
 media-video/ffmpeg
+media-video/obs-studio
+media-video/obs-v4l2sink
 net-analyzer/traceroute
 net-dns/bind-tools
 net-fs/autofs

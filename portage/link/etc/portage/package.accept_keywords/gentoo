@@ -31,3 +31,8 @@ media-video/apple_facetimehd_firmware ~amd64
 # Shellcheck
 dev-util/shellcheck ~amd64
 dev-haskell/unordered-containers ~amd64
+
+# Video recording/streaming
+media-video/obs-studio ~amd64
+media-video/obs-v4l2sink ~amd64
+media-video/v4l2loopback ~amd64
