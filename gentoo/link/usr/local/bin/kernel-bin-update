@@ -13,9 +13,6 @@ popd
 # Rebuild out of tree kernel modules (zfs)
 emerge -av --getbinpkg=n --exclude gentoo-kernel-bin @module-rebuild
 
-# Rebuild xorg modules
-emerge @x11-module-rebuild
-
 # Create initramfs and install to /boot/
 dracut --force --kver "${KERNEL_VERSION}"
 
