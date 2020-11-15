@@ -35,6 +35,7 @@ app-shells/zsh
 app-text/tree
 dev-embedded/dfu-programmer
 dev-java/icedtea-bin
+dev-lang/rust-bin
 dev-python/pip
 dev-util/android-tools
 dev-util/clion
