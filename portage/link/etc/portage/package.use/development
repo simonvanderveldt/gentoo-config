@@ -4,7 +4,3 @@ dev-vcs/git gnome-keyring
 dev-libs/libpcre2 pcre16
 
 dev-python/PyQt5 -webengine
-
-# required by dev-util/idea-community
-# required by dev-util/lldb
-sys-devel/clang xml
