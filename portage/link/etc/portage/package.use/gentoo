@@ -24,6 +24,7 @@ app-admin/keepassxc browser -network
 net-print/cups usb
 app-misc/solaar appindicator
 sys-libs/libunwind -static-libs
+sys-devel/llvm gold
 
 # required by app-portage/pfl[network-cron]
 sys-apps/util-linux caps
