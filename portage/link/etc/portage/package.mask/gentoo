@@ -1,2 +1,6 @@
 sys-apps/systemd
 sys-fs/udev
+>dev-libs/boost-1.72.0-r2
+
+>=dev-python/setuptools-50.3.0
+>=dev-python/certifi-10001-r1
