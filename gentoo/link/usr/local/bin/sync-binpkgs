@@ -1,0 +1,13 @@
+#!/usr/bin/env sh
+set -ex
+
+if [ "$(id -u)" != "0" ]; then
+  exec sudo "$0" "$@"
+fi
+
+PORTAGE_BINHOST=$(portageq envvar PORTAGE_BINHOST)
+PORTAGE_BINHOST=${PORTAGE_BINHOST#*'http://'}
+PORTAGE_BINHOST=${PORTAGE_BINHOST%:*}
+PORTAGE_PKGDIR=$(portageq pkgdir)
+
+rsync -r --remove-source-files "${PORTAGE_PKGDIR}/" "rsync://${PORTAGE_BINHOST}/portage"
