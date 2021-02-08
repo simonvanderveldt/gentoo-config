@@ -1,0 +1,11 @@
+--- a/plugins/power/gsd-backlight.c	2020-07-17 20:20:54.357669199 +0200
++++ b/plugins/power/gsd-backlight.c	2020-07-17 20:21:15.237603777 +0200
+@@ -482,7 +482,7 @@
+         if (backlight->udev_device != NULL) {
+                 BacklightHelperData *task_data;
+
+-                if (backlight->logind_proxy) {
++                if (0) {
+                         g_dbus_proxy_call (backlight->logind_proxy,
+                                            "SetBrightness",
+                                            g_variant_new ("(ssu)",
