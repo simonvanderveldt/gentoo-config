@@ -1,0 +1,13 @@
+#!/usr/bin/env sh
+# From https://wiki.gentoo.org/wiki/Handbook:AMD64/Installation/Base
+set -ex
+
+mount --types proc /proc /mnt/gentoo/proc
+mount --rbind /sys /mnt/gentoo/sys
+mount --make-rslave /mnt/gentoo/sys
+mount --rbind /dev /mnt/gentoo/dev
+mount --make-rslave /mnt/gentoo/dev
+
+chroot /mnt/gentoo /bin/bash
+source /etc/profile
+export PS1="(chroot) ${PS1}"
