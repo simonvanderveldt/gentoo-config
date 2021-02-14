@@ -1,0 +1,42 @@
+# Restoring/fixing issues
+- Boot using FearedBliss's System Rescue CD with ZFS, choose alternative startup
+## Import the pool
+```
+# -f since the hostid is probably wrong
+# -R means use this as the root location to mount everything under
+zpool import -o cachefile=/tmp/zpool.cache -fR /mnt/gentoo tank
+```
+## chroot
+```
+cd /mnt/gentoo
+mount -t proc /proc /mnt/gentoo/proc
+mount --rbind /sys /mnt/gentoo/sys
+mount --make-rslave /mnt/gentoo/sys
+mount --rbind /dev /mnt/gentoo/dev
+mount --make-rslave /mnt/gentoo/dev
+cp /tmp/zpool.cache /mnt/gentoo/etc/zfs/zpool.cache
+cp /etc/resolv.conf /mnt/gentoo/etc/
+chroot /mnt/gentoo /bin/bash
+source /etc/profile
+export PS1="(chroot) $PS1"
+# Fix mtab so the zfs command line tools work
+# See https://github.com/zfsonlinux/zfs/issues/4680
+ln -sf /proc/self/mounts /etc/mtab
+```
+## Cleanup and unmount
+```
+# Exit chroot
+cd /
+umount -l /mnt/gentoo/proc
+umount -l /mnt/gentoo/dev{/shm,/pts}
+umount -l /mnt/gentoo/dev
+umount -l /mnt/gentoo/sys
+umount -R /mnt/gentoo
+zfs umount -a
+# Very important: Set your pool's mountpoint back to root.
+zfs set mountpoint=/ tank/ROOT/gentoo
+zfs set mountpoint=/home tank/HOME
+# Also very important: Export the pool so your initramfs' different hostid can import it without force.
+zpool export tank
+reboot
+```
