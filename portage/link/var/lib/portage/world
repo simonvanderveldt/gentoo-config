@@ -20,6 +20,7 @@ app-emulation/qemu
 app-emulation/virt-manager
 app-metrics/collectd
 app-misc/mosquitto
+app-misc/piper
 app-misc/screen
 app-misc/solaar
 app-mobilephone/dfu-util
