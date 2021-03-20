@@ -1,6 +1,6 @@
 =media-sound/cadence-9999* **
 media-sound/jack2 ~amd64
-=media-sound/ladish-9999* **
+media-sound/ladish **
 media-sound/new-session-manager ~amd64
 media-sound/setbfree ~amd64
 
