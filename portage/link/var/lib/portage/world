@@ -79,6 +79,7 @@ net-wireless/wpa_supplicant
 sys-apps/gnome-disk-utility
 sys-apps/lm-sensors
 sys-apps/mlocate
+sys-apps/psensor
 sys-apps/usbutils
 sys-boot/grub
 sys-cluster/kubectl
