@@ -22,7 +22,7 @@ dev-lang/tk truetype
 net-wireless/bluez -mesh
 app-admin/keepassxc browser -network
 net-print/cups usb
-app-misc/solaar appindicator
+app-misc/solaar -libnotify appindicator
 sys-libs/libunwind -static-libs
 sys-devel/llvm gold
 
