@@ -96,7 +96,6 @@ sys-kernel/gentoo-kernel-bin:5.4.52
 sys-kernel/linux-firmware
 sys-power/acpi
 sys-power/acpid
-sys-power/pm-utils
 sys-power/powertop
 sys-process/dcron
 sys-process/iotop
