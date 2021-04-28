@@ -1,76 +1,8 @@
 =media-sound/cadence-9999* **
 media-sound/jack2 ~amd64
 media-sound/ladish **
-media-sound/new-session-manager ~amd64
-media-sound/setbfree ~amd64
-
-# LV2 hosts
-## Jalv
-media-sound/jalv ~amd64
-
-## Carla
-media-sound/carla ~amd64
-
-# DAWs & editors
-media-sound/qmidiarp ~amd64
-media-sound/mixxx ~amd64
-media-sound/sequencer64 ~amd64
-media-sound/pure-data ~amd64
-
-## Qtractor
-media-sound/qtractor ~amd64
-media-libs/suil ~amd64
-media-libs/lv2 ~amd64
-
-# Synthesizers
-media-sound/amsynth ~amd64
-media-sound/drumkv1 ~amd64
-media-sound/padthv1 ~amd64
-media-sound/synthv1 ~amd64
-media-sound/samplv1 ~amd64
-media-sound/helm ~amd64
-media-libs/lvtk ~amd64
-
-# Samplers
-media-sound/linuxsampler ~amd64
-media-libs/libgig ~amd64
 
 # LV2 plugins
-media-libs/lsp-plugins ~amd64
-x11-libs/ntk::audio-overlay ~amd64
-media-plugins/artyfx ~amd64
-media-plugins/bitrot **
-media-plugins/deteriorate-lv2 ~amd64
-media-plugins/distrho-ports ~amd64
-media-plugins/dragonfly-reverb ~amd64
-media-plugins/fabla **
-media-plugins/mda-lv2 ~amd64
-=media-plugins/mverb-9999 **
-=media-plugins/nekobi-9999 **
-media-plugins/sorcer ~amd64
 ## x42-plugins
 media-plugins/x42-plugins ~amd64
 media-libs/libltc ~amd64
-## ir.lv2
-media-plugins/ir_lv2 ~amd64
-media-libs/zita-convolver ~amd64
-
-# serialosc
-media-sound/serialosc::audio-overlay **
-media-libs/libmonome::audio-overlay **
-
-# guitarix
-media-libs/zita-resampler ~amd64
-media-sound/guitarix ~amd64
-
-# SuperCollider
-media-sound/supercollider ~amd64
-media-sound/sc3-plugins ~amd64
-
-# Audacity
-media-sound/audacity ~amd64
-media-libs/portaudio ~amd64
-media-sound/lame ~amd64
-
-# Luppp
-media-sound/luppp::audio-overlay ~amd64

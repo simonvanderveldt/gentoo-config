@@ -6,61 +6,6 @@ media-sound/pulseaudio jack
 media-sound/ladish lash
 media-libs/liblo -ipv6
 
-media-sound/linuxsampler jack
-media-sound/amsynth jack lv2 gtk
-
-# Qtractor
-media-sound/qtractor libsamplerate rubberband
-media-libs/rubberband -programs
-media-libs/suil qt5 gtk
-
-# Jalv
-media-sound/jalv gtk2
-
-# Bitwig Studio
-x11-libs/cairo xcb
-
-# Sequencer64
-media-sound/sequencer64 -cli jack lash
-
 # KX Project
 media-sound/cadence -pulseaudio ladish
 dev-python/PyQt5 gui svg widgets
-media-sound/carla -pulseaudio jack gtk gtk2 sf2 sfz X
-
-# Mixxx
-media-sound/mixxx mp3 hid ffmpeg
-media-libs/portaudio alsa jack
-dev-qt/qtscript scripttools
-
-# v1 suite
-media-sound/drumkv1 standalone lv2
-media-sound/padthv1 standalone lv2
-media-sound/synthv1 standalone lv2
-media-sound/samplv1 standalone lv2
-
-# LV2 plugins
-media-plugins/calf gtk lv2
-media-plugins/distrho-ports lv2
-media-sound/guitarix lv2
-
-# Audacity
-media-sound/audacity -soundtouch -vorbis -vst jack alsa ffmpeg flac sbsms id3tag
-
-# pure-data
-media-sound/pure-data alsa fftw jack
-
-# SuperCollider
-media-sound/supercollider jack server qt5 X
-dev-qt/qtwebengine widgets jumbo-build
-dev-qt/qtwebchannel qml
-dev-libs/libxml2 icu
-media-libs/libvpx svc
-## Required by dev-qt/qtwebengine
-sys-libs/zlib minizip
-
-# Libraries
-media-libs/libmonome udev
-
-# New-session-manager
-media-sound/new-session-manager gui jack
