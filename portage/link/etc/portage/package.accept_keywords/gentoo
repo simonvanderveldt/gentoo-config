@@ -25,10 +25,6 @@ app-crypt/argon2 ~amd64
 # Mesa
 media-libs/mesa ~amd64
 
-# MacBook Facetime HD driver
-media-video/bcwc_pcie ~amd64
-media-video/apple_facetimehd_firmware ~amd64
-
 # Shellcheck
 dev-util/shellcheck ~amd64
 app-admin/haskell-updater ~amd64

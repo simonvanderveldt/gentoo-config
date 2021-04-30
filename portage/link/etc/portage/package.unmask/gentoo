@@ -3,7 +3,3 @@ x11-themes/moka-icon-theme::jorgicio
 x11-themes/faba-icon-theme::jorgicio
 
 app-editors/atom-bin::jorgicio
-
-# MacBook Facetime HD driver
-media-video/bcwc_pcie::toaster
-media-video/apple_facetimehd_firmware::toaster
