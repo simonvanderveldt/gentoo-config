@@ -72,9 +72,6 @@ net-p2p/deluge gtk
 net-libs/libtorrent-rasterbar python -geoip
 dev-libs/boost python
 
-# belastingdienst belastingaangifte
-#media-libs/libcanberra abi_x86_32
-
 # Vulkan
 media-libs/vulkan-loader abi_x86_32 demos X
 dev-util/glslang abi_x86_32
