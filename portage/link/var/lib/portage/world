@@ -15,7 +15,6 @@ app-editors/atom-bin
 app-editors/nano
 app-emulation/docker
 app-emulation/docker-compose
-app-emulation/libvirt
 app-emulation/qemu
 app-emulation/virt-manager
 app-metrics/collectd
@@ -27,7 +26,6 @@ app-mobilephone/dfu-util
 app-portage/eix
 app-portage/genlop
 app-portage/gentoolkit
-app-portage/metagen
 app-portage/pfl
 app-portage/repoman
 app-shells/direnv
@@ -39,7 +37,6 @@ dev-java/icedtea-bin
 dev-lang/rust-bin
 dev-python/pip
 dev-util/android-tools
-dev-util/clion
 dev-util/glade
 dev-util/shellcheck
 dev-vcs/git
@@ -75,7 +72,6 @@ net-misc/wol
 net-nds/openldap
 net-p2p/deluge
 net-p2p/syncthing
-net-wireless/wpa_supplicant
 sys-apps/gnome-disk-utility
 sys-apps/lm-sensors
 sys-apps/mlocate
