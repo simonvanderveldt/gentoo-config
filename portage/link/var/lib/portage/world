@@ -78,7 +78,6 @@ sys-apps/mlocate
 sys-apps/psensor
 sys-apps/usbutils
 sys-boot/grub
-sys-cluster/kubectl
 sys-fs/dosfstools
 sys-fs/eudev
 sys-fs/fuseiso
