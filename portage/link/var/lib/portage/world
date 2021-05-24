@@ -85,7 +85,9 @@ sys-fs/ncdu
 sys-fs/ntfs3g
 sys-fs/zfs
 sys-kernel/dracut
-sys-kernel/gentoo-kernel-bin
+sys-kernel/gentoo-kernel-bin:5.10.24
+sys-kernel/gentoo-kernel-bin:5.11.22
+sys-kernel/gentoo-kernel-bin:5.4.97
 sys-kernel/linux-firmware
 sys-power/acpi
 sys-power/acpid
