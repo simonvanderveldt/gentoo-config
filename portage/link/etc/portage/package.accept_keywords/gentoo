@@ -27,6 +27,7 @@ app-crypt/argon2 ~amd64
 
 # Mesa
 media-libs/mesa ~amd64
+x11-libs/libdrm ~amd64
 
 # Shellcheck
 dev-util/shellcheck ~amd64
