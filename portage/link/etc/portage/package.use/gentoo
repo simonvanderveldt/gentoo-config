@@ -49,7 +49,7 @@ media-plugins/gst-plugins-meta ffmpeg flac mp3
 # required by media-plugins/gst-plugins-libav
 # required by media-libs/gst-plugins-base
 media-libs/graphene abi_x86_32
-media-video/ffmpeg aac vaapi vdpau
+media-video/ffmpeg -lv2 aac vaapi vdpau
 x11-libs/libva X
 
 # QEMU
