@@ -5,7 +5,6 @@ virtual/dist-kernel ~amd64
 app-admin/stow ~amd64
 app-emulation/playonlinux ~amd64
 net-im/slack ~amd64
-app-editors/atom-bin ~amd64
 app-crypt/keybase ~amd64
 app-crypt/kbfs ~amd64
 net-im/discord-bin ~amd64
