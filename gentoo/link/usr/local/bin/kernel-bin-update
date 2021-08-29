@@ -14,7 +14,7 @@ popd
 emerge -av --getbinpkg=n --exclude gentoo-kernel-bin @module-rebuild
 
 # Create initramfs and install to /boot/
-dracut --force --kver "${KERNEL_VERSION}"
+dracut --force --show-modules --kver "${KERNEL_VERSION}"
 
 # Ensure the /boot/grub directory exists because grub-mkconfig fails if it doesn't
 if [ ! -d /boot/grub ] ; then
