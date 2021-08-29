@@ -1,7 +1,5 @@
 sys-kernel/gentoo-kernel-bin ~amd64
 virtual/dist-kernel ~amd64
-=sys-fs/zfs-2.0.4 ~amd64
-=sys-fs/zfs-kmod-2.0.4 ~amd64
 app-admin/stow ~amd64
 app-emulation/playonlinux ~amd64
 net-im/slack ~amd64
