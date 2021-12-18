@@ -79,7 +79,6 @@ sys-apps/psensor
 sys-apps/usbutils
 sys-boot/grub
 sys-fs/dosfstools
-sys-fs/eudev
 sys-fs/fuseiso
 sys-fs/ncdu
 sys-fs/ntfs3g
