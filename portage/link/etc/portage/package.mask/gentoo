@@ -1,4 +1,2 @@
 sys-apps/systemd
 sys-fs/udev
-# Masked because of potential bugs like https://bugs.gentoo.org/724314
->=sys-devel/gcc-10.0.0
