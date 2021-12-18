@@ -1,5 +1,0 @@
-# Docker compose
-app-emulation/docker-compose ~amd64
-dev-python/docker-py ~amd64
-dev-python/distro ~amd64
-dev-python/python-dotenv ~amd64
