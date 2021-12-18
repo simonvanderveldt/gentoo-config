@@ -38,7 +38,7 @@ dev-lang/rust-bin
 dev-python/pip
 dev-util/android-tools
 dev-util/glade
-dev-util/shellcheck
+dev-util/shellcheck-bin
 dev-vcs/git
 dev-vcs/tig
 gnome-base/dconf-editor
