@@ -1,3 +1,1 @@
-app-emulation/docker -device-mapper -container-init -btrfs experimental
-app-emulation/containerd -btrfs
-sys-libs/libseccomp static-libs
+app-containers/docker -container-init
