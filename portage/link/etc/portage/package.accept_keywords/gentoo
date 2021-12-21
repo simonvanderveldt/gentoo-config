@@ -8,7 +8,6 @@ x11-themes/moka-icon-theme ~amd64
 x11-themes/faba-icon-theme ~amd64
 app-shells/direnv ~amd64
 sys-apps/psensor ~amd64
-app-misc/solaar ~amd64
 
 # keepassxc
 app-admin/keepassxc ~amd64
