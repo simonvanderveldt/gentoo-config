@@ -283,11 +283,6 @@ x11-libs/libpciaccess abi_x86_32
 # required by media-libs/mesa[lm-sensors]
 sys-apps/lm-sensors abi_x86_32
 
-# required by dev-python/wxpython-2.8.12.1-r2::gentoo
-# required by app-emulation/playonlinux-4.2.8::gentoo
-# required by playonlinux (argument)
-x11-libs/wxGTK tiff
-
 # required by battle.net + wine
 net-nds/openldap abi_x86_32
 # required by net-nds/openldap (argument)
