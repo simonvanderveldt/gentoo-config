@@ -1,5 +1,5 @@
 gnome-base/gvfs mtp archive samba nfs fuse
-net-libs/webkit-gtk -egl -geolocation -gstreamer -opengl -webgl -jit -libnotify
+net-libs/webkit-gtk -egl -geolocation -gstreamer -webgl -jit -libnotify
 sys-apps/gnome-disk-utility fat
 gnome-base/gsettings-desktop-schemas vanilla-fonts
 

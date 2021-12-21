@@ -1,2 +1,0 @@
-# Mask webkit-gtk opengl
-net-libs/webkit-gtk opengl
