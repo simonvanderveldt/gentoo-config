@@ -264,6 +264,8 @@ sys-libs/pam abi_x86_32
 virtual/libcrypt abi_x86_32
 sys-libs/cracklib abi_x86_32
 sys-devel/flex abi_x86_32
+sys-libs/libxcrypt abi_x86_32
+sys-libs/glibc abi_x86_32
 
 # required by media-sound/pulseaudio-6.0::gentoo
 # required by media-plugins/alsa-plugins-1.0.29::gentoo[pulseaudio]
