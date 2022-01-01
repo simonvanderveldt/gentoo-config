@@ -1,5 +1,3 @@
-sys-kernel/gentoo-kernel-bin ~amd64
-virtual/dist-kernel ~amd64
 net-im/slack ~amd64
 app-crypt/keybase ~amd64
 app-crypt/kbfs ~amd64
