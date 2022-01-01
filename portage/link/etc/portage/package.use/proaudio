@@ -4,7 +4,6 @@ media-sound/pulseaudio jack
 
 # LADISH & LASH
 media-sound/ladish lash
-media-libs/liblo -ipv6
 
 # KX Project
 media-sound/cadence -pulseaudio ladish

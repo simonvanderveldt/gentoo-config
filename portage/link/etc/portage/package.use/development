@@ -1,6 +1,0 @@
-dev-vcs/git gnome-keyring
-
-# required by dev-qt/qtcore
-dev-libs/libpcre2 pcre16
-
-dev-python/PyQt5 -webengine

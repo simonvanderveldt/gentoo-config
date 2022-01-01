@@ -1,10 +1,7 @@
 gnome-base/gvfs mtp archive samba nfs fuse
-net-libs/webkit-gtk -egl -geolocation -gstreamer -webgl -jit -libnotify
+net-libs/webkit-gtk -egl -geolocation -gstreamer -libnotify
 sys-apps/gnome-disk-utility fat
 gnome-base/gsettings-desktop-schemas vanilla-fonts
-
-# required by www-client/google-chrome-46.0.2490.86_p1::gentoo
->=x11-libs/gdk-pixbuf-2.32.2 X
 
 # required by dev-libs/glib-2.48.2:2/48::dantrell-gnome
 dev-libs/libpcre  abi_x86_32
@@ -12,10 +9,6 @@ dev-libs/libpcre  abi_x86_32
 # required by gnome-base/gnome-control-center
 # required by net-misc/networkmanager[modemmanager]
 net-dialup/ppp ipv6
-
-gnome-extra/nm-applet -modemmanager
-
-media-video/ffmpegthumbnailer gtk
 
 # Appindicator support
 net-im/slack appindicator

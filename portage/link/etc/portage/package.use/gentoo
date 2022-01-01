@@ -1,29 +1,21 @@
 sys-kernel/gentoo-kernel-bin -initramfs
 sys-apps/openrc -netifrc
-dev-vcs/git -webdav -gtk -gnome-keyring
-net-misc/iputils -caps -filecaps
-app-admin/sudo -sendmail -ldap
-app-crypt/pinentry -gtk
-app-crypt/gnupg -usb -bzip2
-net-misc/networkmanager -wext -dhcpcd dhclient
-net-fs/samba -server
+sys-boot/grub libzfs
+
+dev-vcs/git -webdav -gnome-keyring
+net-misc/iputils -filecaps
+app-admin/sudo -sendmail
+app-crypt/gnupg -bzip2
+net-misc/networkmanager -wext
 dev-lang/python -gdbm tk
-media-gfx/gimp curl jpeg png svg tiff
-sys-fs/ntfs3g -external-fuse -ntfsprogs
-net-fs/nfs-utils -ipv6
+sys-fs/ntfs3g -ntfsprogs
 sys-apps/lm-sensors contrib
-net-misc/rsync -ipv6
-net-misc/iputils -caps -filecaps
-app-editors/nano -spell -magic
-net-nds/openldap -syslog -tcpd -crypt
-net-libs/gnutls -idn
+net-nds/openldap -syslog -crypt
 dev-lang/tk truetype
 net-wireless/bluez -mesh
 app-admin/keepassxc browser -network
 net-print/cups usb
 app-misc/solaar -libnotify appindicator
-sys-libs/libunwind -static-libs
-sys-devel/llvm gold
 
 # Disable Python 2.7, it's still enabled in Dantrell's overlay
 # See https://github.com/dantrell/gentoo-overlay-dantrell-gnome/blob/3de023854ff7502be0cc13e041021d0e4b18abc8/profiles/targets/desktop/gnome/make.defaults#L17
@@ -32,13 +24,6 @@ sys-devel/llvm gold
 # required by app-portage/pfl[network-cron]
 sys-apps/util-linux caps
 
-# Xorg
-x11-base/xorg-server -ipv6
-# required by x11-base/xorg-drivers-1.19::gentoo[video_cards_i965]
-# required by x11-base/xorg-server-1.19.3::gentoo[xorg]
-# required by @selected
-# required by @world (argument)
-x11-base/xorg-server glamor
 # AMDGPU support, apparently not covered by radeonsi in VIDEO_CARDS :|
 x11-libs/libdrm video_cards_radeon
 media-libs/mesa lm-sensors vaapi vulkan
@@ -53,31 +38,25 @@ media-plugins/gst-plugins-meta ffmpeg flac mp3
 # required by media-plugins/gst-plugins-libav
 # required by media-libs/gst-plugins-base
 media-libs/graphene abi_x86_32
-media-video/ffmpeg -lv2 aac vaapi vdpau
+media-video/ffmpeg vaapi vdpau x264
 x11-libs/libva X
 
 # QEMU
-app-emulation/qemu -jpeg -png -vnc gtk opengl spice usb
+app-emulation/qemu -jpeg -png -vnc gtk opengl usb
 
 # virt-manager
 app-emulation/virt-manager gtk
-app-emulation/libvirt-glib python
-# Required for networking options in virt-manager
-app-emulation/libvirt virt-network
-# Required by app-emulation/libvirt[virt-network] to enable NAT networking
+# Required by app-emulation/libvirt to enable NAT networking
 net-firewall/iptables ipv6
-net-misc/spice-gtk python usbredir
-net-libs/gtk-vnc python
-net-dns/dnsmasq -id ipv6 script
-net-nds/rpcbind -tcpd
+net-dns/dnsmasq ipv6
 
 # Deluge
 net-p2p/deluge gtk
-net-libs/libtorrent-rasterbar python -geoip
+net-libs/libtorrent-rasterbar python
 dev-libs/boost python
 
 # Vulkan
-media-libs/vulkan-loader abi_x86_32 demos X
+media-libs/vulkan-loader abi_x86_32 X
 dev-util/glslang abi_x86_32
 
 # Video recording/streaming
