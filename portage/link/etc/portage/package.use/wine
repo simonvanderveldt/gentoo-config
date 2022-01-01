@@ -1,6 +1,10 @@
 virtual/wine abi_x86_32 staging
-app-emulation/wine-staging -cups abi_x86_32 mp3 s3tc vulkan
+app-emulation/wine-staging abi_x86_32 cups mp3 s3tc usb vulkan
 app-emulation/wine-gecko abi_x86_32
+virtual/libusb abi_x86_32
+dev-libs/libusb abi_x86_32
+dev-libs/libusb-compat abi_x86_32
+net-print/cups abi_x86_32
 
 # required by media-libs/mesa
 media-libs/libglvnd abi_x86_32
