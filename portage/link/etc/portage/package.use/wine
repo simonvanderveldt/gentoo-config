@@ -28,16 +28,6 @@ x11-libs/libXau abi_x86_32
 x11-libs/libXdmcp abi_x86_32
 x11-base/xcb-proto abi_x86_32
 
-# required by virtual/pkgconfig-0-r1::gentoo
-# required by net-libs/gnutls-3.3.17.1::gentoo
-# required by app-emulation/wine-1.7.51::gentoo[ssl]
-# required by app-emulation/wine (argument)
->=dev-util/pkgconfig-0.28-r2 abi_x86_32
-# required by dev-libs/glib-2.44.1::dantrell-gnome-3-16[xattr]
-# required by dev-util/pkgconfig-0.28-r2::gentoo[-internal-glib]
-# required by virtual/pkgconfig-0-r1::gentoo
-# required by net-libs/gnutls-3.3.17.1::gentoo
-# required by app-emulation/wine-1.7.51::gentoo[ssl]
 # required by app-emulation/wine (argument)
 >=sys-apps/attr-2.4.47-r2 abi_x86_32
 # required by app-emulation/wine-1.7.51::gentoo[mp3]
@@ -68,11 +58,6 @@ x11-base/xcb-proto abi_x86_32
 # required by app-emulation/wine-1.7.51::gentoo[fontconfig]
 # required by app-emulation/wine (argument)
 >=media-libs/freetype-2.5.5 abi_x86_32
-# required by dev-libs/glib-2.44.1::dantrell-gnome-3-16
-# required by dev-util/pkgconfig-0.28-r2::gentoo[-internal-glib]
-# required by virtual/pkgconfig-0-r1::gentoo
-# required by net-libs/gnutls-3.3.17.1::gentoo
-# required by app-emulation/wine-1.7.51::gentoo[ssl]
 # required by app-emulation/wine (argument)
 >=virtual/libiconv-0-r2 abi_x86_32
 # required by app-emulation/wine-1.7.51::gentoo[alsa]
@@ -100,12 +85,6 @@ media-libs/mesa abi_x86_32 gles2
 # required by app-emulation/wine-1.7.51::gentoo[lcms]
 # required by app-emulation/wine (argument)
 >=media-libs/lcms-2.6-r1 abi_x86_32
-# required by sys-devel/gettext-0.19.6-r1::dantrell-gnome
-# required by dev-libs/glib-2.44.1::dantrell-gnome-3-16
-# required by dev-util/pkgconfig-0.28-r2::gentoo[-internal-glib]
-# required by virtual/pkgconfig-0-r1::gentoo
-# required by net-libs/gnutls-3.3.17.1::gentoo
-# required by app-emulation/wine-1.7.51::gentoo[ssl]
 # required by app-emulation/wine (argument)
 >=virtual/libintl-0-r2 abi_x86_32
 # required by net-libs/gnutls-3.3.17.1::gentoo
@@ -177,13 +156,6 @@ net-libs/gnutls abi_x86_32 pkcs11
 # required by net-libs/gnutls-3.5.12::gentoo
 dev-libs/libunistring abi_x86_32
 app-crypt/p11-kit abi_x86_32
-# required by dev-libs/libgcrypt-1.6.4::dantrell-gnome
-# required by dev-libs/libxslt-1.1.28-r4::gentoo[crypt]
-# required by dev-libs/glib-2.44.1::dantrell-gnome-3-16
-# required by dev-util/pkgconfig-0.28-r2::gentoo[-internal-glib]
-# required by virtual/pkgconfig-0-r1::gentoo
-# required by net-libs/gnutls-3.3.17.1::gentoo
-# required by app-emulation/wine-1.7.51::gentoo[ssl]
 # required by app-emulation/wine (argument)
 >=dev-libs/libgpg-error-1.19 abi_x86_32
 # required by sys-fs/udev-216::gentoo[gudev]
@@ -195,18 +167,7 @@ app-crypt/p11-kit abi_x86_32
 # required by app-emulation/wine-1.7.51::gentoo[opengl]
 # required by app-emulation/wine (argument)
 >=dev-libs/glib-2.44.1 abi_x86_32
-# required by virtual/libffi-3.0.13-r1::gentoo
-# required by dev-libs/glib-2.44.1::dantrell-gnome-3-16
-# required by dev-util/pkgconfig-0.28-r2::gentoo[-internal-glib]
-# required by virtual/pkgconfig-0-r1::gentoo
-# required by net-libs/gnutls-3.3.17.1::gentoo
-# required by app-emulation/wine-1.7.51::gentoo[ssl]
-# required by app-emulation/wine (argument)
->=dev-libs/libffi-3.0.13-r1 abi_x86_32
-# required by net-libs/gnutls-3.3.17.1::gentoo
-# required by app-emulation/wine-1.7.51::gentoo[ssl]
-# required by app-emulation/wine (argument)
->=virtual/pkgconfig-0-r1 abi_x86_32
+dev-libs/libffi abi_x86_32
 # required by app-emulation/wine-1.7.51::gentoo[ncurses]
 # required by app-emulation/wine (argument)
 sys-libs/ncurses abi_x86_32
@@ -220,20 +181,6 @@ sys-libs/ncurses abi_x86_32
 # required by app-emulation/wine-1.7.51::gentoo[X]
 # required by app-emulation/wine (argument)
 >=x11-libs/libXfixes-5.0.1 abi_x86_32
-# required by sys-devel/llvm-3.5.0::gentoo[libffi]
-# required by media-libs/mesa-10.3.7-r1::gentoo[llvm]
-# required by virtual/opengl-7.0-r1::gentoo
-# required by media-libs/glu-9.0.0-r1::gentoo
-# required by virtual/glu-9.0-r1::gentoo
-# required by app-emulation/wine-1.7.51::gentoo[opengl]
-# required by app-emulation/wine (argument)
->=virtual/libffi-3.0.13-r1 abi_x86_32
-# required by dev-libs/libxslt-1.1.28-r4::gentoo[crypt]
-# required by dev-libs/glib-2.44.1::dantrell-gnome-3-16
-# required by dev-util/pkgconfig-0.28-r2::gentoo[-internal-glib]
-# required by virtual/pkgconfig-0-r1::gentoo
-# required by net-libs/gnutls-3.3.17.1::gentoo
-# required by app-emulation/wine-1.7.51::gentoo[ssl]
 # required by app-emulation/wine (argument)
 >=dev-libs/libgcrypt-1.6.4 abi_x86_32
 # required by media-libs/mesa-10.3.7-r1::gentoo
@@ -254,12 +201,6 @@ sys-libs/ncurses abi_x86_32
 # required by app-emulation/wine-1.7.51::gentoo[opengl]
 # required by app-emulation/wine (argument)
 virtual/libudev abi_x86_32
-# required by dev-libs/libxslt-1.1.28-r4::gentoo
-# required by dev-libs/glib-2.44.1::dantrell-gnome-3-16
-# required by dev-util/pkgconfig-0.28-r2::gentoo[-internal-glib]
-# required by virtual/pkgconfig-0-r1::gentoo
-# required by net-libs/gnutls-3.3.17.1::gentoo
-# required by app-emulation/wine-1.7.51::gentoo[ssl]
 # required by app-emulation/wine (argument)
 >=dev-libs/libxml2-2.9.2-r1 abi_x86_32
 # required by dev-libs/libxml2-2.9.7::gentoo[icu]

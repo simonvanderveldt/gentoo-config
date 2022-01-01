@@ -4,7 +4,6 @@ app-benchmarks/unigine-superposition-bin ~amd64
 
 # Lutris
 games-util/lutris ~amd64
-dev-python/python-evdev ~amd64
 
 # Steam
 games-util/steam-launcher ~amd64

@@ -1,8 +1,2 @@
 =media-sound/cadence-9999* **
-media-sound/jack2 ~amd64
 media-sound/ladish **
-
-# LV2 plugins
-## x42-plugins
-media-plugins/x42-plugins ~amd64
-media-libs/libltc ~amd64
