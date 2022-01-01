@@ -8,13 +8,13 @@ app-arch/file-roller
 app-arch/p7zip
 app-arch/unrar
 app-arch/unzip
+app-containers/docker
+app-containers/docker-compose
 app-crypt/kbfs
 app-crypt/keybase
 app-crypt/seahorse
 app-editors/atom-bin
 app-editors/nano
-app-emulation/docker
-app-emulation/docker-compose
 app-emulation/qemu
 app-emulation/virt-manager
 app-metrics/collectd
