@@ -1,4 +1,5 @@
 games-util/mangohud ~amd64
+net-im/discord-bin ~amd64
 
 # Benchmarks
 app-benchmarks/unigine-heaven-bin ~amd64
