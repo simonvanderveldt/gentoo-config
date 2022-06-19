@@ -1,0 +1,4 @@
+# KiCad
+sci-electronics/kicad -ngspice -occ
+dev-libs/boost context nls
+x11-libs/wxGTK opengl sdl tiff
