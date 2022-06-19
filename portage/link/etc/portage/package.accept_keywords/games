@@ -1,3 +1,6 @@
+games-util/mangohud ~amd64
+
+# Benchmarks
 app-benchmarks/unigine-heaven-bin ~amd64
 app-benchmarks/unigine-valley-bin ~amd64
 app-benchmarks/unigine-superposition-bin ~amd64
