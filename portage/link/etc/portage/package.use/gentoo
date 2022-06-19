@@ -6,6 +6,7 @@ dev-vcs/git -webdav -gnome-keyring
 net-misc/iputils -filecaps
 app-admin/sudo -sendmail
 app-crypt/gnupg -bzip2
+media-libs/libpulse X
 net-misc/networkmanager -wext
 dev-lang/python -gdbm tk
 sys-fs/ntfs3g -ntfsprogs

@@ -237,7 +237,8 @@ dev-libs/openssl abi_x86_32
 media-plugins/alsa-plugins abi_x86_32
 # required by media-plugins/alsa-plugins-1.0.29::gentoo[pulseaudio]
 # required by media-plugins/alsa-plugins (argument)
->=media-sound/pulseaudio-6.0 abi_x86_32
+media-sound/pulseaudio abi_x86_32
+media-libs/libpulse abi_x86_32
 # required by media-sound/pulseaudio-6.0::gentoo[X]
 # required by media-plugins/alsa-plugins-1.0.29::gentoo[pulseaudio]
 # required by media-plugins/alsa-plugins (argument)
