@@ -30,6 +30,7 @@ app-portage/pfl
 app-portage/repoman
 app-shells/direnv
 app-shells/fasd
+app-shells/gentoo-zsh-completions
 app-shells/zsh
 app-text/tree
 dev-embedded/dfu-programmer
