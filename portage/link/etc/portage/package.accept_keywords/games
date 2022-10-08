@@ -1,4 +1,5 @@
 games-util/mangohud ~amd64
+media-libs/imgui ~amd64
 net-im/discord-bin ~amd64
 
 # Benchmarks
