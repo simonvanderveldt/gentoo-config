@@ -1,5 +1,5 @@
 virtual/wine staging
-app-emulation/wine-staging mp3 usb vulkan
+app-emulation/wine-staging -gstreamer mp3 usb vulkan
 app-emulation/wine-gecko abi_x86_32
 virtual/libusb abi_x86_32
 dev-libs/libusb abi_x86_32
@@ -86,9 +86,6 @@ media-libs/mesa abi_x86_32
 # required by app-emulation/wine-1.7.51::gentoo[opengl]
 # required by app-emulation/wine (argument)
 >=virtual/opengl-7.0-r1 abi_x86_32
-# required by app-emulation/wine-1.7.51::gentoo[lcms]
-# required by app-emulation/wine (argument)
->=media-libs/lcms-2.6-r1 abi_x86_32
 # required by app-emulation/wine (argument)
 >=virtual/libintl-0-r2 abi_x86_32
 # required by net-libs/gnutls-3.3.17.1::gentoo
@@ -171,11 +168,13 @@ app-crypt/p11-kit abi_x86_32
 # required by virtual/glu-9.0-r1::gentoo
 # required by app-emulation/wine-1.7.51::gentoo[opengl]
 # required by app-emulation/wine (argument)
->=dev-libs/glib-2.44.1 abi_x86_32
+dev-libs/glib abi_x86_32
 dev-libs/libffi abi_x86_32
+dev-util/sysprof-capture abi_x86_32
 # required by app-emulation/wine-1.7.51::gentoo[ncurses]
 # required by app-emulation/wine (argument)
 sys-libs/ncurses abi_x86_32
+sys-libs/gpm abi_x86_32
 # required by app-emulation/wine-1.7.51::gentoo[X]
 # required by app-emulation/wine (argument)
 >=x11-libs/libXrandr-1.4.2 abi_x86_32
@@ -291,7 +290,6 @@ media-libs/libogg abi_x86_32
 # required by media-plugins/alsa-plugins (argument)
 >=net-libs/libasyncns-0.8-r3 abi_x86_32
 media-sound/lame abi_x86_32
-
 
 # required by media-libs/mesa-18.0.0::gentoo[video_cards_radeonsi,-video_cards_r600,-video_cards_radeon,llvm,-opencl]
 virtual/libelf abi_x86_32
