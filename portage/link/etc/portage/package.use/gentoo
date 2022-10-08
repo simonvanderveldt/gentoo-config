@@ -51,9 +51,10 @@ app-emulation/qemu -jpeg -png -vnc gtk opengl usb
 
 # virt-manager
 app-emulation/virt-manager gtk
-# Required by app-emulation/libvirt to enable NAT networking
+# Required by app-emulation/libvirt
+net-dns/dnsmasq ipv6 script
 net-firewall/iptables ipv6
-net-dns/dnsmasq ipv6
+net-misc/spice-gtk usbredir
 
 # Deluge
 net-p2p/deluge gtk
