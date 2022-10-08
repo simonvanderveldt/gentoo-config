@@ -27,7 +27,6 @@ app-portage/eix
 app-portage/genlop
 app-portage/gentoolkit
 app-portage/pfl
-app-portage/repoman
 app-shells/direnv
 app-shells/fasd
 app-shells/gentoo-zsh-completions
