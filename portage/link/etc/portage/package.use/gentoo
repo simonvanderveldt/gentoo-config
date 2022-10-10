@@ -17,6 +17,7 @@ net-wireless/bluez -mesh
 app-admin/keepassxc browser -network
 net-print/cups usb
 app-misc/solaar -libnotify appindicator
+dev-libs/libxml2 -ftp
 
 # Pipewire
 media-video/pipewire sound-server
