@@ -3,7 +3,6 @@ app-benchmarks/unigine-superposition-bin
 app-benchmarks/unigine-valley-bin
 app-emulation/wine-staging
 app-emulation/winetricks
-games-util/lutris
 games-util/mangohud
 games-util/steam-launcher
 net-im/discord-bin
