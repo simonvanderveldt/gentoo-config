@@ -48,7 +48,7 @@ media-libs/graphene abi_x86_32
 media-video/ffmpeg libdrm x264
 
 # QEMU
-app-emulation/qemu -jpeg -png -vnc gtk opengl usb
+app-emulation/qemu -jpeg -png -slirp -vnc gtk opengl spice usb usbredir virgl
 
 # virt-manager
 app-emulation/virt-manager gtk
