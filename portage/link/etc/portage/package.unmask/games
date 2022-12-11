@@ -1,2 +1,3 @@
+app-emulation/bottles::src_prepare-overlay
 games-util/mangohud::guru
 media-libs/imgui::guru
