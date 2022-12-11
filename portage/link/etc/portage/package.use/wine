@@ -73,6 +73,7 @@ x11-base/xcb-proto abi_x86_32
 # required by app-emulation/wine-1.7.51::gentoo[opengl]
 # required by app-emulation/wine (argument)
 media-libs/mesa abi_x86_32
+media-libs/libva abi_x86_32
 # required by media-libs/libpng-1.6.18::gentoo
 # required by app-emulation/wine-1.7.51::gentoo[png]
 # required by app-emulation/wine (argument)
@@ -169,6 +170,7 @@ app-crypt/p11-kit abi_x86_32
 # required by app-emulation/wine-1.7.51::gentoo[opengl]
 # required by app-emulation/wine (argument)
 dev-libs/glib abi_x86_32
+dev-libs/libpcre2 abi_x86_32
 dev-libs/libffi abi_x86_32
 dev-util/sysprof-capture abi_x86_32
 # required by app-emulation/wine-1.7.51::gentoo[ncurses]
@@ -311,8 +313,3 @@ x11-libs/cairo abi_x86_32
 dev-libs/lzo abi_x86_32
 sys-libs/binutils-libs abi_x86_32
 x11-libs/pixman abi_x86_32
-
-# required by x11-libs/libva-intel-driver
-x11-libs/libva abi_x86_32
-# required by x11-libs/libva-2.5.0-r1
-x11-libs/libva-intel-driver abi_x86_32
