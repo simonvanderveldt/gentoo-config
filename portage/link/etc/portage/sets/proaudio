@@ -1,5 +1,4 @@
 media-plugins/x42-plugins
-media-sound/cadence
 media-sound/jack2
 media-sound/jack_capture
 media-sound/ladish::audio-overlay

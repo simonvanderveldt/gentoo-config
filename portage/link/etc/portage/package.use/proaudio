@@ -4,7 +4,3 @@ media-sound/pulseaudio jack
 
 # LADISH & LASH
 media-sound/ladish lash
-
-# KX Project
-media-sound/cadence -pulseaudio ladish
-dev-python/PyQt5 gui svg widgets
