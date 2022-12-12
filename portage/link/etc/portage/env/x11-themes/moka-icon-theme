@@ -1,1 +1,2 @@
-EGIT_REPO_URI="https://github.com/simonvanderveldt/moka-icon-theme.git"
+EGIT_OVERRIDE_REPO_SNWH_MOKA_ICON_THEME="https://github.com/UbuntuBudgie/moka-icon-theme.git"
+EGIT_OVERRIDE_COMMIT_SNWH_MOKA_ICON_THEME="v5.5.0"
