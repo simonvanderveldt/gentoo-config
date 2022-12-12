@@ -230,10 +230,6 @@ x11-libs/libpciaccess abi_x86_32
 # required by media-libs/mesa[lm-sensors]
 sys-apps/lm-sensors abi_x86_32
 
-# required by battle.net + wine
-net-nds/openldap abi_x86_32
-# required by net-nds/openldap (argument)
-dev-libs/openssl abi_x86_32
 # required by 32bit steam games that use ALSA
 media-plugins/alsa-plugins abi_x86_32
 # required by media-plugins/alsa-plugins-1.0.29::gentoo[pulseaudio]

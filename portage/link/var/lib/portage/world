@@ -20,9 +20,7 @@ app-emulation/virt-manager
 app-metrics/collectd
 app-misc/mosquitto
 app-misc/piper
-app-misc/screen
 app-misc/solaar
-app-mobilephone/dfu-util
 app-portage/eix
 app-portage/genlop
 app-portage/gentoolkit
@@ -32,7 +30,6 @@ app-shells/fasd
 app-shells/gentoo-zsh-completions
 app-shells/zsh
 app-text/tree
-dev-embedded/dfu-programmer
 dev-java/icedtea-bin
 dev-lang/rust-bin
 dev-python/pip
@@ -44,7 +41,6 @@ gnome-base/dconf-editor
 gnome-base/gnome-light
 gnome-extra/gnome-calculator
 gnome-extra/gnome-calendar
-gnome-extra/gnome-search-tool
 gnome-extra/gnome-system-monitor
 gnome-extra/gnome-tweaks
 media-fonts/corefonts
@@ -60,15 +56,12 @@ media-video/obs-studio
 media-video/obs-v4l2sink
 net-analyzer/traceroute
 net-dns/bind-tools
-net-fs/autofs
-net-fs/nfs-utils
 net-im/slack
 net-misc/chrony
 net-misc/keychain
 net-misc/netkit-telnetd
 net-misc/networkmanager
 net-misc/wol
-net-nds/openldap
 net-p2p/deluge
 net-p2p/syncthing
 net-print/cups-pdf
