@@ -9,8 +9,7 @@ Example package structure:
 ├── copy
 │   └── etc
 |       └── foo.cfg
-├── init
-│   └── install.sh
+├── init.sh
 └── link
     └── var
         └── bar.cfg
