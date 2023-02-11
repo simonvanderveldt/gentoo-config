@@ -52,8 +52,6 @@ media-gfx/simple-scan
 media-plugins/gst-plugins-meta:1.0
 media-video/ffmpeg
 media-video/mpv
-media-video/obs-studio
-media-video/obs-v4l2sink
 net-analyzer/traceroute
 net-dns/bind-tools
 net-im/slack

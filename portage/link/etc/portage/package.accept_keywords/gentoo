@@ -11,11 +11,6 @@ sys-apps/psensor ~amd64
 media-libs/mesa ~amd64
 x11-libs/libdrm ~amd64
 
-# Video recording/streaming
-media-video/obs-studio ~amd64
-media-video/obs-v4l2sink ~amd64
-media-video/v4l2loopback ~amd64
-
 # Piper
 app-misc/piper ~amd64
 dev-libs/libratbag ~amd64

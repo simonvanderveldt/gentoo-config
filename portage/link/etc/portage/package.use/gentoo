@@ -64,8 +64,3 @@ dev-libs/boost python
 # Vulkan
 media-libs/vulkan-loader abi_x86_32 X
 dev-util/glslang abi_x86_32
-
-# Video recording/streaming
-media-video/obs-studio jack v4l
-# Required by media-video/obs-studio
-media-video/ffmpeg x264

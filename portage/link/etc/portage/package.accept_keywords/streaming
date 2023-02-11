@@ -1,0 +1,4 @@
+# OBS
+media-video/obs-studio ~amd64
+media-video/obs-v4l2sink ~amd64
+media-video/v4l2loopback ~amd64
