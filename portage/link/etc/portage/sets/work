@@ -1,2 +1,3 @@
 app-misc/jq
 sys-cluster/kubectl
+dev-lang/python:3.8
