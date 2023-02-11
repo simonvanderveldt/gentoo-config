@@ -1,4 +1,6 @@
 post_src_install() {
+  echo "Fixing name"
+  sed -i -e "s/Name=Mozilla Firefox (bin)/Name=Firefox/" "${D}/usr/share/applications/${PN}.desktop" || die "sed failed"
   echo "Fixing .desktop icon"
   sed -i -e "s/Icon=firefox-bin/Icon=firefox/" "${D}/usr/share/applications/${PN}.desktop" || die "sed failed"
 }
