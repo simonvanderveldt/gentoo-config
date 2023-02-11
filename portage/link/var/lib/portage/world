@@ -58,6 +58,7 @@ net-analyzer/traceroute
 net-dns/bind-tools
 net-im/slack
 net-misc/chrony
+net-misc/gnome-ssh-askpass
 net-misc/keychain
 net-misc/netkit-telnetd
 net-misc/networkmanager

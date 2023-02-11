@@ -1,3 +1,5 @@
+net-misc/gnome-ssh-askpass::guru
+
 # Moka icon theme
 x11-themes/moka-icon-theme::jorgicio
 x11-themes/faba-icon-theme::jorgicio

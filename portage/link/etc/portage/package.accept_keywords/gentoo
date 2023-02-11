@@ -1,6 +1,7 @@
 net-im/slack ~amd64
 app-crypt/keybase ~amd64
 app-crypt/kbfs ~amd64
+net-misc/gnome-ssh-askpass **
 x11-themes/moka-icon-theme **
 x11-themes/faba-icon-theme ~amd64
 app-shells/direnv ~amd64
