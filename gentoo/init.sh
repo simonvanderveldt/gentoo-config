@@ -10,3 +10,7 @@ chown root:root /etc/sudoers.d/wheel
 
 # Add user to relevant groups
 usermod -a -G dialout,docker,kvm,libvirt,portage,scanner,usb,video,wheel simon
+
+# Update hwdb index and reload hwdb
+systemd-hwdb update
+udevadm trigger

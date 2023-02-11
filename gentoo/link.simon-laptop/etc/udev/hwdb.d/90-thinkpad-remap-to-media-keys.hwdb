@@ -1,0 +1,4 @@
+evdev:name:ThinkPad Extra Buttons:dmi:bvn*:bvr*:bd*:svnLENOVO*:pn*:*
+ KEYBOARD_KEY_4b=previoussong # Notification key
+ KEYBOARD_KEY_4c=playpause    # Answer Voip call key
+ KEYBOARD_KEY_4d=nextsong     # Hang Voip call key
