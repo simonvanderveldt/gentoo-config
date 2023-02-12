@@ -46,7 +46,6 @@ media-fonts/corefonts
 media-gfx/gimp
 media-gfx/gnome-screenshot
 media-gfx/inkscape
-media-gfx/sane-backends
 media-gfx/simple-scan
 media-plugins/gst-plugins-meta:1.0
 media-video/ffmpeg
