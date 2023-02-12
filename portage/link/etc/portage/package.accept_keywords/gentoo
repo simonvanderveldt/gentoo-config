@@ -5,7 +5,6 @@ net-misc/gnome-ssh-askpass **
 x11-themes/moka-icon-theme **
 x11-themes/faba-icon-theme ~amd64
 app-shells/direnv ~amd64
-sys-apps/psensor ~amd64
 
 # Mesa
 media-libs/mesa ~amd64
