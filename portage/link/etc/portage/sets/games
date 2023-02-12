@@ -4,6 +4,7 @@ app-benchmarks/unigine-valley-bin
 app-emulation/bottles
 app-emulation/wine-staging
 app-emulation/winetricks
+app-misc/piper
 games-util/mangohud
 games-util/steam-launcher
 net-im/discord-bin

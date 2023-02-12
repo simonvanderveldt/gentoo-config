@@ -10,7 +10,3 @@ sys-apps/psensor ~amd64
 # Mesa
 media-libs/mesa ~amd64
 x11-libs/libdrm ~amd64
-
-# Piper
-app-misc/piper ~amd64
-dev-libs/libratbag ~amd64

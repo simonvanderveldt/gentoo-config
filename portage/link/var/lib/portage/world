@@ -19,7 +19,6 @@ app-emulation/qemu
 app-emulation/virt-manager
 app-metrics/collectd
 app-misc/mosquitto
-app-misc/piper
 app-misc/solaar
 app-portage/eix
 app-portage/genlop

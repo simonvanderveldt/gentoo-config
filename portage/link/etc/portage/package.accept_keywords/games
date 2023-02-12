@@ -8,5 +8,9 @@ app-benchmarks/unigine-heaven-bin ~amd64
 app-benchmarks/unigine-valley-bin ~amd64
 app-benchmarks/unigine-superposition-bin ~amd64
 
+# Piper
+app-misc/piper ~amd64
+dev-libs/libratbag ~amd64
+
 # Steam
 games-util/steam-launcher ~amd64
