@@ -1,0 +1,4 @@
+post_src_install() {
+  echo "Fixing Wayland screenshare"
+  sed -i -e 's/,"WebRTCPipeWireCapturer"/,"LebRTCPipeWireCapturer"/' "${D}/opt/slack/resources/app.asar" || die "sed failed"
+}
