@@ -22,10 +22,6 @@ dev-libs/libxml2 -ftp
 media-video/pipewire sound-server
 media-sound/pulseaudio -daemon
 
-# Disable Python 2.7, it's still enabled in Dantrell's overlay
-# See https://github.com/dantrell/gentoo-overlay-dantrell-gnome/blob/3de023854ff7502be0cc13e041021d0e4b18abc8/profiles/targets/desktop/gnome/make.defaults#L17
-*/* PYTHON_TARGETS: -python2_7
-
 # required by app-portage/pfl[network-cron]
 sys-apps/util-linux caps
 
